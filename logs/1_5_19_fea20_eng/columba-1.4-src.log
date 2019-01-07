@@ -1,0 +1,43 @@
+2019-01-05 13:45:53,806 - INFO - config - DATASET: columba-1.4-src | MAX_FEATURE: 0.2 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-05 13:45:53,807 - INFO - rig - TRAINING DATA: TRUE: 3867 | FALSE: 51940
+2019-01-05 13:45:53,807 - INFO - rig - TEST DATA: TRUE: 204 | FALSE: 6264
+2019-01-05 13:45:53,919 - INFO - learner - columba-1.4-src | TUNING STARTS...
+2019-01-05 14:07:30,364 - INFO - optimizer - columba-1.4-src | F Score of init pool: [0.6251621271076523, 0.839371155160629, 0.8316291751874574, 0.7830758898589658, 0.6662251655629139, 0.6371379897785349, 0.8440492476060191, 0.7386438446346278, 0.7448912326961108, 0.8476912474155754]
+2019-01-05 14:39:08,380 - INFO - optimizer - columba-1.4-src | Eval: 10
+2019-01-05 14:39:08,382 - INFO - learner - columba-1.4-src | TUNING ENDS
+2019-01-05 15:00:22,029 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      6264
+        yes       0.86      0.87      0.86       204
+
+avg / total       0.99      0.99      0.99      6468
+
+F Score: 0.8613138686131386
+2019-01-05 15:00:22,039 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:00:22,039 - INFO - learner - Total Certain Pos: 154 | Total Certain Neg: 6155
+2019-01-05 15:24:57,604 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      6264
+        yes       0.88      0.91      0.89       204
+
+avg / total       0.99      0.99      0.99      6468
+
+F Score: 0.891566265060241
+2019-01-05 15:24:57,615 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:24:57,615 - INFO - learner - Total Certain Pos: 163 | Total Certain Neg: 6175
+2019-01-05 15:51:40,067 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      6264
+        yes       0.89      0.91      0.90       204
+
+avg / total       0.99      0.99      0.99      6468
+
+F Score: 0.8958837772397095
+2019-01-05 15:51:40,078 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:51:40,079 - INFO - learner - Total Certain Pos: 164 | Total Certain Neg: 6176
+2019-01-05 16:21:23,754 - INFO - learner - | NO IMPROVEMENT | F Score: 0.8958837772397095 | eval: 3
+2019-01-05 16:21:23,881 - INFO - rig - columba-1.4-src | END PROJECT=====

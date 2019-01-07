@@ -1,0 +1,20 @@
+2019-01-04 18:32:37,471 - INFO - config - DATASET: apache-ant-1.7.0 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:32:37,471 - INFO - rig - TRAINING DATA: TRUE: 3940 | FALSE: 54237
+2019-01-04 18:32:37,471 - INFO - rig - TEST DATA: TRUE: 131 | FALSE: 3967
+2019-01-04 18:33:41,689 - INFO - config - DATASET: apache-ant-1.7.0 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:33:41,689 - INFO - rig - TRAINING DATA: TRUE: 3940 | FALSE: 54237
+2019-01-04 18:33:41,689 - INFO - rig - TEST DATA: TRUE: 131 | FALSE: 3967
+2019-01-04 18:38:12,490 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.97      1.00      0.98      3967
+        yes       0.00      0.00      0.00       131
+
+avg / total       0.94      0.97      0.95      4098
+
+F Score: nan
+2019-01-04 18:38:12,508 - INFO - learner - Active Delta: 0.1
+2019-01-04 18:38:12,508 - INFO - learner - Total Certain Pos: 14 | Total Certain Neg: 4071
+2019-01-04 18:38:12,572 - INFO - rig - apache-ant-1.7.0 | END PROJECT=====

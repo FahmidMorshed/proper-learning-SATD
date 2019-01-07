@@ -1,0 +1,122 @@
+2019-01-04 00:02:45,886 - INFO - config - DATASET: argouml | MAX_FEATURE: 0.2 | STOP_WORDS: None | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 00:02:45,886 - INFO - rig - TRAINING DATA: TRUE: 2658 | FALSE: 50165
+2019-01-04 00:02:45,886 - INFO - rig - TEST DATA: TRUE: 1413 | FALSE: 8039
+2019-01-04 00:02:45,975 - INFO - learner - argouml | TUNING STARTS...
+2019-01-04 00:20:54,145 - INFO - optimizer - argouml | F Score of init pool: [0.6284046692607004, 0.8467741935483872, 0.8469184890656064, 0.7741293532338308, 0.6914062499999999, 0.6666666666666666, 0.8414634146341464, 0.7262672811059908, 0.7328385899814471, 0.8450413223140496]
+2019-01-04 00:27:05,265 - INFO - optimizer - argouml | new F: 0.8470824949698189 budget 8
+2019-01-04 00:31:57,725 - INFO - optimizer - argouml | new F: 0.8471528471528471 budget 7
+2019-01-04 00:41:29,993 - INFO - optimizer - argouml | Eval: 12
+2019-01-04 00:41:29,996 - INFO - learner - argouml | TUNING ENDS
+2019-01-04 00:55:17,172 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      0.97      0.97      8039
+        yes       0.85      0.87      0.86      1413
+
+avg / total       0.96      0.96      0.96      9452
+
+F Score: 0.859036985345429
+2019-01-04 00:55:17,192 - INFO - learner - Active Delta: 0.1
+2019-01-04 00:55:17,192 - INFO - learner - Total Certain Pos: 1148 | Total Certain Neg: 7685
+2019-01-04 01:16:54,179 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.99      8039
+        yes       0.96      0.89      0.93      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9256682533870378
+2019-01-04 01:16:54,191 - INFO - learner - Active Delta: 0.1
+2019-01-04 01:16:54,191 - INFO - learner - Total Certain Pos: 1074 | Total Certain Neg: 7876
+2019-01-04 01:44:19,488 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      8039
+        yes       0.97      0.92      0.94      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9407918634217217
+2019-01-04 01:44:19,501 - INFO - learner - Active Delta: 0.1
+2019-01-04 01:44:19,501 - INFO - learner - Total Certain Pos: 1117 | Total Certain Neg: 7884
+2019-01-04 02:18:20,490 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      8039
+        yes       0.97      0.92      0.94      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9410909090909092
+2019-01-04 02:18:20,505 - INFO - learner - Active Delta: 0.1
+2019-01-04 02:18:20,505 - INFO - learner - Total Certain Pos: 1129 | Total Certain Neg: 7892
+2019-01-04 02:59:26,935 - INFO - learner - svm_pred_4
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      8039
+        yes       0.97      0.92      0.94      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9429713040319652
+2019-01-04 02:59:26,950 - INFO - learner - Active Delta: 0.1
+2019-01-04 02:59:26,950 - INFO - learner - Total Certain Pos: 1140 | Total Certain Neg: 7892
+2019-01-04 03:45:51,286 - INFO - learner - svm_pred_5
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      8039
+        yes       0.97      0.92      0.94      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.944464609800363
+2019-01-04 03:45:51,307 - INFO - learner - Active Delta: 0.1
+2019-01-04 03:45:51,307 - INFO - learner - Total Certain Pos: 1151 | Total Certain Neg: 7894
+2019-01-04 04:36:09,343 - INFO - learner - svm_pred_6
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      8039
+        yes       0.97      0.92      0.95      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9467584208620066
+2019-01-04 04:36:09,360 - INFO - learner - Active Delta: 0.1
+2019-01-04 04:36:09,360 - INFO - learner - Total Certain Pos: 1160 | Total Certain Neg: 7894
+2019-01-04 05:31:41,611 - INFO - learner - svm_pred_7
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      8039
+        yes       0.97      0.92      0.95      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9467198260239217
+2019-01-04 05:31:41,625 - INFO - learner - Active Delta: 0.1
+2019-01-04 05:31:41,626 - INFO - learner - Total Certain Pos: 1160 | Total Certain Neg: 7895
+2019-01-04 06:33:29,887 - INFO - learner - svm_pred_8
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      8039
+        yes       0.97      0.92      0.95      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9470630891950689
+2019-01-04 06:33:29,906 - INFO - learner - Active Delta: 0.1
+2019-01-04 06:33:29,906 - INFO - learner - Total Certain Pos: 1163 | Total Certain Neg: 7895
+2019-01-04 07:31:37,313 - INFO - learner - svm_pred_9
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      8039
+        yes       0.97      0.92      0.95      1413
+
+avg / total       0.98      0.98      0.98      9452
+
+F Score: 0.9467198260239217
+2019-01-04 07:31:37,334 - INFO - learner - Active Delta: 0.1
+2019-01-04 07:31:37,334 - INFO - learner - Total Certain Pos: 1165 | Total Certain Neg: 7895
+2019-01-04 08:42:21,210 - INFO - learner - | NO IMPROVEMENT | F Score: 0.9467198260239217 | eval: 10
+2019-01-04 08:42:21,532 - INFO - rig - argouml | END PROJECT=====

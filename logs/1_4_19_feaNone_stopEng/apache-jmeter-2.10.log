@@ -1,0 +1,54 @@
+2019-01-04 11:53:28,412 - INFO - config - DATASET: apache-jmeter-2.10 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 11:53:28,412 - INFO - rig - TRAINING DATA: TRUE: 3697 | FALSE: 50521
+2019-01-04 11:53:28,412 - INFO - rig - TEST DATA: TRUE: 374 | FALSE: 7683
+2019-01-04 11:53:28,515 - INFO - learner - apache-jmeter-2.10 | TUNING STARTS...
+2019-01-04 12:17:24,333 - INFO - optimizer - apache-jmeter-2.10 | F Score of init pool: [0.596716630977873, 0.8477306002928258, 0.8464912280701754, 0.7817781043350477, 0.6379928315412187, 0.5565052231718898, 0.8498168498168499, 0.7108066971080669, 0.7091875474563402, 0.8481291269258988]
+2019-01-04 12:41:40,465 - INFO - optimizer - apache-jmeter-2.10 | Eval: 10
+2019-01-04 12:41:40,468 - INFO - learner - apache-jmeter-2.10 | TUNING ENDS
+2019-01-04 13:01:01,924 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.82      0.70      0.75       374
+
+avg / total       0.98      0.98      0.98      8057
+
+F Score: 0.7514450867052024
+2019-01-04 13:01:01,934 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:01:01,935 - INFO - learner - Total Certain Pos: 226 | Total Certain Neg: 7548
+2019-01-04 13:28:05,074 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.86      0.86      0.86       374
+
+avg / total       0.99      0.99      0.99      8057
+
+F Score: 0.8594377510040161
+2019-01-04 13:28:05,093 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:28:05,093 - INFO - learner - Total Certain Pos: 280 | Total Certain Neg: 7551
+2019-01-04 13:59:47,566 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.86      0.87      0.86       374
+
+avg / total       0.99      0.99      0.99      8057
+
+F Score: 0.8628495339547271
+2019-01-04 13:59:47,585 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:59:47,585 - INFO - learner - Total Certain Pos: 286 | Total Certain Neg: 7560
+2019-01-04 14:35:58,813 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.86      0.87      0.87       374
+
+avg / total       0.99      0.99      0.99      8057
+
+F Score: 0.8673740053050398
+2019-01-04 14:35:58,825 - INFO - learner - Active Delta: 0.1
+2019-01-04 14:35:58,825 - INFO - learner - Total Certain Pos: 289 | Total Certain Neg: 7561
+2019-01-04 15:14:45,337 - INFO - learner - | NO IMPROVEMENT | F Score: 0.8673740053050398 | eval: 4
+2019-01-04 15:14:45,518 - INFO - rig - apache-jmeter-2.10 | END PROJECT=====

@@ -1,0 +1,88 @@
+2019-01-04 00:02:46,289 - INFO - config - DATASET: jEdit-4.2 | MAX_FEATURE: 0.2 | STOP_WORDS: None | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 00:02:46,290 - INFO - rig - TRAINING DATA: TRUE: 3815 | FALSE: 48138
+2019-01-04 00:02:46,290 - INFO - rig - TEST DATA: TRUE: 256 | FALSE: 10066
+2019-01-04 00:02:46,458 - INFO - learner - jEdit-4.2 | TUNING STARTS...
+2019-01-04 00:27:17,645 - INFO - optimizer - jEdit-4.2 | F Score of init pool: [0.6342105263157894, 0.8674531575294934, 0.862116991643454, 0.7969507969507968, 0.6750330250990754, 0.7293354943273906, 0.8686587908269632, 0.765432098765432, 0.7698630136986301, 0.8687150837988825]
+2019-01-04 00:47:36,068 - INFO - optimizer - jEdit-4.2 | new F: 0.8691392582225332 budget 4
+2019-01-04 00:59:05,528 - INFO - optimizer - jEdit-4.2 | Eval: 11
+2019-01-04 00:59:05,533 - INFO - learner - jEdit-4.2 | TUNING ENDS
+2019-01-04 01:25:00,866 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99     10066
+        yes       0.92      0.21      0.34       256
+
+avg / total       0.98      0.98      0.97     10322
+
+F Score: 0.34285714285714286
+2019-01-04 01:25:00,879 - INFO - learner - Active Delta: 0.1
+2019-01-04 01:25:00,879 - INFO - learner - Total Certain Pos: 27 | Total Certain Neg: 10137
+2019-01-04 01:56:58,715 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.96      0.69      0.80       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8
+2019-01-04 01:56:58,725 - INFO - learner - Active Delta: 0.1
+2019-01-04 01:56:58,726 - INFO - learner - Total Certain Pos: 143 | Total Certain Neg: 10030
+2019-01-04 02:34:34,658 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.95      0.71      0.82       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8169642857142857
+2019-01-04 02:34:34,670 - INFO - learner - Active Delta: 0.1
+2019-01-04 02:34:34,670 - INFO - learner - Total Certain Pos: 149 | Total Certain Neg: 10030
+2019-01-04 03:15:41,952 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.95      0.73      0.82       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8248337028824834
+2019-01-04 03:15:41,965 - INFO - learner - Active Delta: 0.1
+2019-01-04 03:15:41,965 - INFO - learner - Total Certain Pos: 152 | Total Certain Neg: 10033
+2019-01-04 03:56:16,661 - INFO - learner - svm_pred_4
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.95      0.74      0.83       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8325991189427312
+2019-01-04 03:56:16,673 - INFO - learner - Active Delta: 0.1
+2019-01-04 03:56:16,673 - INFO - learner - Total Certain Pos: 155 | Total Certain Neg: 10033
+2019-01-04 04:38:03,757 - INFO - learner - svm_pred_5
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.95      0.74      0.84       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8351648351648352
+2019-01-04 04:38:03,769 - INFO - learner - Active Delta: 0.1
+2019-01-04 04:38:03,769 - INFO - learner - Total Certain Pos: 156 | Total Certain Neg: 10035
+2019-01-04 05:24:51,543 - INFO - learner - svm_pred_6
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00     10066
+        yes       0.96      0.75      0.84       256
+
+avg / total       0.99      0.99      0.99     10322
+
+F Score: 0.8402625820568926
+2019-01-04 05:24:51,555 - INFO - learner - Active Delta: 0.1
+2019-01-04 05:24:51,555 - INFO - learner - Total Certain Pos: 158 | Total Certain Neg: 10033
+2019-01-04 06:19:55,199 - INFO - learner - | NO IMPROVEMENT | F Score: 0.8402625820568926 | eval: 7
+2019-01-04 06:19:55,463 - INFO - rig - jEdit-4.2 | END PROJECT=====

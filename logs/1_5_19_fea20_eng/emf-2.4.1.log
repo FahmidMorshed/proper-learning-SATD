@@ -1,0 +1,56 @@
+2019-01-05 13:45:53,696 - INFO - config - DATASET: emf-2.4.1 | MAX_FEATURE: 0.2 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-05 13:45:53,696 - INFO - rig - TRAINING DATA: TRUE: 3967 | FALSE: 53918
+2019-01-05 13:45:53,696 - INFO - rig - TEST DATA: TRUE: 104 | FALSE: 4286
+2019-01-05 13:45:53,855 - INFO - learner - emf-2.4.1 | TUNING STARTS...
+2019-01-05 14:08:55,071 - INFO - optimizer - emf-2.4.1 | F Score of init pool: [0.6336507936507936, 0.8512341561040695, 0.8455931080185554, 0.7907284768211921, 0.6696891191709844, 0.6197654941373534, 0.854485049833887, 0.7423352902804957, 0.7475665152498377, 0.8605898123324396]
+2019-01-05 14:15:15,729 - INFO - optimizer - emf-2.4.1 | new F: 0.8609625668449199 budget 10
+2019-01-05 14:23:50,927 - INFO - optimizer - emf-2.4.1 | new F: 0.8611481975967956 budget 9
+2019-01-05 14:45:52,655 - INFO - optimizer - emf-2.4.1 | Eval: 12
+2019-01-05 14:45:52,657 - INFO - learner - emf-2.4.1 | TUNING ENDS
+2019-01-05 15:05:27,861 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      4286
+        yes       0.66      0.36      0.46       104
+
+avg / total       0.98      0.98      0.98      4390
+
+F Score: 0.4625
+2019-01-05 15:05:27,878 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:05:27,878 - INFO - learner - Total Certain Pos: 42 | Total Certain Neg: 4170
+2019-01-05 15:27:24,262 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4286
+        yes       0.96      0.82      0.88       104
+
+avg / total       0.99      0.99      0.99      4390
+
+F Score: 0.8808290155440415
+2019-01-05 15:27:24,279 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:27:24,279 - INFO - learner - Total Certain Pos: 76 | Total Certain Neg: 4149
+2019-01-05 15:52:23,042 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4286
+        yes       0.96      0.85      0.90       104
+
+avg / total       1.00      1.00      1.00      4390
+
+F Score: 0.8979591836734695
+2019-01-05 15:52:23,052 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:52:23,052 - INFO - learner - Total Certain Pos: 79 | Total Certain Neg: 4149
+2019-01-05 16:18:58,053 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4286
+        yes       0.96      0.87      0.91       104
+
+avg / total       1.00      1.00      1.00      4390
+
+F Score: 0.9090909090909091
+2019-01-05 16:18:58,073 - INFO - learner - Active Delta: 0.1
+2019-01-05 16:18:58,073 - INFO - learner - Total Certain Pos: 81 | Total Certain Neg: 4147
+2019-01-05 16:42:33,617 - INFO - learner - | NO IMPROVEMENT | F Score: 0.9090909090909091 | eval: 4
+2019-01-05 16:42:33,732 - INFO - rig - emf-2.4.1 | END PROJECT=====

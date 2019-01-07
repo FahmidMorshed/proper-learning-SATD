@@ -1,0 +1,20 @@
+2019-01-04 18:32:37,661 - INFO - config - DATASET: emf-2.4.1 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:32:37,661 - INFO - rig - TRAINING DATA: TRUE: 3967 | FALSE: 53918
+2019-01-04 18:32:37,661 - INFO - rig - TEST DATA: TRUE: 104 | FALSE: 4286
+2019-01-04 18:33:41,891 - INFO - config - DATASET: emf-2.4.1 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:33:41,891 - INFO - rig - TRAINING DATA: TRUE: 3967 | FALSE: 53918
+2019-01-04 18:33:41,891 - INFO - rig - TEST DATA: TRUE: 104 | FALSE: 4286
+2019-01-04 18:38:14,623 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      4286
+        yes       0.00      0.00      0.00       104
+
+avg / total       0.95      0.98      0.96      4390
+
+F Score: nan
+2019-01-04 18:38:14,630 - INFO - learner - Active Delta: 0.1
+2019-01-04 18:38:14,631 - INFO - learner - Total Certain Pos: 37 | Total Certain Neg: 4339
+2019-01-04 18:38:14,687 - INFO - rig - emf-2.4.1 | END PROJECT=====

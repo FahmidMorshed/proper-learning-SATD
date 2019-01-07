@@ -1,0 +1,20 @@
+2019-01-04 18:32:37,991 - INFO - config - DATASET: jruby-1.4.0 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:32:37,991 - INFO - rig - TRAINING DATA: TRUE: 3449 | FALSE: 53929
+2019-01-04 18:32:37,991 - INFO - rig - TEST DATA: TRUE: 622 | FALSE: 4275
+2019-01-04 18:33:42,079 - INFO - config - DATASET: jruby-1.4.0 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:33:42,079 - INFO - rig - TRAINING DATA: TRUE: 3449 | FALSE: 53929
+2019-01-04 18:33:42,079 - INFO - rig - TEST DATA: TRUE: 622 | FALSE: 4275
+2019-01-04 18:37:35,493 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.87      1.00      0.93      4275
+        yes       0.00      0.00      0.00       622
+
+avg / total       0.76      0.87      0.81      4897
+
+F Score: nan
+2019-01-04 18:37:35,505 - INFO - learner - Active Delta: 0.1
+2019-01-04 18:37:35,505 - INFO - learner - Total Certain Pos: 249 | Total Certain Neg: 4528
+2019-01-04 18:37:35,574 - INFO - rig - jruby-1.4.0 | END PROJECT=====

@@ -1,0 +1,56 @@
+2019-01-04 11:53:28,715 - INFO - config - DATASET: jfreechart-1.0.19 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 11:53:28,716 - INFO - rig - TRAINING DATA: TRUE: 3862 | FALSE: 54005
+2019-01-04 11:53:28,716 - INFO - rig - TEST DATA: TRUE: 209 | FALSE: 4199
+2019-01-04 11:53:28,827 - INFO - learner - jfreechart-1.0.19 | TUNING STARTS...
+2019-01-04 12:21:07,243 - INFO - optimizer - jfreechart-1.0.19 | F Score of init pool: [0.5974884335756775, 0.8498971898560658, 0.8454172366621067, 0.7601115760111576, 0.6464646464646465, 0.5597082953509572, 0.8504801097393689, 0.6723283793347488, 0.6789510985116939, 0.8535911602209945]
+2019-01-04 12:45:55,460 - INFO - optimizer - jfreechart-1.0.19 | new F: 0.8547832071576049 budget 4
+2019-01-04 12:57:20,513 - INFO - optimizer - jfreechart-1.0.19 | new F: 0.854794520547945 budget 2
+2019-01-04 13:00:10,986 - INFO - optimizer - jfreechart-1.0.19 | Eval: 12
+2019-01-04 13:00:10,988 - INFO - learner - jfreechart-1.0.19 | TUNING ENDS
+2019-01-04 13:17:21,974 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.98      4199
+        yes       0.68      0.52      0.59       209
+
+avg / total       0.96      0.97      0.96      4408
+
+F Score: 0.5891891891891892
+2019-01-04 13:17:21,984 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:17:21,984 - INFO - learner - Total Certain Pos: 136 | Total Certain Neg: 4112
+2019-01-04 13:36:17,984 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4199
+        yes       0.99      0.92      0.96       209
+
+avg / total       1.00      1.00      1.00      4408
+
+F Score: 0.955223880597015
+2019-01-04 13:36:17,994 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:36:17,994 - INFO - learner - Total Certain Pos: 174 | Total Certain Neg: 4169
+2019-01-04 13:56:39,281 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4199
+        yes       0.99      0.93      0.96       209
+
+avg / total       1.00      1.00      1.00      4408
+
+F Score: 0.9629629629629629
+2019-01-04 13:56:39,299 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:56:39,299 - INFO - learner - Total Certain Pos: 177 | Total Certain Neg: 4169
+2019-01-04 14:18:30,299 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      4199
+        yes       0.99      0.94      0.97       209
+
+avg / total       1.00      1.00      1.00      4408
+
+F Score: 0.9680589680589681
+2019-01-04 14:18:30,309 - INFO - learner - Active Delta: 0.1
+2019-01-04 14:18:30,310 - INFO - learner - Total Certain Pos: 178 | Total Certain Neg: 4168
+2019-01-04 14:41:34,441 - INFO - learner - | NO IMPROVEMENT | F Score: 0.9680589680589681 | eval: 4
+2019-01-04 14:41:34,553 - INFO - rig - jfreechart-1.0.19 | END PROJECT=====

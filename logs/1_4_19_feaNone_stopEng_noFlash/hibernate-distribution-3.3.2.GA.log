@@ -1,0 +1,20 @@
+2019-01-04 18:32:37,637 - INFO - config - DATASET: hibernate-distribution-3.3.2.GA | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:32:37,637 - INFO - rig - TRAINING DATA: TRUE: 3599 | FALSE: 55708
+2019-01-04 18:32:37,637 - INFO - rig - TEST DATA: TRUE: 472 | FALSE: 2496
+2019-01-04 18:33:41,928 - INFO - config - DATASET: hibernate-distribution-3.3.2.GA | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:33:41,928 - INFO - rig - TRAINING DATA: TRUE: 3599 | FALSE: 55708
+2019-01-04 18:33:41,928 - INFO - rig - TEST DATA: TRUE: 472 | FALSE: 2496
+2019-01-04 18:37:58,023 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.84      1.00      0.91      2496
+        yes       0.00      0.00      0.00       472
+
+avg / total       0.71      0.84      0.77      2968
+
+F Score: nan
+2019-01-04 18:37:58,032 - INFO - learner - Active Delta: 0.1
+2019-01-04 18:37:58,032 - INFO - learner - Total Certain Pos: 270 | Total Certain Neg: 2606
+2019-01-04 18:37:58,081 - INFO - rig - hibernate-distribution-3.3.2.GA | END PROJECT=====

@@ -1,0 +1,20 @@
+2019-01-04 18:32:37,628 - INFO - config - DATASET: apache-jmeter-2.10 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:32:37,628 - INFO - rig - TRAINING DATA: TRUE: 3697 | FALSE: 50521
+2019-01-04 18:32:37,628 - INFO - rig - TEST DATA: TRUE: 374 | FALSE: 7683
+2019-01-04 18:33:41,768 - INFO - config - DATASET: apache-jmeter-2.10 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: False | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 18:33:41,768 - INFO - rig - TRAINING DATA: TRUE: 3697 | FALSE: 50521
+2019-01-04 18:33:41,768 - INFO - rig - TEST DATA: TRUE: 374 | FALSE: 7683
+2019-01-04 18:37:46,971 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.95      1.00      0.98      7683
+        yes       0.00      0.00      0.00       374
+
+avg / total       0.91      0.95      0.93      8057
+
+F Score: nan
+2019-01-04 18:37:46,981 - INFO - learner - Active Delta: 0.1
+2019-01-04 18:37:46,981 - INFO - learner - Total Certain Pos: 238 | Total Certain Neg: 7742
+2019-01-04 18:37:47,077 - INFO - rig - apache-jmeter-2.10 | END PROJECT=====

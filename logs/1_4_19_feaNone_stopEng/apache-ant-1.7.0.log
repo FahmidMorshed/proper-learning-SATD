@@ -1,0 +1,55 @@
+2019-01-04 11:53:28,390 - INFO - config - DATASET: apache-ant-1.7.0 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 11:53:28,390 - INFO - rig - TRAINING DATA: TRUE: 3940 | FALSE: 54237
+2019-01-04 11:53:28,390 - INFO - rig - TEST DATA: TRUE: 131 | FALSE: 3967
+2019-01-04 11:53:28,509 - INFO - learner - apache-ant-1.7.0 | TUNING STARTS...
+2019-01-04 12:20:07,162 - INFO - optimizer - apache-ant-1.7.0 | F Score of init pool: [0.5897945659377071, 0.845262440354465, 0.8408163265306121, 0.7656357388316151, 0.6189529489728297, 0.6027633851468048, 0.8462585034013604, 0.7179125528913964, 0.7252283907238228, 0.8449931412894375]
+2019-01-04 12:29:48,941 - INFO - optimizer - apache-ant-1.7.0 | new F: 0.8464673913043479 budget 9
+2019-01-04 12:53:23,732 - INFO - optimizer - apache-ant-1.7.0 | Eval: 11
+2019-01-04 12:53:23,735 - INFO - learner - apache-ant-1.7.0 | TUNING ENDS
+2019-01-04 13:09:46,407 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.99      3967
+        yes       0.69      0.36      0.47       131
+
+avg / total       0.97      0.97      0.97      4098
+
+F Score: 0.47236180904522607
+2019-01-04 13:09:46,417 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:09:46,417 - INFO - learner - Total Certain Pos: 28 | Total Certain Neg: 3839
+2019-01-04 13:33:49,417 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      3967
+        yes       0.85      0.65      0.74       131
+
+avg / total       0.98      0.99      0.98      4098
+
+F Score: 0.735930735930736
+2019-01-04 13:33:49,427 - INFO - learner - Active Delta: 0.1
+2019-01-04 13:33:49,427 - INFO - learner - Total Certain Pos: 63 | Total Certain Neg: 3879
+2019-01-04 14:03:55,510 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      3967
+        yes       0.87      0.74      0.80       131
+
+avg / total       0.99      0.99      0.99      4098
+
+F Score: 0.7983539094650205
+2019-01-04 14:03:55,520 - INFO - learner - Active Delta: 0.1
+2019-01-04 14:03:55,521 - INFO - learner - Total Certain Pos: 74 | Total Certain Neg: 3882
+2019-01-04 14:36:34,209 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      3967
+        yes       0.87      0.75      0.80       131
+
+avg / total       0.99      0.99      0.99      4098
+
+F Score: 0.8032786885245901
+2019-01-04 14:36:34,219 - INFO - learner - Active Delta: 0.1
+2019-01-04 14:36:34,219 - INFO - learner - Total Certain Pos: 75 | Total Certain Neg: 3882
+2019-01-04 15:10:53,439 - INFO - learner - | NO IMPROVEMENT | F Score: 0.8032786885245901 | eval: 4
+2019-01-04 15:10:53,544 - INFO - rig - apache-ant-1.7.0 | END PROJECT=====

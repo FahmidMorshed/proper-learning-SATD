@@ -1,0 +1,44 @@
+2019-01-05 13:45:54,313 - INFO - config - DATASET: sql12 | MAX_FEATURE: 0.2 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-05 13:45:54,313 - INFO - rig - TRAINING DATA: TRUE: 3785 | FALSE: 51275
+2019-01-05 13:45:54,314 - INFO - rig - TEST DATA: TRUE: 286 | FALSE: 6929
+2019-01-05 13:45:54,486 - INFO - learner - sql12 | TUNING STARTS...
+2019-01-05 14:04:40,438 - INFO - optimizer - sql12 | F Score of init pool: [0.6613861386138615, 0.8581314878892734, 0.8539944903581268, 0.7916666666666667, 0.680161943319838, 0.6500857632933105, 0.8585298196948682, 0.7414965986394557, 0.7474472430224642, 0.8605299860529986]
+2019-01-05 14:06:23,388 - INFO - optimizer - sql12 | new F: 0.8639218422889043 budget 11
+2019-01-05 14:24:35,451 - INFO - optimizer - sql12 | Eval: 11
+2019-01-05 14:24:35,453 - INFO - learner - sql12 | TUNING ENDS
+2019-01-05 14:37:47,209 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      6929
+        yes       0.91      0.51      0.65       286
+
+avg / total       0.98      0.98      0.98      7215
+
+F Score: 0.6502242152466366
+2019-01-05 14:37:47,219 - INFO - learner - Active Delta: 0.1
+2019-01-05 14:37:47,219 - INFO - learner - Total Certain Pos: 107 | Total Certain Neg: 6938
+2019-01-05 14:53:55,164 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00      6929
+        yes       0.94      0.82      0.87       286
+
+avg / total       0.99      0.99      0.99      7215
+
+F Score: 0.874766355140187
+2019-01-05 14:53:55,174 - INFO - learner - Active Delta: 0.1
+2019-01-05 14:53:55,174 - INFO - learner - Total Certain Pos: 184 | Total Certain Neg: 6871
+2019-01-05 15:12:37,376 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      1.00      6929
+        yes       0.94      0.83      0.88       286
+
+avg / total       0.99      0.99      0.99      7215
+
+F Score: 0.8831168831168832
+2019-01-05 15:12:37,387 - INFO - learner - Active Delta: 0.1
+2019-01-05 15:12:37,387 - INFO - learner - Total Certain Pos: 187 | Total Certain Neg: 6871
+2019-01-05 15:34:23,339 - INFO - learner - | NO IMPROVEMENT | F Score: 0.8831168831168832 | eval: 3
+2019-01-05 15:34:23,496 - INFO - rig - sql12 | END PROJECT=====

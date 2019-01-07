@@ -1,0 +1,125 @@
+login as: ffahid
+Authenticating with public key "rsa-key-20181012" from agent
+Last login: Thu Jan  3 22:30:14 2019 from 10.136.23.177
+[ffahid@login ~]$ srun -n 16 --pty /bin/bash
+[ffahid@c0 ~]$ ls
+Anaconda3-5.3.0-Linux-x86_64.sh  anaconda3             word2vecs_models
+FLASH-SVM-StackOverflow          proper-learning-SATD  word2vecs_models.zip
+Fastread-SATD                    run1.sh
+[ffahid@c0 ~]$ cd proper-learning-SATD/
+[ffahid@c0 proper-learning-SATD]$ ls
+README.md    config.py  learner.py  log.py  main.py       result.py  tuner.py
+__pycache__  dataset    loader.py   logs    optimizer.py  rig.py
+[ffahid@c0 proper-learning-SATD]$ clear
+[ffahid@c0 proper-learning-SATD]$ python main.py
+apache-jmeter-2.10 STARTS...
+apache-ant-1.7.0 STARTS...
+argouml STARTS...
+columba-1.4-src STARTS...
+emf-2.4.1 STARTS...
+hibernate-distribution-3.3.2.GA STARTS...
+jEdit-4.2 STARTS...
+jfreechart-1.0.19 STARTS...
+jruby-1.4.0 STARTS...
+sql12 STARTS...
+argouml | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.97      0.97      0.97      8039
+        yes       0.85      0.80      0.83      1413
+
+avg / total       0.95      0.95      0.95      9452
+
+F Score: 0.8250272826482357
+argouml is DONE
+apache-jmeter-2.10 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.82      0.70      0.75       374
+
+avg / total       0.98      0.98      0.98      8057
+
+F Score: 0.7514450867052024
+apache-jmeter-2.10 is DONE
+jruby-1.4.0 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.97      0.99      0.98      4275
+        yes       0.92      0.79      0.85       622
+
+avg / total       0.96      0.96      0.96      4897
+
+F Score: 0.8506944444444444
+jruby-1.4.0 is DONE
+jEdit-4.2 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99     10066
+        yes       0.76      0.25      0.38       256
+
+avg / total       0.98      0.98      0.97     10322
+
+F Score: 0.3764705882352941
+jEdit-4.2 is DONE
+apache-ant-1.7.0 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.99      3967
+        yes       0.70      0.35      0.47       131
+
+avg / total       0.97      0.97      0.97      4098
+
+F Score: 0.467005076142132
+apache-ant-1.7.0 is DONE
+sql12 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      6929
+        yes       0.89      0.52      0.66       286
+
+avg / total       0.98      0.98      0.98      7215
+
+F Score: 0.6607929515418502
+sql12 is DONE
+jfreechart-1.0.19 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.98      4199
+        yes       0.68      0.52      0.59       209
+
+avg / total       0.96      0.97      0.96      4408
+
+F Score: 0.5853658536585367
+jfreechart-1.0.19 is DONE
+emf-2.4.1 | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.99      1.00      0.99      4286
+        yes       0.70      0.38      0.49       104
+
+avg / total       0.98      0.98      0.98      4390
+
+F Score: 0.48750000000000004
+emf-2.4.1 is DONE
+columba-1.4-src | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      6264
+        yes       0.86      0.88      0.87       204
+
+avg / total       0.99      0.99      0.99      6468
+
+F Score: 0.8668280871670703
+columba-1.4-src is DONE
+hibernate-distribution-3.3.2.GA | svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.95      0.99      0.97      2496
+        yes       0.94      0.71      0.81       472
+
+avg / total       0.95      0.95      0.94      2968
+
+F Score: 0.8077388149939541
+hibernate-distribution-3.3.2.GA is DONE
+[ffahid@c0 proper-learning-SATD]$

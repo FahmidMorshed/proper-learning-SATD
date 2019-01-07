@@ -1,0 +1,18 @@
+2019-01-04 20:55:29,977 - INFO - config - DATASET: apache-jmeter-2.10 | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 20:55:29,977 - INFO - rig - TRAINING DATA: TRUE: 3697 | FALSE: 50521
+2019-01-04 20:55:29,977 - INFO - rig - TEST DATA: TRUE: 374 | FALSE: 7683
+2019-01-04 20:55:30,059 - INFO - learner - apache-jmeter-2.10 | TUNING STARTS...
+2019-01-04 21:19:17,610 - INFO - optimizer - apache-jmeter-2.10 | F Score of init pool: [0.596716630977873, 0.8477306002928258, 0.8464912280701754, 0.7817781043350477, 0.6379928315412187, 0.5565052231718898, 0.8498168498168499, 0.7108066971080669, 0.7091875474563402, 0.8481291269258988]
+2019-01-04 21:46:02,260 - INFO - optimizer - apache-jmeter-2.10 | Eval: 10
+2019-01-04 21:46:02,263 - INFO - learner - apache-jmeter-2.10 | TUNING ENDS
+2019-01-04 22:04:35,794 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.82      0.70      0.75       374
+
+avg / total       0.98      0.98      0.98      8057
+
+F Score: 0.7514450867052024
+2019-01-04 22:04:35,899 - INFO - rig - apache-jmeter-2.10 | END PROJECT=====

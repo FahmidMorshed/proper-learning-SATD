@@ -1,0 +1,22 @@
+2019-01-04 20:55:30,355 - INFO - config - DATASET: hibernate-distribution-3.3.2.GA | MAX_FEATURE: 1 | STOP_WORDS: english | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-04 20:55:30,355 - INFO - rig - TRAINING DATA: TRUE: 3599 | FALSE: 55708
+2019-01-04 20:55:30,355 - INFO - rig - TEST DATA: TRUE: 472 | FALSE: 2496
+2019-01-04 20:55:30,465 - INFO - learner - hibernate-distribution-3.3.2.GA | TUNING STARTS...
+2019-01-04 21:20:20,504 - INFO - optimizer - hibernate-distribution-3.3.2.GA | F Score of init pool: [0.6213872832369942, 0.8429629629629629, 0.8410938654841094, 0.7732732732732733, 0.6492753623188406, 0.5834932821497121, 0.8510324483775812, 0.7000759301442673, 0.7061503416856493, 0.8516032811334825]
+2019-01-04 21:28:35,141 - INFO - optimizer - hibernate-distribution-3.3.2.GA | new F: 0.8520446096654275 budget 10
+2019-01-04 21:32:14,083 - INFO - optimizer - hibernate-distribution-3.3.2.GA | new F: 0.8530947054436987 budget 10
+2019-01-04 21:46:55,966 - INFO - optimizer - hibernate-distribution-3.3.2.GA | new F: 0.8539493293591653 budget 8
+2019-01-04 22:00:47,360 - INFO - optimizer - hibernate-distribution-3.3.2.GA | new F: 0.8541666666666666 budget 5
+2019-01-04 22:10:50,881 - INFO - optimizer - hibernate-distribution-3.3.2.GA | Eval: 14
+2019-01-04 22:10:50,883 - INFO - learner - hibernate-distribution-3.3.2.GA | TUNING ENDS
+2019-01-04 22:27:57,483 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.95      0.99      0.97      2496
+        yes       0.94      0.71      0.81       472
+
+avg / total       0.95      0.95      0.94      2968
+
+F Score: 0.8077388149939541
+2019-01-04 22:27:57,539 - INFO - rig - hibernate-distribution-3.3.2.GA | END PROJECT=====

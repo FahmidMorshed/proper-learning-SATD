@@ -1,0 +1,66 @@
+2019-01-05 03:17:48,570 - INFO - config - DATASET: hibernate-distribution-3.3.2.GA | MAX_FEATURE: 1 | STOP_WORDS: None | POOL_SIZE: 10000 | INIT_POOL: 10 | BUDGET: 10
+STRATIFIED_TEST_SIZE_RATIO: 0.2 | TUNE SVM: True | ACTIVE PREDICTION DELTA: 0.1 | ACTIVE PREDICTION TARGET: 1
+2019-01-05 03:17:48,570 - INFO - rig - TRAINING DATA: TRUE: 3599 | FALSE: 55708
+2019-01-05 03:17:48,570 - INFO - rig - TEST DATA: TRUE: 472 | FALSE: 2496
+2019-01-05 03:17:48,673 - INFO - learner - hibernate-distribution-3.3.2.GA | TUNING STARTS...
+2019-01-05 03:51:04,238 - INFO - optimizer - hibernate-distribution-3.3.2.GA | F Score of init pool: [0.6152777777777778, 0.8579795021961933, 0.8527472527472527, 0.7912727272727273, 0.6497175141242938, 0.6526122823098075, 0.8611111111111112, 0.7345132743362832, 0.7383935151068535, 0.860310421286031]
+2019-01-05 03:54:28,802 - INFO - optimizer - hibernate-distribution-3.3.2.GA | new F: 0.8626292466765141 budget 11
+2019-01-05 04:30:08,258 - INFO - optimizer - hibernate-distribution-3.3.2.GA | Eval: 11
+2019-01-05 04:30:08,263 - INFO - learner - hibernate-distribution-3.3.2.GA | TUNING ENDS
+2019-01-05 04:53:32,603 - INFO - learner - svm_pred_0
+             precision    recall  f1-score   support
+
+         no       0.95      0.99      0.97      2496
+        yes       0.96      0.75      0.84       472
+
+avg / total       0.95      0.95      0.95      2968
+
+F Score: 0.8390941597139452
+2019-01-05 04:53:32,614 - INFO - learner - Active Delta: 0.1
+2019-01-05 04:53:32,614 - INFO - learner - Total Certain Pos: 295 | Total Certain Neg: 2439
+2019-01-05 05:22:09,182 - INFO - learner - svm_pred_1
+             precision    recall  f1-score   support
+
+         no       0.97      1.00      0.98      2496
+        yes       0.97      0.86      0.91       472
+
+avg / total       0.97      0.97      0.97      2968
+
+F Score: 0.9121621621621622
+2019-01-05 05:22:09,193 - INFO - learner - Active Delta: 0.1
+2019-01-05 05:22:09,193 - INFO - learner - Total Certain Pos: 346 | Total Certain Neg: 2427
+2019-01-05 05:55:15,435 - INFO - learner - svm_pred_2
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      2496
+        yes       0.98      0.88      0.92       472
+
+avg / total       0.98      0.98      0.98      2968
+
+F Score: 0.9241071428571428
+2019-01-05 05:55:15,446 - INFO - learner - Active Delta: 0.1
+2019-01-05 05:55:15,446 - INFO - learner - Total Certain Pos: 354 | Total Certain Neg: 2427
+2019-01-05 06:33:01,111 - INFO - learner - svm_pred_3
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      2496
+        yes       0.98      0.89      0.93       472
+
+avg / total       0.98      0.98      0.98      2968
+
+F Score: 0.9300776914539401
+2019-01-05 06:33:01,121 - INFO - learner - Active Delta: 0.1
+2019-01-05 06:33:01,121 - INFO - learner - Total Certain Pos: 360 | Total Certain Neg: 2430
+2019-01-05 07:12:09,581 - INFO - learner - svm_pred_4
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      2496
+        yes       0.98      0.89      0.93       472
+
+avg / total       0.98      0.98      0.98      2968
+
+F Score: 0.933481152993348
+2019-01-05 07:12:09,592 - INFO - learner - Active Delta: 0.1
+2019-01-05 07:12:09,592 - INFO - learner - Total Certain Pos: 364 | Total Certain Neg: 2431
+2019-01-05 07:51:50,722 - INFO - learner - | NO IMPROVEMENT | F Score: 0.933481152993348 | eval: 5
+2019-01-05 07:51:50,812 - INFO - rig - hibernate-distribution-3.3.2.GA | END PROJECT=====
