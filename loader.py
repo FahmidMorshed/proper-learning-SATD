@@ -1,9 +1,12 @@
 import csv
+import string
 
 import pandas
 import random
 import numpy as np
+from nltk import sent_tokenize, wordpunct_tokenize, pos_tag, WordNetLemmatizer
 from sklearn.feature_extraction.text import TfidfVectorizer
+from nltk.stem.porter import *
 
 import logging
 logger = logging.getLogger(__name__)
@@ -76,7 +79,8 @@ class DATASET:
             self.tfer = tfer
             self.csr_mat = tfer.transform(self.data_pd['commenttext'])
         else:
-            tfer = TfidfVectorizer(lowercase=True, stop_words=stop_w, norm='l2',
+            # Adding tokenize funtion to manually tokenize the strings
+            tfer = TfidfVectorizer(tokenizer=tokenize, lowercase=True, stop_words=stop_w, norm='l2',
                                         use_idf=True, max_features=None, decode_error="ignore")
             tfer.fit(self.data_pd['commenttext'])
 
@@ -84,13 +88,58 @@ class DATASET:
             fea_count = len(tfer.vocabulary_.keys())
             fea_count = int(fea_count * max_f)
 
-            self.tfer = TfidfVectorizer(lowercase=True, stop_words=stop_w, norm='l2',
+            self.tfer = TfidfVectorizer(tokenizer=tokenize, lowercase=True, stop_words=stop_w, norm='l2',
                                         use_idf=True, max_features=fea_count, decode_error="ignore")
 
             self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
 
             fea_count = len(self.tfer.vocabulary_.keys())
             logger.info("New Feature Counts: " + str(fea_count))
+
+
+
+# Preprocessing stuff for Prev Work
+def tokenize(document):
+    lemmatizer = WordNetLemmatizer()
+
+    #ADDING STEMMER
+    stemmer = PorterStemmer()
+
+    "Break the document into sentences"
+    for sent in sent_tokenize(document):
+
+        "Break the sentence into part of speech tagged tokens"
+        for token, tag in pos_tag(wordpunct_tokenize(sent)):
+
+            "Apply preprocessing to the token"
+            token = token.lower()  # Convert to lower case
+            token = token.strip()  # Strip whitespace and other punctuations
+            token = token.strip('_')  # remove _ if any
+            token = token.strip('*')  # remove * if any
+
+            #"If stopword, ignore."
+            # if token in stopwords.words('english'):
+            #     continue
+
+            "If punctuation, ignore."
+            if all(char in string.punctuation for char in token):
+                continue
+
+            "If number, ignore."
+            if token.isdigit():
+                continue
+
+            # Lemmatize the token and yield
+            # Note: Lemmatization is the process of looking up a single word form
+            # from the variety of morphologic affixes that can be applied to
+            # indicate tense, plurality, gender, etc.
+            lemma = lemmatizer.lemmatize(token)
+
+            # No longer using lemma, using Porter Stemmer as Huang did
+            stemmed = stemmer.stem(token)
+            yield stemmed
+
+
 
 
 

@@ -1,14 +1,14 @@
 import logging
 
 
-MAX_FEATURE = .1
-STOP_WORDS = 'english'
+MAX_FEATURE = .2
+STOP_WORDS = None
 
 POOL_SIZE = 10000
 INIT_POOL_SIZE = 10
 BUDGET = 10
 
-LOG_FOLDER = 'logs/1_5_19_fea10_eng'
+LOG_FOLDER = 'logs/1_8_19_fea20_none_tokenize'
 
 STRATIFIED_TEST_SIZE_RATIO = .2
 STRATIFIED_SPLIT = 1
