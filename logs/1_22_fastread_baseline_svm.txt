@@ -1,0 +1,117 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/Fahmid/GitRepo/proper-learning-SATD/src/main.py
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+argouml STARTS...
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+apache-jmeter-2.10 STARTS...
+sql12 STARTS...
+jfreechart-1.0.19 STARTS...
+jruby-1.4.0 STARTS...
+jEdit-4.2 STARTS...
+columba-1.4-src STARTS...
+hibernate-distribution-3.3.2.GA STARTS...
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+         no       0.85      1.00      0.92      8038
+        yes       0.00      0.00      0.00      1413
+
+avg / total       0.72      0.85      0.78      9451
+
+Target: 1271
+argouml | Total: 9451 | Total Checked: 1570 | Total Yes Data: 1413 | Total Yes Checked: 1276
+             precision    recall  f1-score   support
+
+         no       0.95      1.00      0.98      7683
+        yes       0.00      0.00      0.00       374
+
+avg / total       0.91      0.95      0.93      8057
+
+Target: 336
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+apache-jmeter-2.10 | Total: 8057 | Total Checked: 4170 | Total Yes Data: 374 | Total Yes Checked: 341
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+         no       0.87      1.00      0.93      4275
+        yes       0.00      0.00      0.00       622
+
+avg / total       0.76      0.87      0.81      4897
+
+Target: 559
+jruby-1.4.0 | Total: 4897 | Total Checked: 710 | Total Yes Data: 622 | Total Yes Checked: 561
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+             precision    recall  f1-score   support
+
+  'precision', 'predicted', average, warn_for)
+         no       0.96      1.00      0.98      6929
+        yes       0.00      0.00      0.00       286
+
+avg / total       0.92      0.96      0.94      7215
+
+Target: 257
+sql12 | Total: 7215 | Total Checked: 2920 | Total Yes Data: 286 | Total Yes Checked: 258
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+         no       0.84      1.00      0.91      2496
+        yes       0.00      0.00      0.00       472
+
+avg / total       0.71      0.84      0.77      2968
+
+Target: 424
+hibernate-distribution-3.3.2.GA | Total: 2968 | Total Checked: 880 | Total Yes Data: 472 | Total Yes Checked: 426
+             precision    recall  f1-score   support
+
+         no       0.97      1.00      0.98      6264
+        yes       0.00      0.00      0.00       204
+
+avg / total       0.94      0.97      0.95      6468
+
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+Target: 183
+columba-1.4-src | Total: 6468 | Total Checked: 260 | Total Yes Data: 204 | Total Yes Checked: 186
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+             precision    recall  f1-score   support
+  'precision', 'predicted', average, warn_for)
+
+         no       0.95      1.00      0.98      4199
+        yes       0.00      0.00      0.00       209
+
+avg / total       0.91      0.95      0.93      4408
+
+Target: 188
+jfreechart-1.0.19 | Total: 4408 | Total Checked: 1340 | Total Yes Data: 209 | Total Yes Checked: 189
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\metrics\classification.py:1135: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples.
+  'precision', 'predicted', average, warn_for)
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99     10066
+        yes       0.00      0.00      0.00       256
+
+avg / total       0.95      0.98      0.96     10322
+
+Target: 230
+jEdit-4.2 | Total: 10322 | Total Checked: 3850 | Total Yes Data: 256 | Total Yes Checked: 231
+
+Process finished with exit code 0

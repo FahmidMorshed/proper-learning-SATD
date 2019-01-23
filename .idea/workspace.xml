@@ -2,21 +2,182 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74759962-d775-428e-8e72-777f81fb7170" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/mar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/result.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/proper-learning-SATD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/proper-learning-SATD.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" afterPath="$PROJECT_DIR$/config.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/loader.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/apache-ant-1.7.0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/apache-ant-1.7.0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/apache-jmeter-2.10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/apache-jmeter-2.10.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/argouml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/argouml.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/columba-1.4-src.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/columba-1.4-src.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/emf-2.4.1.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/emf-2.4.1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/hibernate-distribution-3.3.2.GA.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/hibernate-distribution-3.3.2.GA.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/jEdit-4.2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/jEdit-4.2.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/jfreechart-1.0.19.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/jfreechart-1.0.19.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/jruby-1.4.0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/jruby-1.4.0.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/temp/sql12.csv" beforeDir="false" afterPath="$PROJECT_DIR$/results/temp/sql12.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rig.py" beforeDir="false" afterPath="$PROJECT_DIR$/rig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/details.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/td_2016.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/td_2016_8.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dataset/td_2016_tiny.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/td_2016_tiny.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/learner.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocess/loader.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_3_19_fea20_none_output.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_english.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noActive/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_fea20_eng/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/apache-ant-1.7.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/apache-jmeter-2.10.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/argouml.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/columba-1.4-src.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/emf-2.4.1.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/jEdit-4.2.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/jfreechart-1.0.19.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/jruby-1.4.0.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/sql12.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/apache-ant-1.7.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/apache-jmeter-2.10_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/argouml_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/columba-1.4-src_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/emf-2.4.1_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/hibernate-distribution-3.3.2.GA_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/jEdit-4.2_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/jfreechart-1.0.19_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/jruby-1.4.0_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_none/temp/sql12_data_pd.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_5_19_feaNone_stopEng.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ensemble.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_8_19_fea20_eng/argouml.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fastread.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_8_19_fea20_eng/columba-1.4-src.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/total.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/1_8_19_fea20_eng/sql12.log" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimizer/flash.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/optimizer.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/result.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_eng.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/apache-ant-1.7.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/apache-jmeter-2.10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/argouml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/columba-1.4-src.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/emf-2.4.1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/hibernate-distribution-3.3.2.GA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/jEdit-4.2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/jfreechart-1.0.19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/jruby-1.4.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/fea20_none/sql12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/feaNone_eng.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/feaNone_eng_noActive.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/feaNone_none.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/huang.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/apache-ant-1.7.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/apache-jmeter-2.10.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/argouml.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/columba-1.4-src.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/emf-2.4.1.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/hibernate-distribution-3.3.2.GA.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/jEdit-4.2.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/jfreechart-1.0.19.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/jruby-1.4.0.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/results/temp/sql12.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rig.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/rig.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuner.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/optimizer/tuner.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,46 +188,34 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main.py">
+        <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/rig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#1#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/loader.py">
+        <entry file="file://$PROJECT_DIR$/src/core/rig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-454">
-              <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
+            <state relative-caret-position="170">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="27" />
               <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#22#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/learner.py">
+        <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="108" column="40" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="40" />
+            <state relative-caret-position="163">
+              <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -75,15 +224,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
+        <entry file="file://$PROJECT_DIR$/src/util/result.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="75" column="59" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#19#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/optimizer.py">
+        <entry file="file://$PROJECT_DIR$/src/preprocess/loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1280">
-              <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+            <state relative-caret-position="155">
+              <caret line="74" column="24" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="24" />
+              <folding>
+                <element signature="e#0#10#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="54">
+              <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/optimizer/flash.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="97">
+              <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -92,45 +272,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log.py">
+        <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="37" />
+            <state relative-caret-position="576">
+              <caret line="42" column="49" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="49" />
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config.py">
+        <entry file="file://$PROJECT_DIR$/src/model/total.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/results/fea20_none.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/result.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
+            <state relative-caret-position="202">
+              <caret line="27" column="48" selection-start-line="6" selection-start-column="4" selection-end-line="27" selection-end-column="48" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="e#0#53#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -145,6 +304,23 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>value</find>
+      <find>logger</find>
+      <find>fea_count</find>
+      <find>step</find>
+      <find>enough</find>
+      <find>interval</find>
+      <find>iterrow</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\model</dir>
+    </dirStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -155,16 +331,31 @@
         <option value="$PROJECT_DIR$/logger.py" />
         <option value="$PROJECT_DIR$/optimizer.py" />
         <option value="$PROJECT_DIR$/log.py" />
-        <option value="$PROJECT_DIR$/learner.py" />
         <option value="$PROJECT_DIR$/result.py" />
-        <option value="$PROJECT_DIR$/loader.py" />
-        <option value="$PROJECT_DIR$/rig.py" />
-        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/learner.py" />
         <option value="$PROJECT_DIR$/config.py" />
+        <option value="$PROJECT_DIR$/rig.py" />
+        <option value="$PROJECT_DIR$/loader.py" />
+        <option value="$PROJECT_DIR$/main.py" />
+        <option value="$PROJECT_DIR$/ensemble.py" />
+        <option value="$PROJECT_DIR$/src/model/total.py" />
+        <option value="$PROJECT_DIR$/src/optimizer/tuner.py" />
+        <option value="$PROJECT_DIR$/src/optimizer/flash.py" />
+        <option value="$PROJECT_DIR$/src/model/ensemble.py" />
+        <option value="$PROJECT_DIR$/src/model/mar.py" />
+        <option value="$PROJECT_DIR$/src/preprocess/loader.py" />
+        <option value="$PROJECT_DIR$/src/util/result.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/fastread.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/util/log.py" />
+        <option value="$PROJECT_DIR$/src/core/rig.py" />
+        <option value="$PROJECT_DIR$/src/model/fastread.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-11" />
     <option name="y" value="-11" />
     <option name="width" value="1943" />
@@ -178,7 +369,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,20 +379,45 @@
             <path>
               <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
               <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="optimizer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
+              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Fastread-SATD" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../proper-learning-SATD - Copy" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\optimizer" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\model" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\core" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\preprocess" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\util" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -217,7 +432,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="proper-learning-SATD" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="proper-learning-SATD" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -241,6 +477,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
         <item itemvalue="Python.main" />
       </list>
     </recent_temporary>
@@ -259,22 +496,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17170112" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17488076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3268206" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39964476" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.21669628" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38010657" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3285968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.27531084" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,177 +521,260 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/rig.py</url>
-          <line>47</line>
-          <option name="timeStamp" value="10" />
+          <url>file://$PROJECT_DIR$/src/model/fastread.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/config.py</url>
-          <line>41</line>
-          <option name="timeStamp" value="11" />
+          <url>file://$PROJECT_DIR$/src/util/result.py</url>
+          <line>13</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/optimizer/flash.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/model/fastread.py</url>
+          <line>149</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/util/result.py</url>
+          <line>63</line>
+          <option name="timeStamp" value="65" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/logs/12_31_18_fea20_stopNone.log" />
-    <entry file="file://$PROJECT_DIR$/logs/apache-ant-1.7.0.log" />
-    <entry file="file://$PROJECT_DIR$/logs/apache-jmeter-2.10.log" />
-    <entry file="file://$PROJECT_DIR$/logs/argouml.log" />
-    <entry file="file://$PROJECT_DIR$/logs/columba-1.4-src.log" />
-    <entry file="file://$PROJECT_DIR$/logs/1_3_19_test.log" />
-    <entry file="file://$PROJECT_DIR$/logs/1_3_19_test/apache-jmeter-2.10.log" />
-    <entry file="file://$PROJECT_DIR$/logs/1_3_19_test/apache-ant-1.7.0.log" />
-    <entry file="file://$PROJECT_DIR$/tuner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="6" column="31" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/series.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="4000" selection-start-line="4000" selection-end-line="4000" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/feaNone_eng.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng_noFlash/apache-ant-1.7.0.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_english.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6922" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/1_3_19_fea20_none.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider">
-        <state relative-caret-position="-1898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/1_3_19_fea20_none_output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3744" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/1_3_19_fea20_none.log" />
+    <entry file="file://$PROJECT_DIR$/logs/1_3_19_fea20_none_output.txt" />
     <entry file="file://$PROJECT_DIR$/apache-ant-1.7.0.log.txt" />
-    <entry file="file://$PROJECT_DIR$/results/temp/apache-ant-1.7.0.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/temp/apache-ant-1.7.0.csv" />
     <entry file="file://$PROJECT_DIR$/results/fea20_none_test.csv" />
-    <entry file="file://$PROJECT_DIR$/results/feaNone_none.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/results/feaNone_none.csv" />
     <entry file="file://$PROJECT_DIR$/results/huang.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/fea20_eng.csv">
       <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
-      <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng.log">
-      <provider selected="true" editor-type-id="LogFileEditorProvider" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/optimizer.py">
+    <entry file="file://$PROJECT_DIR$/results/fea20_eng.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng.log" />
+    <entry file="file://$PROJECT_DIR$/results/fea20_eng_tokenize_random.csv" />
+    <entry file="file://$PROJECT_DIR$/results/fea20_none.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/1_10_19_test2/argouml.log" />
+    <entry file="file://$PROJECT_DIR$/logs/1_10_19_test/argouml.log" />
+    <entry file="file://$PROJECT_DIR$/results/fea20_none_v2.csv" />
+    <entry file="file://$PROJECT_DIR$/logs/1_11_19_ensemble/columba-1.4-src.log" />
+    <entry file="file://$PROJECT_DIR$/logs/1_11_19_ensemble/argouml.log" />
+    <entry file="file://$PROJECT_DIR$/log.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/joblib/parallel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1280">
-          <caret line="90" column="63" selection-start-line="90" selection-start-column="63" selection-end-line="90" selection-end-column="63" />
+        <state relative-caret-position="104">
+          <caret line="224" selection-start-line="224" selection-end-line="224" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dataset/data/apache-jmeter-2.10.arff" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/scipy/io/arff/arffread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="387" selection-start-line="387" selection-end-line="387" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/indexing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="355" selection-start-line="355" selection-end-line="355" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py" />
+    <entry file="file://$PROJECT_DIR$/main.py" />
+    <entry file="file://$PROJECT_DIR$/learner.py" />
+    <entry file="file://$PROJECT_DIR$/optimizer.py" />
+    <entry file="file://$PROJECT_DIR$/result.py" />
+    <entry file="file://$PROJECT_DIR$/ensemble.py" />
+    <entry file="file://$PROJECT_DIR$/loader.py" />
+    <entry file="file://$PROJECT_DIR$/rig.py" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/gensim/models/keyedvectors.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/random.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="117">
+          <caret line="754" selection-start-line="754" selection-end-line="754" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/tokenize.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="446" selection-start-line="446" selection-end-line="446" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp/argouml" />
+    <entry file="file://$PROJECT_DIR$/logs/1_18_19_test.txt" />
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/frame.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="2670" selection-start-line="2670" selection-end-line="2670" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="909" selection-start-line="909" selection-end-line="909" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optimizer/tuner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/log.py">
+    <entry file="file://$PROJECT_DIR$/src/model/total.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/fea20_none.csv">
-      <provider editor-type-id="csv-table-editor">
-        <state showInfoPanel="true" rowLines="3" />
-      </provider>
-      <provider selected="true" editor-type-id="csv-text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/result.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="57" column="61" selection-start-line="57" selection-start-column="61" selection-end-line="57" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/learner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="108" column="40" selection-start-line="108" selection-start-column="27" selection-end-line="108" selection-end-column="40" />
+        <state relative-caret-position="202">
+          <caret line="27" column="48" selection-start-line="6" selection-start-column="4" selection-end-line="27" selection-end-column="48" />
           <folding>
             <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/loader.py">
+    <entry file="file://$PROJECT_DIR$/src/model/mar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-454">
-          <caret line="71" column="8" selection-start-line="71" selection-start-column="8" selection-end-line="71" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        <state relative-caret-position="-53">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rig.py">
+    <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
+        <state relative-caret-position="576">
+          <caret line="42" column="49" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="49" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preprocess/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="74" column="24" selection-start-line="74" selection-start-column="13" selection-end-line="74" selection-end-column="24" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="45" column="4" selection-start-line="45" selection-start-column="4" selection-end-line="45" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/fastread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="e#1#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="4" column="44" selection-start-line="4" selection-start-column="44" selection-end-line="4" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="91" column="37" selection-start-line="91" selection-start-column="37" selection-end-line="91" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#53#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/rig.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="75" column="59" selection-start-line="75" selection-start-column="54" selection-end-line="75" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/optimizer/flash.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="97">
+          <caret line="29" column="5" lean-forward="true" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>

@@ -1,0 +1,81 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/Fahmid/GitRepo/proper-learning-SATD/src/main.py
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+INFO:summarizer.preprocessing.cleaner:'pattern' package not found; tag filters are not available for English
+INFO:core.rig:=====CROSS PROJECT=====
+apache-jmeter-2.10 STARTS...
+INFO:core.rig:Number of CPU: 8
+apache-jmeter-2.10
+             precision    recall  f1-score   support
+
+         no       0.99      0.99      0.99      7683
+        yes       0.86      0.75      0.80       373
+
+avg / total       0.98      0.98      0.98      8056
+
+argouml STARTS...
+argouml
+             precision    recall  f1-score   support
+
+         no       0.98      0.97      0.98      8039
+        yes       0.85      0.88      0.87      1413
+
+avg / total       0.96      0.96      0.96      9452
+
+columba-1.4-src STARTS...
+columba-1.4-src
+             precision    recall  f1-score   support
+
+         no       1.00      1.00      1.00      6264
+        yes       0.93      0.85      0.89       204
+
+avg / total       0.99      0.99      0.99      6468
+
+hibernate-distribution-3.3.2.GA STARTS...
+hibernate-distribution-3.3.2.GA
+             precision    recall  f1-score   support
+
+         no       0.95      0.99      0.97      2496
+        yes       0.96      0.73      0.83       472
+
+avg / total       0.95      0.95      0.95      2968
+
+jEdit-4.2 STARTS...
+jEdit-4.2
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99     10066
+        yes       0.94      0.18      0.30       256
+
+avg / total       0.98      0.98      0.97     10322
+
+jfreechart-1.0.19 STARTS...
+jfreechart-1.0.19
+             precision    recall  f1-score   support
+
+         no       0.97      0.99      0.98      4199
+        yes       0.71      0.46      0.56       209
+
+avg / total       0.96      0.97      0.96      4408
+
+jruby-1.4.0 STARTS...
+jruby-1.4.0
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.99      4275
+        yes       0.95      0.89      0.92       622
+
+avg / total       0.98      0.98      0.98      4897
+
+sql12 STARTS...
+sql12
+INFO:core.rig:======END CROSS PROJECT======
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99      6929
+        yes       0.91      0.54      0.68       286
+
+avg / total       0.98      0.98      0.98      7215
+
+
+Process finished with exit code 0

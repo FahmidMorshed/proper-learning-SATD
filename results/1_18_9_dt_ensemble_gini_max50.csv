@@ -1,0 +1,9 @@
+projectname,precision,recall,f1
+apache-jmeter-2.10,0.87,0.74,0.80
+argouml,0.85,0.88,0.87
+columba-1.4-src,0.92,0.84,0.88
+hibernate-distribution-3.3.2.GA,0.96,0.74,0.84
+jEdit-4.2,0.93,0.21,0.34
+jfreechart-1.0.19,0.71,0.43,0.53
+jruby-1.4.0,0.95,0.89,0.92
+sql12,0.94,0.53,0.68

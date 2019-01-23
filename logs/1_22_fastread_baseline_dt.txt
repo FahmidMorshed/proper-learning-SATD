@@ -1,0 +1,101 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/Fahmid/GitRepo/proper-learning-SATD/src/main.py
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+argouml STARTS...
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+apache-jmeter-2.10 STARTS...
+jfreechart-1.0.19 STARTS...
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+jruby-1.4.0 STARTS...
+sql12 STARTS...
+jEdit-4.2 STARTS...
+hibernate-distribution-3.3.2.GA STARTS...
+columba-1.4-src STARTS...
+             precision    recall  f1-score   support
+
+         no       0.98      0.97      0.97      8038
+        yes       0.83      0.88      0.86      1413
+
+avg / total       0.96      0.96      0.96      9451
+
+Target: 1271
+argouml | Total: 9451 | Total Checked: 2490 | Total Yes Data: 1413 | Total Yes Checked: 1272
+             precision    recall  f1-score   support
+
+         no       0.99      0.98      0.99      7683
+        yes       0.69      0.74      0.71       374
+
+avg / total       0.97      0.97      0.97      8057
+
+Target: 336
+             precision    recall  f1-score   support
+
+         no       0.98      0.99      0.98      6929
+        yes       0.65      0.53      0.59       286
+
+avg / total       0.97      0.97      0.97      7215
+
+Target: 257
+             precision    recall  f1-score   support
+
+         no       0.97      0.99      0.98      4199
+        yes       0.61      0.47      0.54       209
+
+avg / total       0.96      0.96      0.96      4408
+
+Target: 188
+             precision    recall  f1-score   support
+
+         no       0.98      0.97      0.98      4275
+        yes       0.81      0.88      0.85       622
+
+avg / total       0.96      0.96      0.96      4897
+
+Target: 559
+jruby-1.4.0 | Total: 4897 | Total Checked: 1230 | Total Yes Data: 622 | Total Yes Checked: 560
+jfreechart-1.0.19 | Total: 4408 | Total Checked: 3490 | Total Yes Data: 209 | Total Yes Checked: 189
+             precision    recall  f1-score   support
+
+         no       1.00      0.99      0.99      6264
+        yes       0.72      0.88      0.79       204
+
+avg / total       0.99      0.99      0.99      6468
+
+Target: 183
+             precision    recall  f1-score   support
+
+         no       0.98      1.00      0.99     10066
+        yes       0.70      0.33      0.45       256
+
+avg / total       0.98      0.98      0.98     10322
+
+apache-jmeter-2.10 | Total: 8057 | Total Checked: 4820 | Total Yes Data: 374 | Total Yes Checked: 338
+Target: 230
+             precision    recall  f1-score   support
+
+         no       0.95      0.98      0.96      2496
+        yes       0.86      0.74      0.80       472
+
+avg / total       0.94      0.94      0.94      2968
+
+Target: 424
+sql12 | Total: 7215 | Total Checked: 5720 | Total Yes Data: 286 | Total Yes Checked: 258
+hibernate-distribution-3.3.2.GA | Total: 2968 | Total Checked: 2010 | Total Yes Data: 472 | Total Yes Checked: 425
+columba-1.4-src | Total: 6468 | Total Checked: 1850 | Total Yes Data: 204 | Total Yes Checked: 184
+jEdit-4.2 | Total: 10322 | Total Checked: 8960 | Total Yes Data: 256 | Total Yes Checked: 231
+
+Process finished with exit code 0
