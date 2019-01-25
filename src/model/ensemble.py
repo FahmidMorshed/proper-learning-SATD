@@ -34,12 +34,19 @@ def dt_ensemble(satdd, dataset_name):
         predict(clf, test_data, train_data, result_pd, train_dataset_name)
 
     result_pd['code_ensemble'] = np.where(result_pd['yes_vote'] > result_pd['no_vote'], 'yes', 'no')
-    result_pd.to_csv("../temp/"+dataset_name + ".csv")
 
     y_test = result_pd['label'].tolist()
     y_pred = result_pd['code_ensemble'].tolist()
     print(dataset_name)
     print(classification_report(y_test, y_pred))
+
+    test_data.data_pd['yes_vote'] = result_pd['yes_vote']
+    test_data.data_pd['no_vote'] = result_pd['no_vote']
+
+    test_data.data_pd.to_csv("../temp/" + dataset_name + ".csv")
+
+    return test_data
+
 
 def predict(clf, test_data, train_data, result_pd, col_name):
 
@@ -68,21 +75,31 @@ def predict(clf, test_data, train_data, result_pd, col_name):
 
 
 # FINAL VOTING ON ACTIVE LEARNING
-def double_learn(result_pd, x_test, y_test):
+def double_learn(result_pd, satdd, dataset_name):
+    test_data = satdd.create_and_process_dataset([dataset_name], doInclude=True)
+    train_data = satdd.create_and_process_dataset([dataset_name], doInclude=False)
+    train_data.set_csr_mat()
+    test_data.set_csr_mat(train_data.tfer)
+
     neg_ids = np.where(result_pd['yes_vote'] == 0)[0]
     pos_ids = np.where(result_pd['no_vote'] == 0)[0]
 
-    new_pos_mat = x_test.csr_mat[pos_ids]
-    new_neg_mat = x_test.csr_mat[neg_ids]
+    new_pos_mat = test_data.csr_mat[pos_ids]
+    new_neg_mat = test_data.csr_mat[neg_ids]
     new_pos_y = result_pd.loc[pos_ids, 'code_ensemble']
     new_neg_y = result_pd.loc[neg_ids, 'code_ensemble']
 
     x = sp.vstack([new_neg_mat, new_pos_mat])
     y = new_pos_y.append(new_neg_y)
 
-
-    clf = SVC(random_state=0)
+    #clf = DecisionTreeClassifier(random_state=0)
+    clf = SVC(probability=True, random_state=0)
 
     clf.fit(x, y)
-    y_pred = clf.predict(x_test)
+    y_pred = clf.predict(test_data.csr_mat)
+    y_pred_proba = clf.predict_proba(test_data.csr_mat)[:, 1]
+    result_pd['double_learn'] = y_pred.tolist()
+    result_pd['double_learn_proba'] = y_pred_proba.tolist()
+    print("Double Learn")
+    y_test = result_pd['label'].tolist()
     print(classification_report(y_test, y_pred))

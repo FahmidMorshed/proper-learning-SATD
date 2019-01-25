@@ -27,11 +27,12 @@ def cross_project(satdd):
     num_cpu = mp.cpu_count()
 
     #fast_read_baselines(satdd) # TOTAL DATASET, 50% test
-    Parallel(n_jobs=num_cpu-3)(delayed(ensemble)(satdd, dataset) for dataset in all_datasets)
+    Parallel(n_jobs=num_cpu-7)(delayed(ensemble)(satdd, dataset) for dataset in all_datasets)
 
 
 def ensemble(satdd, dataset_name):
     print(dataset_name + " STARTS...")
+
     dt_ensemble(satdd, dataset_name)
 
 def total(satdd, dataset_name):

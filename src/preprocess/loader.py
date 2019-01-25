@@ -87,7 +87,7 @@ class DATASET:
             self.csr_mat = tfer.transform(self.data_pd['commenttext'])
         else:
             self.tfer = TfidfVectorizer(lowercase=True, stop_words=None, use_idf=True, smooth_idf=False,
-                                  sublinear_tf=False, max_features=None)
+                                  sublinear_tf=False, max_features=None)#CountVectorizer(tokenizer=tokenize)#
             self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
 
     def make_test_train_on_same_dataset(self, ratio=.5):
@@ -99,3 +99,43 @@ class DATASET:
             X, y, stratify=y, test_size=ratio)
 
         return  DATASET(X_train), DATASET(X_test)
+
+# Preprocessing stuff for Prev Work
+def tokenize(document):
+    lemmatizer = WordNetLemmatizer()
+
+    #ADDING STEMMER
+    stemmer = PorterStemmer()
+
+    "Break the document into sentences"
+    for sent in sent_tokenize(document):
+
+        "Break the sentence into part of speech tagged tokens"
+        for token, tag in pos_tag(wordpunct_tokenize(sent)):
+
+            "Apply preprocessing to the token"
+            token = token.lower()  # Convert to lower case
+            token = token.strip()  # Strip whitespace and other punctuations
+            token = token.strip('_')  # remove _ if any
+            token = token.strip('*')  # remove * if any
+
+
+            "If punctuation, ignore."
+            if all(char in string.punctuation for char in token):
+                continue
+
+            "If number, ignore."
+            if token.isdigit():
+                continue
+
+            # Lemmatize the token and yield
+            # Note: Lemmatization is the process of looking up a single word form
+            # from the variety of morphologic affixes that can be applied to
+            # indicate tense, plurality, gender, etc.
+            lemma = lemmatizer.lemmatize(token)
+
+            # No longer using lemma, using Porter Stemmer as Huang did
+            stemmed = stemmer.stem(token)
+            yield stemmed
+
+
