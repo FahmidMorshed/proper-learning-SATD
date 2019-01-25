@@ -5,6 +5,7 @@ from sklearn.naive_bayes import MultinomialNB
 from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
+import scipy.sparse as sp
 
 from optimizer.flash import tune_dt
 
@@ -55,10 +56,33 @@ def predict(clf, test_data, train_data, result_pd, col_name):
 
     clf.fit(x_train, y_train)
     y_pred = clf.predict(x_test)
+    # y_pred_proba = clf.predict_proba(x_test)[:, 1]
     result_pd[col_name] = y_pred.tolist()
+    # result_pd[col_name + '_proba'] = y_pred_proba.tolist()
 
     yes_ids = result_pd[result_pd.loc[:, col_name] == 'yes'].index
     result_pd.loc[yes_ids, 'yes_vote'] += 1
 
     no_ids = result_pd[result_pd.loc[:, col_name] == 'no'].index
     result_pd.loc[no_ids, 'no_vote'] += 1
+
+
+# FINAL VOTING ON ACTIVE LEARNING
+def double_learn(result_pd, x_test, y_test):
+    neg_ids = np.where(result_pd['yes_vote'] == 0)[0]
+    pos_ids = np.where(result_pd['no_vote'] == 0)[0]
+
+    new_pos_mat = x_test.csr_mat[pos_ids]
+    new_neg_mat = x_test.csr_mat[neg_ids]
+    new_pos_y = result_pd.loc[pos_ids, 'code_ensemble']
+    new_neg_y = result_pd.loc[neg_ids, 'code_ensemble']
+
+    x = sp.vstack([new_neg_mat, new_pos_mat])
+    y = new_pos_y.append(new_neg_y)
+
+
+    clf = SVC(random_state=0)
+
+    clf.fit(x, y)
+    y_pred = clf.predict(x_test)
+    print(classification_report(y_test, y_pred))

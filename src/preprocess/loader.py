@@ -14,6 +14,7 @@ from nltk.stem.porter import *
 from random import shuffle
 
 from sklearn.feature_selection import mutual_info_classif
+from sklearn.model_selection import train_test_split
 
 
 class SATDD:
@@ -66,7 +67,6 @@ class SATDD:
                 return DATASET(self.all_dataset_pd.loc[~self.all_dataset_pd['projectname'].isin(dataset_names)])
         return DATASET(self.all_dataset_pd)
 
-
 class DATASET:
     def __init__(self, data_pd):
         data_pd.index = range(len(data_pd))
@@ -89,3 +89,13 @@ class DATASET:
             self.tfer = TfidfVectorizer(lowercase=True, stop_words=None, use_idf=True, smooth_idf=False,
                                   sublinear_tf=False, max_features=None)
             self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
+
+    def make_test_train_on_same_dataset(self, ratio=.5):
+
+        y = self.data_pd.loc[:, 'label'].to_frame()
+        X = self.data_pd
+
+        X_train, X_test, y_train, y_test = train_test_split(
+            X, y, stratify=y, test_size=ratio)
+
+        return  DATASET(X_train), DATASET(X_test)

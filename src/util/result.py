@@ -50,16 +50,28 @@ def calculate_results(input_filename, output_filename):
 
 def process_fastread(directory, output_file):
     output = ''
-    for filename in os.listdir(directory):
-        found = 'prec_read,perc_found,total_read,total_found\n'
-        first_line = True
+    perc = [i for i in range(0, 101)]
+    os.makedirs('../results/' + output_file)
 
+    for filename in os.listdir(directory):
+        df = pd.DataFrame()
+        df['perc_read'] = perc
+
+        current_col = ''
+        last_read_perc = 0
+        col_val = []
         with open(directory + '/' + filename) as file:
             for line in file.readlines():
-                if first_line:
-                    first_line = False
+                if 'rig - ++' in line:
+                    if len(col_val) > 0:
+                        df[current_col] = pd.Series(col_val)
                     tokens = line.split()
-                    output += tokens[7] + '\n' + found # PROJECT NAME
+                    current_col = tokens[9]
+                    df[current_col] = 0
+                    last_read_perc = 0
+                    col_val = []
+                    continue
+                elif 'rig' in line:
                     continue
                 line = line.strip()
                 if 'Total Yes:' in line and 'Total No:' in line:
@@ -71,13 +83,13 @@ def process_fastread(directory, output_file):
                 tokens = line.split()
                 found = float(tokens[7].split(',')[0])
                 read = float(tokens[8])
-                output += str(round(read / (total_yes + total_no) * 100, 2)) + \
-                          ',' + str(round(found / total_yes * 100, 2)) + \
-                          ',' + str(read) + ',' + str(found) + '\n'
-        output += '\n\n'
-
-    with open('../results/' + output_file + '.csv', 'w+') as f:
-        f.write(output)
+                read_prec = round(read / (total_yes + total_no) * 100, 0)
+                if read_prec > last_read_perc:
+                    last_read_perc = read_prec
+                    col_val.append(round(found/ total_yes * 100, 2))
+        if len(col_val) > 0:
+            df[current_col] = pd.Series(col_val)
+        df.to_csv('../results/' + output_file + '/' + filename[:-4] + '.csv')
 
 
 

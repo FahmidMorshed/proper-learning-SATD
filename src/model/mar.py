@@ -77,14 +77,10 @@ class MAR(object):
         sample = pandas.concat([poses, negs, unlabeled])
         sample_ids = list(sample.index)
 
-        start = time.time()
-
         clf.fit(self.csr_mat[sample_ids], labels[sample_ids])
 
         ## aggressive undersampling ##
         if len(poses) >= self.enough:
-            start = time.time()
-
             train_dist = clf.decision_function(self.csr_mat[all_neg_ids])
             pos_at = list(clf.classes_).index("yes")
             if pos_at:
@@ -92,19 +88,15 @@ class MAR(object):
             negs_sel = np.argsort(train_dist)[::-1][:len(pos_ids)]
             sample_ids = list(pos_ids) + list(np.array(all_neg_ids)[negs_sel])
 
-
             clf.fit(self.csr_mat[sample_ids], labels[sample_ids])
 
         elif pne:
-            start = time.time()
-
             train_dist = clf.decision_function(self.csr_mat[unlabeled_ids])
             pos_at = list(clf.classes_).index("yes")
             if pos_at:
                 train_dist = -train_dist
             unlabel_sel = np.argsort(train_dist)[::-1][:int(len(unlabeled_ids) / 2)]
             sample_ids = list(labeled_ids) + list(np.array(unlabeled_ids)[unlabel_sel])
-
 
             clf.fit(self.csr_mat[sample_ids], labels[sample_ids])
 

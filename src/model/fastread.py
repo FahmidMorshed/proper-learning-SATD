@@ -1,5 +1,6 @@
 from pandas.core.common import SettingWithCopyWarning
 from sklearn.metrics import confusion_matrix, classification_report
+from sklearn.model_selection import StratifiedShuffleSplit
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
@@ -12,6 +13,9 @@ import logging
 
 def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_limit=20, seed=0):
     logger = logging.getLogger(dataset_name)
+    print("True: " + str(dataset.true_count) + " | False: " + str(dataset.false_count))
+    logger.info("Total Yes: " + str(dataset.true_count) + " | Total No: " + str(dataset.false_count))
+
 
     stopat = float(stopat)                  # FAHID stop at recall
     starting = 5                            # FAHID Do random sampling until
@@ -73,21 +77,14 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
 
 # Baselines
 # Use SVM, predict the probability, then use Human reader to label, find the retrival curve
-def baseline_fastread(satdd, dataset_name, stopat=.95, error=None, step=10):
+def baseline_fastread(train_data, test_data, dataset_name, clf, stopat=.95, error=None, step=10):
     import warnings
     warnings.filterwarnings("ignore", category=SettingWithCopyWarning)
     logger = logging.getLogger(dataset_name)
 
-    test_data = satdd.create_and_process_dataset([dataset_name], doInclude=True)
-    train_data = satdd.create_and_process_dataset([dataset_name], doInclude=False)
-
-    train_data.set_csr_mat()
-    test_data.set_csr_mat(train_data.tfer)
-
     logger.info("Total Yes: " + str(test_data.true_count) + " | Total No: " + str(test_data.false_count))
 
     result_pd = pd.DataFrame()
-    clf = KNeighborsClassifier()#SVC(probability=True, random_state=0) #DecisionTreeClassifier(random_state=0)
 
     pred_proba(clf, test_data, train_data, result_pd, "svm")
 
@@ -164,3 +161,12 @@ def print_summary(df, dataset_name):
 
     # logger.info(dataset_name + " | Total: " + str(total) + " | Total Checked: " + str(total_checked) + " | Total Yes Data: "
     #       + str(total_yes) + " | Total Yes Checked: " + str(total_yes_checked))
+
+def divide_test_to_train(x, y, dataset_name):
+    sss = StratifiedShuffleSplit(n_splits=1, test_size=.2,
+                                 random_state=0)
+    for train_index, tune_index in sss.split(x, y):
+        x_train, x_test = x[train_index], x[tune_index]
+        y_train, y_test = y.iloc[train_index], y.iloc[tune_index]
+
+    return x_train, x_test, y_train, y_test
