@@ -20,7 +20,7 @@
 			Note: we do this last to allow explicitly imported classes
 			and packages to take priority.  This method will also throw an
 			error indicating ambiguity if it exists...
-		*/",no,undetermined,1,8
+		*/",no,undetermined,0,9
 12,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ edit() method,no,undetermined,0,9
 13,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 14,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* both have same visibility; just remove
@@ -129,7 +129,7 @@
 116,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 117,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ MARK_FOLLOWING,no,undetermined,0,9
 118,jEdit-4.2,WITHOUT_CLASSIFICATION,// can't create new instances,no,undetermined,0,9
-119,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make sure people don't do stupid things like putting files in /Volumes,no,undetermined,2,7
+119,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make sure people don't do stupid things like putting files in /Volumes,no,undetermined,0,9
 120,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ActionHandler class,no,undetermined,0,9
 121,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 122,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -162,7 +162,7 @@
 149,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ MyFocusTraversalPolicy class,no,undetermined,0,9
 150,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ PosBottomHalf class,no,undetermined,0,9
 151,jEdit-4.2,WITHOUT_CLASSIFICATION,// found an object and it's not an undefined variable,no,undetermined,0,9
-152,jEdit-4.2,WITHOUT_CLASSIFICATION,// used in insert(),no,undetermined,2,7
+152,jEdit-4.2,WITHOUT_CLASSIFICATION,// used in insert(),no,undetermined,1,8
 153,jEdit-4.2,WITHOUT_CLASSIFICATION,/* package-private */,no,undetermined,0,9
 154,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 155,jEdit-4.2,WITHOUT_CLASSIFICATION,// XXX,no,undetermined,3,6
@@ -181,7 +181,7 @@
 		 * However, the VFS browser and friends strip off trailing
 		 * path separators, for various reasons. So to work around
 		 * that, we add a '\' to drive letter paths on Windows.
-		 */",yes,undetermined,1,8
+		 */",yes,undetermined,0,9
 165,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ CompletionPopup constructor,no,undetermined,0,9
 166,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getHighlightedForeground() method,no,undetermined,0,9
 167,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -196,7 +196,7 @@
 175,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ activatePlugin() method,no,undetermined,0,9
 176,jEdit-4.2,WITHOUT_CLASSIFICATION,// Wait for pending I/O requests,no,undetermined,0,9
 177,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-178,jEdit-4.2,WITHOUT_CLASSIFICATION,// handle pathological case of zero-length match,no,undetermined,0,9
+178,jEdit-4.2,WITHOUT_CLASSIFICATION,// handle pathological case of zero-length match,no,undetermined,1,8
 179,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCompletions() method,no,undetermined,0,9
 180,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 181,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -240,7 +240,7 @@
 211,jEdit-4.2,DEFECT,"// This is not good... // need a way to update eval without re-installing... // so that we can re-eval params, etc. when classloader changes // look into this",yes,undetermined,1,8
 212,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 213,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ redo() method,no,undetermined,0,9
-214,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Some kind of 8-bit encoding with ""<?XML"" // 0x3c 0x3f 0x78 0x6d: UTF-8 or other 8-bit markup (read ENCODING)",no,undetermined,1,8
+214,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Some kind of 8-bit encoding with ""<?XML"" // 0x3c 0x3f 0x78 0x6d: UTF-8 or other 8-bit markup (read ENCODING)",no,undetermined,0,9
 215,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 216,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 217,jEdit-4.2,WITHOUT_CLASSIFICATION,// Internal entity.,no,undetermined,0,9
@@ -288,7 +288,7 @@
 256,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ insert() method,no,undetermined,0,9
 257,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMarker() method,no,undetermined,0,9
 258,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-259,jEdit-4.2,DESIGN,// Temporary hack to support inner classes  // If the obj is a non-static inner class then import the context... // This is not a sufficient emulation of inner classes. // Replace this later...,yes,undetermined,8,1
+259,jEdit-4.2,DESIGN,// Temporary hack to support inner classes  // If the obj is a non-static inner class then import the context... // This is not a sufficient emulation of inner classes. // Replace this later...,yes,undetermined,7,2
 260,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ sendVFSUpdate() method,no,undetermined,0,9
 261,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 262,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ hideSplashScreen() method,no,undetermined,0,9
@@ -317,11 +317,11 @@
 285,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 286,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 287,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isAncestorOf() method,no,undetermined,0,9
-288,jEdit-4.2,WITHOUT_CLASSIFICATION,// on by default,no,undetermined,0,9
+288,jEdit-4.2,WITHOUT_CLASSIFICATION,// on by default,no,undetermined,1,8
 289,jEdit-4.2,WITHOUT_CLASSIFICATION,// remember the most recent dockable,no,undetermined,1,8
 290,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 			Doing instanceof?  Next node is a type.
-		*/",no,undetermined,0,9
+		*/",no,undetermined,1,8
 291,jEdit-4.2,WITHOUT_CLASSIFICATION,// if user adds mode buffer-local property,no,undetermined,1,8
 292,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 293,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ activate() method,no,undetermined,0,9
@@ -353,7 +353,7 @@
 		overloaded forms of the methods or throw an exception subtype 
 		including the argument position back up, where the error message would
 		be compounded.
-	*/",no,undetermined,2,7
+	*/",no,undetermined,1,8
 313,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 314,jEdit-4.2,WITHOUT_CLASSIFICATION,"// this one only finds public (and in interfaces, etc.)",no,undetermined,1,8
 315,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -372,7 +372,7 @@
 328,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Some Java versions return the clipboard // contents using the native line separator, // so have to convert it here",no,undetermined,0,9
 329,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 330,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSelectionEnd() method,no,undetermined,0,9
-331,jEdit-4.2,WITHOUT_CLASSIFICATION,// Per Patrick Beard:,no,undetermined,0,9
+331,jEdit-4.2,WITHOUT_CLASSIFICATION,// Per Patrick Beard:,no,undetermined,1,8
 332,jEdit-4.2,WITHOUT_CLASSIFICATION,// never called,no,undetermined,0,9
 333,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 334,jEdit-4.2,WITHOUT_CLASSIFICATION,"// we expand those that are non-empty, and // remove those that are empty",no,undetermined,0,9
@@ -389,7 +389,7 @@
 345,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toggleRectangularSelectionEnabled() method,no,undetermined,0,9
 346,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 347,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ openFile() method,no,undetermined,0,9
-348,jEdit-4.2,WITHOUT_CLASSIFICATION,// send full range of events to avoid breaking plugins,no,undetermined,0,9
+348,jEdit-4.2,WITHOUT_CLASSIFICATION,// send full range of events to avoid breaking plugins,no,undetermined,1,8
 349,jEdit-4.2,WITHOUT_CLASSIFICATION,// Supply any defaulted attributes.,no,undetermined,0,9
 350,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 351,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -414,13 +414,13 @@
 367,jEdit-4.2,WITHOUT_CLASSIFICATION,// Generate code to call ClassGeneratorUtil to get our switch index  // and give us args...,no,undetermined,0,9
 368,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 369,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ FloatingWindowContainer constructor,no,undetermined,0,9
-370,jEdit-4.2,DEFECT,// Race condition here...,yes,undetermined,1,8
+370,jEdit-4.2,DEFECT,// Race condition here...,yes,undetermined,0,9
 371,jEdit-4.2,WITHOUT_CLASSIFICATION,// Note that the attribute has been // specified.,no,undetermined,0,9
 372,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 373,jEdit-4.2,WITHOUT_CLASSIFICATION,// Only show class decs in CLASSES,no,undetermined,0,9
 374,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-375,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Otherwise, we found a \n // that follows some other // character, hence we have // a Unix file",no,undetermined,1,8
-376,jEdit-4.2,WITHOUT_CLASSIFICATION,/*WIDE*/,no,undetermined,1,8
+375,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Otherwise, we found a \n // that follows some other // character, hence we have // a Unix file",no,undetermined,0,9
+376,jEdit-4.2,WITHOUT_CLASSIFICATION,/*WIDE*/,no,undetermined,0,9
 377,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Inner classes,no,undetermined,0,9
 378,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 379,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Fold mode */,no,undetermined,0,9
@@ -465,7 +465,7 @@
 418,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 419,jEdit-4.2,WITHOUT_CLASSIFICATION,// Stores prefix name in bindings hashtable,no,undetermined,0,9
 420,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-421,jEdit-4.2,WITHOUT_CLASSIFICATION,"// queue of undos. last is most recent, first is oldest",no,undetermined,0,9
+421,jEdit-4.2,WITHOUT_CLASSIFICATION,"// queue of undos. last is most recent, first is oldest",no,undetermined,1,8
 422,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
                 If idealMatch fits targetMatch and this is the first match 
 				or targetMatch is more specific than the best match, make it 
@@ -533,7 +533,7 @@
 475,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 476,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 477,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-478,jEdit-4.2,DESIGN,// fuck me dead,yes,undetermined,0,9
+478,jEdit-4.2,DESIGN,// fuck me dead,yes,undetermined,1,8
 479,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getRequestCount() method,no,undetermined,0,9
 480,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ remove() method,no,undetermined,0,9
 481,jEdit-4.2,WITHOUT_CLASSIFICATION,"//skip all white, PIs, and comments //if this doesn't throw an exception...",no,undetermined,0,9
@@ -552,7 +552,7 @@
 492,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ InstallPanel constructor,no,undetermined,0,9
 493,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getWrapGuideColor() method,no,undetermined,0,9
 494,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Class initializer,no,undetermined,0,9
-495,jEdit-4.2,WITHOUT_CLASSIFICATION,"// queue of redos. first is most recent, last is oldest",no,undetermined,0,9
+495,jEdit-4.2,WITHOUT_CLASSIFICATION,"// queue of redos. first is most recent, last is oldest",no,undetermined,1,8
 496,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ remove() method,no,undetermined,0,9
 497,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 498,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getIconForFile() method,no,undetermined,0,9
@@ -595,7 +595,7 @@
 534,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 535,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showPluginErrorDialog() method,no,undetermined,0,9
 536,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ 2. Check whether it is in the jEdit user settings jars folder:,no,undetermined,0,9
-537,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Some kind of 8-bit encoding without ""<?XML"" // (otherwise) UTF-8 without encoding/XML declaration",no,undetermined,2,7
+537,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Some kind of 8-bit encoding without ""<?XML"" // (otherwise) UTF-8 without encoding/XML declaration",no,undetermined,0,9
 538,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 539,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 540,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Inner classes,no,undetermined,0,9
@@ -636,7 +636,7 @@
 569,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 570,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Memory background color */,no,undetermined,0,9
 571,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-572,jEdit-4.2,DESIGN,// Null value is just a declaration // Note: we might want to keep any existing value here instead of reset,yes,undetermined,1,8
+572,jEdit-4.2,DESIGN,// Null value is just a declaration // Note: we might want to keep any existing value here instead of reset,yes,undetermined,0,9
 573,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 574,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paint() method,no,undetermined,0,9
 575,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -658,7 +658,7 @@
 591,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addEdit() method,no,undetermined,0,9
 592,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Inner classes,no,undetermined,0,9
 593,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ deleteToEndOfLine() method,no,undetermined,0,9
-594,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for bug #765507 // we don't type complete in save dialog // boxes. Press TAB to do an explicit // complete,no,undetermined,3,6
+594,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for bug #765507 // we don't type complete in save dialog // boxes. Press TAB to do an explicit // complete,no,undetermined,2,7
 595,jEdit-4.2,WITHOUT_CLASSIFICATION,// Precondition: pattern[index-1] == ':' // we will return pos of closing ']'.,no,undetermined,0,9
 596,jEdit-4.2,WITHOUT_CLASSIFICATION,/* exit does editor event & save */,no,undetermined,0,9
 597,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ foldHandlerChanged() method,no,undetermined,0,9
@@ -687,7 +687,7 @@
 618,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 619,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ parseBufferLocalProperties() method,no,undetermined,0,9
 620,jEdit-4.2,WITHOUT_CLASSIFICATION,// // Attributes //,no,undetermined,0,9
-621,jEdit-4.2,DESIGN,// this listener priority thing is a bad hack...,yes,undetermined,7,2
+621,jEdit-4.2,DESIGN,// this listener priority thing is a bad hack...,yes,undetermined,8,1
 622,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 623,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ updateEnabled() method,no,undetermined,0,9
 624,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBottomDockingArea() method,no,undetermined,0,9
@@ -719,7 +719,7 @@
 650,jEdit-4.2,WITHOUT_CLASSIFICATION,// value for end,no,undetermined,0,9
 651,jEdit-4.2,WITHOUT_CLASSIFICATION,// ignore and move on,no,undetermined,0,9
 652,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-653,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ Add to work thread queue...,no,undetermined,1,8
+653,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ Add to work thread queue...,no,undetermined,2,7
 654,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 655,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getDragAndDropCallback() method,no,undetermined,0,9
 656,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -780,7 +780,7 @@
 708,jEdit-4.2,WITHOUT_CLASSIFICATION,// pass along target error,no,undetermined,0,9
 709,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ sortDockables() method,no,undetermined,0,9
 710,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ mouseReleased() method,no,undetermined,0,9
-711,jEdit-4.2,WITHOUT_CLASSIFICATION,// get another line of chunks,no,undetermined,1,8
+711,jEdit-4.2,WITHOUT_CLASSIFICATION,// get another line of chunks,no,undetermined,0,9
 712,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 713,jEdit-4.2,WITHOUT_CLASSIFICATION,// // helper methods //,no,undetermined,0,9
 714,jEdit-4.2,WITHOUT_CLASSIFICATION,"// OK, the cheat didn't work; start over // and do it by the book.",no,undetermined,0,9
@@ -893,7 +893,7 @@
 819,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 820,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ quickIncrementalSearch() method,no,undetermined,0,9
 821,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* package-private since they are accessed by inner classes and we
-	 * want this to be fast */",no,undetermined,1,8
+	 * want this to be fast */",no,undetermined,0,9
 822,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 823,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 			Evaluate our prefix if it needs evaluating first.
@@ -996,13 +996,13 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 891,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Not found, fall through to next class",no,undetermined,0,9
 892,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 893,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-894,jEdit-4.2,WITHOUT_CLASSIFICATION,// the first element of pp is the abbrev itself,no,undetermined,0,9
+894,jEdit-4.2,WITHOUT_CLASSIFICATION,// the first element of pp is the abbrev itself,no,undetermined,1,8
 895,jEdit-4.2,WITHOUT_CLASSIFICATION,"// in case macro file name has a space in it. // spaces break the view.toolBar property, for instance, // since it uses spaces to delimit action names.",no,undetermined,0,9
 896,jEdit-4.2,WITHOUT_CLASSIFICATION,//current.addSeparator();,no,undetermined,0,9
 897,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 898,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Remove constructor,no,undetermined,0,9
 899,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-900,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if one line's chunks are invalid, remaining lines are also // invalid",no,undetermined,1,8
+900,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if one line's chunks are invalid, remaining lines are also // invalid",no,undetermined,0,9
 901,jEdit-4.2,WITHOUT_CLASSIFICATION,//setColumnSelectionAllowed(true); //setCellSelectionEnabled(false);,no,undetermined,0,9
 902,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 903,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BrowserColorsModel class,no,undetermined,0,9
@@ -1108,7 +1108,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 998,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 999,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1000,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1001,jEdit-4.2,DESIGN,// XXX: This should not be hardcoded,yes,undetermined,4,5
+1001,jEdit-4.2,DESIGN,// XXX: This should not be hardcoded,yes,undetermined,5,4
 1002,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ charData() method,no,undetermined,0,9
 1003,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 1004,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -1116,10 +1116,10 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1006,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1007,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1008,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DummyRenderer class,no,undetermined,0,9
-1009,jEdit-4.2,WITHOUT_CLASSIFICATION,// Stop when we hit a null index.,no,undetermined,0,9
+1009,jEdit-4.2,WITHOUT_CLASSIFICATION,// Stop when we hit a null index.,no,undetermined,1,8
 1010,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ EnhancedMenu constructor,no,undetermined,0,9
 1011,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ selectBlock() method,no,undetermined,0,9
-1012,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Once save is complete, do a few other things",no,undetermined,1,8
+1012,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Once save is complete, do a few other things",no,undetermined,0,9
 1013,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 1014,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getRowCount() method,no,undetermined,0,9
 1015,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ show() method,no,undetermined,0,9
@@ -1176,7 +1176,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			Try imported packages, e.g. ""import foo.bar.*;""
 			in reverse order of import...
 			(give later imports precedence...)
-		*/",no,undetermined,1,8
+		*/",no,undetermined,0,9
 1066,jEdit-4.2,WITHOUT_CLASSIFICATION,// no need to lock since this just returns a value and that's it,no,undetermined,0,9
 1067,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1068,jEdit-4.2,WITHOUT_CLASSIFICATION,// bsh.system,no,undetermined,0,9
@@ -1198,7 +1198,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1077,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1078,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ 3. Check whether it is in jEdit's system jars folder:,no,undetermined,0,9
 1079,jEdit-4.2,WITHOUT_CLASSIFICATION,"//Log.log(Log.ERROR,this,io);",no,undetermined,0,9
-1080,jEdit-4.2,WITHOUT_CLASSIFICATION,// don't have chunks longer than 100 characters to avoid slowing things down,no,undetermined,1,8
+1080,jEdit-4.2,WITHOUT_CLASSIFICATION,// don't have chunks longer than 100 characters to avoid slowing things down,no,undetermined,0,9
 1081,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Path name methods,no,undetermined,0,9
 1082,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1083,jEdit-4.2,WITHOUT_CLASSIFICATION,"// -------------------------------------------------------------------------- // Fields for the control flow graph analysis algorithm (used to compute the // maximum stack size). A control flow graph contains one node per ""basic // block"", and one edge per ""jump"" from one basic block to another. Each node // (i.e., each basic block) is represented by the Label object that // corresponds to the first instruction of this basic block. Each node also // stores the list of it successors in the graph, as a linked list of Edge // objects. // --------------------------------------------------------------------------",no,undetermined,1,8
@@ -1242,7 +1242,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1112,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1113,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ loadPopupMenu() method,no,undetermined,0,9
 1114,jEdit-4.2,WITHOUT_CLASSIFICATION,// arithmetic,no,undetermined,0,9
-1115,jEdit-4.2,DESIGN,"// I don't know of any other way to fix this, since invoking this // command from a menu results in the focus owner being the menu // until the menu goes away.",yes,undetermined,3,6
+1115,jEdit-4.2,DESIGN,"// I don't know of any other way to fix this, since invoking this // command from a menu results in the focus owner being the menu // until the menu goes away.",yes,undetermined,2,7
 1116,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1117,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getStart() method,no,undetermined,0,9
 1118,jEdit-4.2,WITHOUT_CLASSIFICATION,// lazy instantiation,no,undetermined,0,9
@@ -1255,7 +1255,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1125,jEdit-4.2,WITHOUT_CLASSIFICATION,// remember that this class doesn't exist for // future reference,no,undetermined,1,8
 1126,jEdit-4.2,WITHOUT_CLASSIFICATION,// Read the attribute type.,no,undetermined,0,9
 1127,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getProperty() method,no,undetermined,0,9
-1128,jEdit-4.2,DESIGN,"// this is a hack, and really needs to be done better.",yes,undetermined,8,1
+1128,jEdit-4.2,DESIGN,"// this is a hack, and really needs to be done better.",yes,undetermined,9,0
 1129,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1130,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1131,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ parseColor() method,no,undetermined,0,9
@@ -1329,10 +1329,10 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1194,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ split() method,no,undetermined,1,8
 1195,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1196,jEdit-4.2,WITHOUT_CLASSIFICATION,// skip throws,no,undetermined,0,9
-1197,jEdit-4.2,WITHOUT_CLASSIFICATION,// \t handled above,no,undetermined,2,7
+1197,jEdit-4.2,WITHOUT_CLASSIFICATION,// \t handled above,no,undetermined,1,8
 1198,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ updateEnabled() method,no,undetermined,0,9
 1199,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ok() method,no,undetermined,0,9
-1200,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ the character under the cursor changes how we behave.,no,undetermined,0,9
+1200,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ the character under the cursor changes how we behave.,no,undetermined,1,8
 1201,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getTreeModel() method,no,undetermined,0,9
 1202,jEdit-4.2,WITHOUT_CLASSIFICATION,// Wait for the buffer to load,no,undetermined,0,9
 1203,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showClipText() method,no,undetermined,0,9
@@ -1406,7 +1406,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1271,jEdit-4.2,WITHOUT_CLASSIFICATION,/* do nothing */,no,undetermined,0,9
 1272,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getNameSpace() method,no,undetermined,0,9
 1273,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1274,jEdit-4.2,WITHOUT_CLASSIFICATION,"// I guess ideally all browsers // should have views, but since they // don't, we just use the active view // in that case, since some actions // depend on a view being there and // I don't want to add checks to // them all",no,undetermined,1,8
+1274,jEdit-4.2,WITHOUT_CLASSIFICATION,"// I guess ideally all browsers // should have views, but since they // don't, we just use the active view // in that case, since some actions // depend on a view being there and // I don't want to add checks to // them all",no,undetermined,0,9
 1275,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ save() method,no,undetermined,0,9
 1276,jEdit-4.2,WITHOUT_CLASSIFICATION,"// adds a new (u, insert) entry in the allIndexes and allSizes arrays",no,undetermined,0,9
 1277,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Number of lines read. Every 100 lines, we update the // progress bar",no,undetermined,0,9
@@ -1432,7 +1432,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1292,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1293,jEdit-4.2,WITHOUT_CLASSIFICATION,// we're removing from before // the first visible to after // the last visible,no,undetermined,0,9
 1294,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Both primitives, do primitive cast",no,undetermined,0,9
-1295,jEdit-4.2,WITHOUT_CLASSIFICATION,"// // Stack of entity names, to help detect recursion. //",no,undetermined,0,9
+1295,jEdit-4.2,WITHOUT_CLASSIFICATION,"// // Stack of entity names, to help detect recursion. //",no,undetermined,1,8
 1296,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1297,jEdit-4.2,WITHOUT_CLASSIFICATION,// jump offset // GOTO_W,no,undetermined,0,9
 1298,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -1585,7 +1585,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1440,jEdit-4.2,WITHOUT_CLASSIFICATION,// nodes remember from where they were sourced,no,undetermined,0,9
 1441,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setScreenLineCount() method,no,undetermined,0,9
 1442,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ copy() method,no,undetermined,0,9
-1443,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ the character under the cursor changes how we behave.,no,undetermined,0,9
+1443,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ the character under the cursor changes how we behave.,no,undetermined,1,8
 1444,jEdit-4.2,WITHOUT_CLASSIFICATION,// only select other whitespace in this case,no,undetermined,0,9
 1445,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ PluginsMenuButton constructor,no,undetermined,0,9
 1446,jEdit-4.2,WITHOUT_CLASSIFICATION,/*onlyStatic*/,no,undetermined,0,9
@@ -1630,7 +1630,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 		a per interpreter basis, in which case we'll need to use the parent 
 		reference in some way to determine the scope of the command that 
 		turns it on or off.
-	*/",yes,undetermined,1,8
+	*/",yes,undetermined,0,9
 1473,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1474,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1475,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
@@ -1671,7 +1671,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			still works through the chain, but the block's child cleans the 
 			state between iteration.  
 			(which is correct Java behavior... see forscope4.bsh)
-		*/",no,undetermined,1,8
+		*/",no,undetermined,0,9
 1498,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ mouseMoved() method,no,undetermined,0,9
 1499,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1500,jEdit-4.2,WITHOUT_CLASSIFICATION,// Method body can only use 'return' statment type return control.,no,undetermined,0,9
@@ -1710,11 +1710,11 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1533,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ old API,no,undetermined,0,9
 1534,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1535,jEdit-4.2,WITHOUT_CLASSIFICATION,/*modifiers*/,no,undetermined,0,9
-1536,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Yes, it is.",no,undetermined,1,8
+1536,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Yes, it is.",no,undetermined,0,9
 1537,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ undo() method,no,undetermined,0,9
 1538,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ InputPane class,no,undetermined,0,9
 1539,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1540,jEdit-4.2,WITHOUT_CLASSIFICATION,// not a comment // subexpression,no,undetermined,0,9
+1540,jEdit-4.2,WITHOUT_CLASSIFICATION,// not a comment // subexpression,no,undetermined,1,8
 1541,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _init() method,no,undetermined,0,9
 1542,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 1543,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* 
@@ -1856,7 +1856,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1668,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1669,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1670,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1671,jEdit-4.2,DESIGN,// stupid: caret will automatically be incremented,yes,undetermined,1,8
+1671,jEdit-4.2,DESIGN,// stupid: caret will automatically be incremented,yes,undetermined,0,9
 1672,jEdit-4.2,WITHOUT_CLASSIFICATION,// Give the instance space its object import,no,undetermined,0,9
 1673,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _mkdir() method,no,undetermined,0,9
 1674,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -1923,7 +1923,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1733,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ readNextChar() method,no,undetermined,0,9
 1734,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ deactivate() method,no,undetermined,0,9
 1735,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1736,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If we read a \r and // lastWasCR is also true, // it is probably a Mac file // (\r\r in stream)",no,undetermined,1,8
+1736,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If we read a \r and // lastWasCR is also true, // it is probably a Mac file // (\r\r in stream)",no,undetermined,2,7
 1737,jEdit-4.2,WITHOUT_CLASSIFICATION,// Pass 3: layout components,no,undetermined,0,9
 1738,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ version() method,no,undetermined,0,9
 1739,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -1974,7 +1974,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1776,jEdit-4.2,DESIGN,"/*
 		Note: We will ll move this behavior out to a subclass of 
 		NameSpace, but we'll start here.
-	*/",yes,undetermined,1,8
+	*/",yes,undetermined,0,9
 1777,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showPopupMenu() method,no,undetermined,0,9
 1778,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1779,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
@@ -1990,7 +1990,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1789,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1790,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSettingsDirectory() method,no,undetermined,0,9
 1791,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1792,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that we don't try to reset() right away,no,undetermined,1,8
+1792,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that we don't try to reset() right away,no,undetermined,0,9
 1793,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ remove() method,no,undetermined,0,9
 1794,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ undo() method,no,undetermined,0,9
 1795,jEdit-4.2,DESIGN,// is this right?,yes,undetermined,0,9
@@ -2014,7 +2014,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1811,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setDirectory() method,no,undetermined,0,9
 1812,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _createOutputStream() method,no,undetermined,0,9
 1813,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1814,jEdit-4.2,WITHOUT_CLASSIFICATION,"// save the callstack including the called method, just for error mess",no,undetermined,0,9
+1814,jEdit-4.2,WITHOUT_CLASSIFICATION,"// save the callstack including the called method, just for error mess",no,undetermined,1,8
 1815,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1816,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1817,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2038,7 +2038,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1835,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Show tip of the day */,no,undetermined,0,9
 1836,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ UrlVFS constructor,no,undetermined,0,9
 1837,jEdit-4.2,WITHOUT_CLASSIFICATION,// Get the type by constructing a prototype array with // arbitrary (zero) length in each dimension. // int array default zeros,no,undetermined,0,9
-1838,jEdit-4.2,WITHOUT_CLASSIFICATION,// like TABL_INSN,no,undetermined,1,8
+1838,jEdit-4.2,WITHOUT_CLASSIFICATION,// like TABL_INSN,no,undetermined,0,9
 1839,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1840,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMinimumSize() method,no,undetermined,0,9
 1841,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getEntryWidth() method,no,undetermined,0,9
@@ -2077,7 +2077,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1874,jEdit-4.2,WITHOUT_CLASSIFICATION,// Are we choosing ourselves recursively through a this() reference?,no,undetermined,0,9
 1875,jEdit-4.2,WITHOUT_CLASSIFICATION,"// ""var"" means untyped, return null class",no,undetermined,0,9
 1876,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-1877,jEdit-4.2,WITHOUT_CLASSIFICATION,// avoid a race condition // see bug #834338,no,undetermined,3,6
+1877,jEdit-4.2,WITHOUT_CLASSIFICATION,// avoid a race condition // see bug #834338,no,undetermined,1,8
 1878,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ removePluginProps() method,no,undetermined,0,9
 1879,jEdit-4.2,WITHOUT_CLASSIFICATION,// position in newline,no,undetermined,0,9
 1880,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2128,7 +2128,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
     * [49] stoks ::= cps (',' cps)*
     * *NOTE: the opening '(' and S have already been read.
     * *TODO: go over parameter entity boundaries more carefully.
-    */",yes,undetermined,8,1
+    */",yes,undetermined,9,0
 1908,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1909,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 1910,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2183,7 +2183,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 1959,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ cancel() method,no,undetermined,0,9
 1960,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* EnhancedMenu has a reference to EditBusStub, but not the other
 	 * way around. So when the EnhancedMenu is being garbage collected
-	 * its finalize() method removes the EditBusStub from the edit bus. */",no,undetermined,0,9
+	 * its finalize() method removes the EditBusStub from the edit bus. */",no,undetermined,1,8
 1961,jEdit-4.2,WITHOUT_CLASSIFICATION,// End constructors,no,undetermined,0,9
 1962,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ VFS constructor,no,undetermined,0,9
 1963,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSubregionStartOffset() method,no,undetermined,0,9
@@ -2246,7 +2246,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2017,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DockPositionCellRenderer class,no,undetermined,0,9
 2018,jEdit-4.2,WITHOUT_CLASSIFICATION,"// computes the stack size variation. In order not to recompute several // times this variation for the same Item, we use the intVal field of // this item to store this variation, once it has been computed. More // precisely this intVal field stores the sizes of the arguments and of // the return value corresponding to desc.",no,undetermined,0,9
 2019,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getIgnoreCase() method,no,undetermined,0,9
-2020,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,1,8
+2020,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,0,9
 2021,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2022,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2023,jEdit-4.2,WITHOUT_CLASSIFICATION,//  ---- BeanShell specific stuff hereafter ----  //,no,undetermined,0,9
@@ -2266,7 +2266,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2037,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 2038,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ startElement() method,no,undetermined,0,9
 2039,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ textAreaDisposed() method,no,undetermined,0,9
-2040,jEdit-4.2,DEFECT,// Don't generate private or loosely typed fields // Note: loose types aren't currently parsed anyway...,yes,undetermined,1,8
+2040,jEdit-4.2,DEFECT,// Don't generate private or loosely typed fields // Note: loose types aren't currently parsed anyway...,yes,undetermined,0,9
 2041,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2042,jEdit-4.2,WITHOUT_CLASSIFICATION,// this notifies each display manager editing this // buffer of the screen line count change,no,undetermined,0,9
 2043,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2333,7 +2333,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2100,jEdit-4.2,WITHOUT_CLASSIFICATION,// if found as imported also cache it,no,undetermined,0,9
 2101,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getToolTipText() method,no,undetermined,0,9
 2102,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2103,jEdit-4.2,WITHOUT_CLASSIFICATION,"// impl note: since multiple searches now allowed, // extra level in hierarchy",no,undetermined,1,8
+2103,jEdit-4.2,WITHOUT_CLASSIFICATION,"// impl note: since multiple searches now allowed, // extra level in hierarchy",no,undetermined,0,9
 2104,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2105,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ endElement() method,no,undetermined,0,9
 2106,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2365,7 +2365,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2132,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
     * Ordinals for various reasons why an Error of this type can be thrown.
     */",no,undetermined,2,7
-2133,jEdit-4.2,WITHOUT_CLASSIFICATION,// Check for entity recursion.,no,undetermined,0,9
+2133,jEdit-4.2,WITHOUT_CLASSIFICATION,// Check for entity recursion.,no,undetermined,1,8
 2134,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getToolTipLocation() method,no,undetermined,0,9
 2135,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2136,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ remove() method,no,undetermined,0,9
@@ -2456,7 +2456,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2216,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getName() method,no,undetermined,0,9
 2217,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Line numbering */,no,undetermined,0,9
 2218,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2219,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If multiple threads log stuff, we don't want // the output to get mixed up",no,undetermined,1,8
+2219,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If multiple threads log stuff, we don't want // the output to get mixed up",no,undetermined,0,9
 2220,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isCellEditable() method,no,undetermined,0,9
 2221,jEdit-4.2,WITHOUT_CLASSIFICATION,// This is i+1 to take the // trailing \n into account,no,undetermined,0,9
 2222,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isX11() method,no,undetermined,0,9
@@ -2473,7 +2473,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2233,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2234,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2235,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ indexStream() method,no,undetermined,0,9
-2236,jEdit-4.2,WITHOUT_CLASSIFICATION,// ignore last character of path to properly handle // paths like /foo/bar/,no,undetermined,1,8
+2236,jEdit-4.2,WITHOUT_CLASSIFICATION,// ignore last character of path to properly handle // paths like /foo/bar/,no,undetermined,0,9
 2237,jEdit-4.2,WITHOUT_CLASSIFICATION,/*@bgen(jjtree) ReturnStatement */,no,undetermined,0,9
 2238,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2239,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ redo() method,no,undetermined,0,9
@@ -2544,7 +2544,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2297,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2298,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2299,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getOperation() method,no,undetermined,0,9
-2300,jEdit-4.2,WITHOUT_CLASSIFICATION,// REMIND: calling isDirectory() on a floppy drive // displays stupid I/O error dialog box on Windows,no,undetermined,2,7
+2300,jEdit-4.2,WITHOUT_CLASSIFICATION,// REMIND: calling isDirectory() on a floppy drive // displays stupid I/O error dialog box on Windows,no,undetermined,1,8
 2301,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ init() method,no,undetermined,0,9
 2302,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2303,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2592,7 +2592,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2342,jEdit-4.2,WITHOUT_CLASSIFICATION,// draw |_,no,undetermined,0,9
 2343,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2344,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ok() method,no,undetermined,0,9
-2345,jEdit-4.2,WITHOUT_CLASSIFICATION,// number of times eval hit 'this.caller',no,undetermined,0,9
+2345,jEdit-4.2,WITHOUT_CLASSIFICATION,// number of times eval hit 'this.caller',no,undetermined,1,8
 2346,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2347,jEdit-4.2,WITHOUT_CLASSIFICATION,// Read an XML or text declaration.,no,undetermined,0,9
 2348,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ registerFoldHandler() method,no,undetermined,0,9
@@ -2654,7 +2654,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2401,jEdit-4.2,WITHOUT_CLASSIFICATION,// Generate code to invoke the ClassGeneratorUtil initInstance() method,no,undetermined,0,9
 2402,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Install location */,no,undetermined,0,9
 2403,jEdit-4.2,WITHOUT_CLASSIFICATION,// value error shouldn't happen,no,undetermined,0,9
-2404,jEdit-4.2,DEFECT,// this seems to make nested readLock() calls work okay. // but I have no idea if it actually fixes things or not.,yes,undetermined,2,7
+2404,jEdit-4.2,DEFECT,// this seems to make nested readLock() calls work okay. // but I have no idea if it actually fixes things or not.,yes,undetermined,1,8
 2405,jEdit-4.2,WITHOUT_CLASSIFICATION,/* I assume that there can be only one drag operation at the time */,no,undetermined,0,9
 2406,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ClearTypeSelect class,no,undetermined,0,9
 2407,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2693,7 +2693,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2440,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2441,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setCurrentLineHighlightEnabled() method,no,undetermined,0,9
 2442,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2443,jEdit-4.2,DESIGN,"// the sooner ppl move to the new api, the less we'll need // crap like this",yes,undetermined,2,7
+2443,jEdit-4.2,DESIGN,"// the sooner ppl move to the new api, the less we'll need // crap like this",yes,undetermined,0,9
 2444,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2445,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Message types,no,undetermined,0,9
 2446,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ clear() method,no,undetermined,0,9
@@ -2714,7 +2714,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2461,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2462,jEdit-4.2,WITHOUT_CLASSIFICATION,// compact the Vector,no,undetermined,0,9
 2463,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2464,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for the bug where key events in JTextComponents // inside views are also handled by the input handler,no,undetermined,4,5
+2464,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for the bug where key events in JTextComponents // inside views are also handled by the input handler,no,undetermined,3,6
 2465,jEdit-4.2,WITHOUT_CLASSIFICATION,// beep if beep property set,no,undetermined,0,9
 2466,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2467,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2726,7 +2726,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2473,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
                  * Calculate the cost of this group as coded
                  * by each of the coding tables.
-                 */",no,undetermined,1,8
+                 */",no,undetermined,0,9
 2474,jEdit-4.2,DESIGN,// undocumented hack to allow browser actions to work. // XXX - clean up in 4.3,yes,undetermined,8,1
 2475,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 2476,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* if backup file was created less than
@@ -2786,7 +2786,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2527,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ LabelRenderer class,no,undetermined,0,9
 2528,jEdit-4.2,DESIGN,"// should the next two be public, maybe?",yes,undetermined,1,8
 2529,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ message() method,no,undetermined,0,9
-2530,jEdit-4.2,WITHOUT_CLASSIFICATION,// check for easy mistake,no,undetermined,1,8
+2530,jEdit-4.2,WITHOUT_CLASSIFICATION,// check for easy mistake,no,undetermined,0,9
 2531,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BufferChangeHandler class,no,undetermined,0,9
 2532,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2533,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2823,7 +2823,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2564,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ scrollDown() method,no,undetermined,0,9
 2565,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2566,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ hashCode() method,no,undetermined,0,9
-2567,jEdit-4.2,WITHOUT_CLASSIFICATION,// Only backup once per session,no,undetermined,0,9
+2567,jEdit-4.2,WITHOUT_CLASSIFICATION,// Only backup once per session,no,undetermined,1,8
 2568,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ backupSettingsFile() method,no,undetermined,0,9
 2569,jEdit-4.2,WITHOUT_CLASSIFICATION,// clean up old listeners,no,undetermined,0,9
 2570,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ensurePhysicalLineIsVisible() method,no,undetermined,0,9
@@ -2873,7 +2873,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			 * 'backupTimeDistance' ago, we do not
 			 * create the backup */",no,undetermined,0,9
 2614,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2615,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise it will be delivered later */,no,undetermined,0,9
+2615,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise it will be delivered later */,no,undetermined,1,8
 2616,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2617,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DummyFoldHandler constructor,no,undetermined,0,9
 2618,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2924,7 +2924,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2656,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ scrollRectToVisible() method,no,undetermined,0,9
 2657,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2658,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if auto wrap is on, always restart search. // if auto wrap is off, and we're called from // a macro, stop search. If we're called // interactively, ask the user what to do.",no,undetermined,0,9
-2659,jEdit-4.2,WITHOUT_CLASSIFICATION,// do the same on OS X,no,undetermined,1,8
+2659,jEdit-4.2,WITHOUT_CLASSIFICATION,// do the same on OS X,no,undetermined,0,9
 2660,jEdit-4.2,WITHOUT_CLASSIFICATION,// not supported by Java...,no,undetermined,0,9
 2661,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 2662,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -2940,7 +2940,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2672,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2673,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMarkers() method,no,undetermined,0,9
 2674,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2675,jEdit-4.2,DESIGN,// This could be smarter...,yes,undetermined,0,9
+2675,jEdit-4.2,DESIGN,// This could be smarter...,yes,undetermined,1,8
 2676,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2677,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2678,jEdit-4.2,DESIGN,// Why both of these?,yes,undetermined,2,7
@@ -2953,7 +2953,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2685,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ save() method,no,undetermined,0,9
 2686,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2687,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2688,jEdit-4.2,DESIGN,"// Perhaps if Xerces wasn't slightly brain-damaged, we would // not need this",yes,undetermined,2,7
+2688,jEdit-4.2,DESIGN,"// Perhaps if Xerces wasn't slightly brain-damaged, we would // not need this",yes,undetermined,1,8
 2689,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2690,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2691,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -3044,7 +3044,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2774,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2775,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCode() method,no,undetermined,0,9
 2776,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2777,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Set up some instance variables // this is to avoid having to pass around lots and lots of // parameters.,no,undetermined,0,9
+2777,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Set up some instance variables // this is to avoid having to pass around lots and lots of // parameters.,no,undetermined,1,8
 2778,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setValue() method,no,undetermined,0,9
 2779,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ handleNoWordBreak() method,no,undetermined,0,9
 2780,jEdit-4.2,WITHOUT_CLASSIFICATION,/* fall through */,no,undetermined,0,9
@@ -3127,7 +3127,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2849,jEdit-4.2,WITHOUT_CLASSIFICATION,// UNMATCHED RIGHT PAREN // ) or \) throw exception if // !syntax.get(RESyntax.RE_UNMATCHED_RIGHT_PAREN_ORD),no,undetermined,0,9
 2850,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ loadIcon() method,no,undetermined,0,9
 2851,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ MouseListener...,no,undetermined,0,9
-2852,jEdit-4.2,WITHOUT_CLASSIFICATION,// The canonical file name is also absolute. // No need for getAbsolutePath() here...,no,undetermined,1,8
+2852,jEdit-4.2,WITHOUT_CLASSIFICATION,// The canonical file name is also absolute. // No need for getAbsolutePath() here...,no,undetermined,0,9
 2853,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2854,jEdit-4.2,WITHOUT_CLASSIFICATION,"// 3 = loop again, 2 = loop ended, 1 = last pass, 0 = done",no,undetermined,0,9
 2855,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Encoding */,no,undetermined,0,9
@@ -3175,7 +3175,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2894,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2895,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ok() method,no,undetermined,0,9
 2896,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ mousePressed() method,no,undetermined,0,9
-2897,jEdit-4.2,WITHOUT_CLASSIFICATION,// see what JARClassLoader this class is in,no,undetermined,1,8
+2897,jEdit-4.2,WITHOUT_CLASSIFICATION,// see what JARClassLoader this class is in,no,undetermined,2,7
 2898,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2899,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ exit() method,no,undetermined,0,9
 2900,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -3199,7 +3199,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 		Apparently in some environments you can't catch the security exception
 		at all...  e.g. as an applet in IE  ... will probably have to work 
 		around 
-	*/",yes,undetermined,1,8
+	*/",yes,undetermined,2,7
 2918,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2919,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSubregionOfOffset() method,no,undetermined,0,9
 2920,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCode() method,no,undetermined,0,9
@@ -3229,7 +3229,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2944,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getToolTipText() method,no,undetermined,0,9
 2945,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ goToPrevFold() method,no,undetermined,0,9
 2946,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-2947,jEdit-4.2,WITHOUT_CLASSIFICATION,// install user-selected packages,no,undetermined,1,8
+2947,jEdit-4.2,WITHOUT_CLASSIFICATION,// install user-selected packages,no,undetermined,0,9
 2948,jEdit-4.2,WITHOUT_CLASSIFICATION,/*interfaces*/,no,undetermined,0,9
 2949,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2950,jEdit-4.2,WITHOUT_CLASSIFICATION,// set proxy host,no,undetermined,0,9
@@ -3270,7 +3270,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 2982,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 		Get variables declared in this namespace.
 	*/",no,undetermined,0,9
-2983,jEdit-4.2,WITHOUT_CLASSIFICATION,// while more labels or blocks and haven't hit return control,no,undetermined,0,9
+2983,jEdit-4.2,WITHOUT_CLASSIFICATION,// while more labels or blocks and haven't hit return control,no,undetermined,1,8
 2984,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Start with a little cheat -- in most // cases, the entire sequence of // character data will already be in // the readBuffer; if not, fall through to // the normal approach.",no,undetermined,0,9
 2985,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 2986,jEdit-4.2,WITHOUT_CLASSIFICATION,// // Base external identifiers for resolution. //,no,undetermined,0,9
@@ -3317,7 +3317,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3027,jEdit-4.2,WITHOUT_CLASSIFICATION,// Number of subexpressions in this token.,no,undetermined,0,9
 3028,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ FirewallOptionPane constructor,no,undetermined,0,9
 3029,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ RolloverButton constructor,no,undetermined,0,9
-3030,jEdit-4.2,WITHOUT_CLASSIFICATION,// we have to deal with a huge range of possible border cases here.,no,undetermined,1,8
+3030,jEdit-4.2,WITHOUT_CLASSIFICATION,// we have to deal with a huge range of possible border cases here.,no,undetermined,0,9
 3031,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3032,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3033,jEdit-4.2,WITHOUT_CLASSIFICATION,"// we didn't have a component previously, so // create a border",no,undetermined,0,9
@@ -3444,7 +3444,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3138,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ loadServices() method,no,undetermined,0,9
 3139,jEdit-4.2,WITHOUT_CLASSIFICATION,/*@bgen(jjtree) PackageDeclaration */,no,undetermined,0,9
 3140,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ handleRule() method,no,undetermined,0,9
-3141,jEdit-4.2,WITHOUT_CLASSIFICATION,// otherwise a bunch of consecutive C+d's would be merged // into one edit,no,undetermined,1,8
+3141,jEdit-4.2,WITHOUT_CLASSIFICATION,// otherwise a bunch of consecutive C+d's would be merged // into one edit,no,undetermined,2,7
 3142,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 3143,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3144,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -3550,7 +3550,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3241,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 			We jump through some hoops here to handle arbitrary cases like
 			unset(""bsh.foo"");
-		*/",no,undetermined,1,8
+		*/",no,undetermined,0,9
 3242,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Rect class,no,undetermined,0,9
 3243,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3244,jEdit-4.2,WITHOUT_CLASSIFICATION,"// else did not match rest of the tokens, try again on smaller sample",no,undetermined,1,8
@@ -3605,7 +3605,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3293,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3294,jEdit-4.2,WITHOUT_CLASSIFICATION,// handled target,no,undetermined,1,8
 3295,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-3296,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if no requests are running, requestDone() // will not be called, so we must queue the // AWT runner ourselves.",no,undetermined,0,9
+3296,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if no requests are running, requestDone() // will not be called, so we must queue the // AWT runner ourselves.",no,undetermined,1,8
 3297,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3298,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3299,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ MenuItemCompare class,no,undetermined,0,9
@@ -3675,7 +3675,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			 * Echidna, etc) */",no,undetermined,1,8
 3359,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Setup panes */,no,undetermined,0,9
 3360,jEdit-4.2,WITHOUT_CLASSIFICATION,// Read the element type name.,no,undetermined,0,9
-3361,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,1,8
+3361,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,0,9
 3362,jEdit-4.2,WITHOUT_CLASSIFICATION,// Package scope constructor is used by RE.getMatchEnumeration(),no,undetermined,0,9
 3363,jEdit-4.2,WITHOUT_CLASSIFICATION,/*eof*/,no,undetermined,0,9
 3364,jEdit-4.2,WITHOUT_CLASSIFICATION,//initCallStack( namespace );,no,undetermined,0,9
@@ -3806,7 +3806,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3487,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ maybeReloadDirectory() method,no,undetermined,0,9
 3488,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3489,jEdit-4.2,WITHOUT_CLASSIFICATION,// get next character,no,undetermined,0,9
-3490,jEdit-4.2,WITHOUT_CLASSIFICATION,// just scroll to the dragged location,no,undetermined,1,8
+3490,jEdit-4.2,WITHOUT_CLASSIFICATION,// just scroll to the dragged location,no,undetermined,0,9
 3491,jEdit-4.2,WITHOUT_CLASSIFICATION,// Read the character,no,undetermined,0,9
 3492,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3493,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -3946,7 +3946,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3618,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3619,jEdit-4.2,WITHOUT_CLASSIFICATION,// -------------------------------------------------------------------------- // Constructor // --------------------------------------------------------------------------,no,undetermined,0,9
 3620,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Save caret positions */,no,undetermined,0,9
-3621,jEdit-4.2,WITHOUT_CLASSIFICATION,// Class qualified 'this' reference from inner class. // e.g. 'MyOuterClass.this',no,undetermined,1,8
+3621,jEdit-4.2,WITHOUT_CLASSIFICATION,// Class qualified 'this' reference from inner class. // e.g. 'MyOuterClass.this',no,undetermined,0,9
 3622,jEdit-4.2,WITHOUT_CLASSIFICATION,"// user pressed enter when the vfs table or // file name field has focus, with nothing // selected.",no,undetermined,0,9
 3623,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3624,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -3955,14 +3955,14 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3627,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ spacesToTabs() method,no,undetermined,0,9
 3628,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3629,jEdit-4.2,WITHOUT_CLASSIFICATION,// bad postURL,no,undetermined,0,9
-3630,jEdit-4.2,DESIGN,// broken Eclipse workaround! // 24 Febuary 2004,yes,undetermined,8,1
+3630,jEdit-4.2,DESIGN,// broken Eclipse workaround! // 24 Febuary 2004,yes,undetermined,7,2
 3631,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getValueAt() method,no,undetermined,0,9
 3632,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}} //}}},no,undetermined,0,9
 3633,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getStructureHighlightColor() method,no,undetermined,0,9
 3634,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3635,jEdit-4.2,DEFECT,// Fix for this bug: // -- Put a mode into the user dir with the same name as one //    on the system dir. // -- Reload edit modes. // -- Old mode from system dir still used for highlighting //    until jEdit restart.,yes,undetermined,2,7
 3636,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-3637,jEdit-4.2,DEFECT,"// BUG: if there are multiple selections in different // contexts, the wrong comment strings will be inserted.",yes,undetermined,2,7
+3637,jEdit-4.2,DEFECT,"// BUG: if there are multiple selections in different // contexts, the wrong comment strings will be inserted.",yes,undetermined,1,8
 3638,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3639,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createEncodingMenu() method,no,undetermined,0,9
 3640,jEdit-4.2,WITHOUT_CLASSIFICATION,// Generate the static bsh static reference holder field,no,undetermined,0,9
@@ -3970,7 +3970,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3642,jEdit-4.2,DESIGN,"/*
 		Notes: See notes on findMostSpecificMethod.
 		This method should be rolled into findMostSpecificMethod.
-	*/",yes,undetermined,0,9
+	*/",yes,undetermined,1,8
 3643,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3644,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3645,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
@@ -4085,7 +4085,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3751,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3752,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Initialize settings directory,no,undetermined,0,9
 3753,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* This protects against stupid people (like me)
-		 * doing stuff like buffer.setMode(jEdit.getMode(...)); */",no,undetermined,2,7
+		 * doing stuff like buffer.setMode(jEdit.getMode(...)); */",no,undetermined,1,8
 3754,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createMenuItem() method,no,undetermined,0,9
 3755,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ directoryLoaded() method,no,undetermined,0,9
 3756,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -4110,7 +4110,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 3775,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
 3776,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ KeyHandler class,no,undetermined,0,9
 3777,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-3778,jEdit-4.2,WITHOUT_CLASSIFICATION,// Begin BeanShell Modification - moved body to overloaded getMessage(),no,undetermined,0,9
+3778,jEdit-4.2,WITHOUT_CLASSIFICATION,// Begin BeanShell Modification - moved body to overloaded getMessage(),no,undetermined,1,8
 3779,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3780,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3781,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -4193,7 +4193,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
          * you want to know.  I did want to use e, but it contains
          * too much repetition -- 27 18 28 18 28 46 -- for me
          * to feel statistically comfortable.  Call me paranoid.)
-         */",no,undetermined,1,8
+         */",no,undetermined,2,7
 3849,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3850,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3851,jEdit-4.2,WITHOUT_CLASSIFICATION,// try declaredField,no,undetermined,0,9
@@ -4229,7 +4229,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 					the cast to allow it... Then boxing will happen naturally in
 					the Array.set().
 					e.g. Integer [] ia = { 1, 2 }
-				*/",yes,undetermined,8,1
+				*/",yes,undetermined,7,2
 3871,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3872,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 3873,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ EditAbbrevDialog constructor,no,undetermined,0,9
@@ -4491,7 +4491,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4107,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4108,jEdit-4.2,WITHOUT_CLASSIFICATION,// Add final buffered token and an EndSub marker,no,undetermined,0,9
 4109,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4110,jEdit-4.2,DESIGN,// This should probably be in Reflect.java,yes,undetermined,2,7
+4110,jEdit-4.2,DESIGN,// This should probably be in Reflect.java,yes,undetermined,1,8
 4111,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4112,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4113,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -4628,7 +4628,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4216,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ log() method,no,undetermined,0,9
 4217,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4218,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
-4219,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Compare the input, character- // by character.",no,undetermined,0,9
+4219,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Compare the input, character- // by character.",no,undetermined,1,8
 4220,jEdit-4.2,WITHOUT_CLASSIFICATION,// Stop server,no,undetermined,0,9
 4221,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ writeBooleanArray() method,no,undetermined,0,9
 4222,jEdit-4.2,WITHOUT_CLASSIFICATION,// index tracks the position in the char array,no,undetermined,0,9
@@ -4651,7 +4651,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4239,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSegmentMapKey() method,no,undetermined,0,9
 4240,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4241,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4242,jEdit-4.2,WITHOUT_CLASSIFICATION,// fixes the hang that can occur if we 'save as' to a new // filename which requires re-sorting,no,undetermined,0,9
+4242,jEdit-4.2,WITHOUT_CLASSIFICATION,// fixes the hang that can occur if we 'save as' to a new // filename which requires re-sorting,no,undetermined,1,8
 4243,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getLeadingWhiteSpace() method,no,undetermined,0,9
 4244,jEdit-4.2,WITHOUT_CLASSIFICATION,"// don't want getFileName(""roots:"") to return """"",no,undetermined,0,9
 4245,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if only one, clean, 'untitled' buffer is open, we // replace it",no,undetermined,0,9
@@ -4741,7 +4741,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4327,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ AutosaveBackupOptionPane constructor,no,undetermined,0,9
 4328,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4329,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4330,jEdit-4.2,WITHOUT_CLASSIFICATION,"// (major).(minor).(<99 = preX, 99 = final).(bug fix)",no,undetermined,4,5
+4330,jEdit-4.2,WITHOUT_CLASSIFICATION,"// (major).(minor).(<99 = preX, 99 = final).(bug fix)",no,undetermined,3,6
 4331,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setInstantPopups() method,no,undetermined,0,9
 4332,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4333,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Capabilities,no,undetermined,1,8
@@ -4875,7 +4875,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4436,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ HideLibrariesButton class,no,undetermined,0,9
 4437,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4438,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4439,jEdit-4.2,WITHOUT_CLASSIFICATION,// Then the pre-release status,no,undetermined,2,7
+4439,jEdit-4.2,WITHOUT_CLASSIFICATION,// Then the pre-release status,no,undetermined,0,9
 4440,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4441,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4442,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMultipleSelectionColor() method,no,undetermined,0,9
@@ -4915,7 +4915,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4472,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addToolBar() method,no,undetermined,0,9
 4473,jEdit-4.2,WITHOUT_CLASSIFICATION,"//Remember to make this an option later //NSApplication.sharedApplication().hide(jEdit.getPlugin(""MacOSPlugin""));",no,undetermined,0,9
 4474,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4475,jEdit-4.2,DEFECT,//{{{ Set the buffer's path // Caveat: won't work if save() called with a relative path. // But I don't think anyone calls it like that anyway.,yes,undetermined,2,7
+4475,jEdit-4.2,DEFECT,//{{{ Set the buffer's path // Caveat: won't work if save() called with a relative path. // But I don't think anyone calls it like that anyway.,yes,undetermined,0,9
 4476,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4477,jEdit-4.2,WITHOUT_CLASSIFICATION,"// package-private members // package-private, not private, for speedy access by inner classes",no,undetermined,0,9
 4478,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -4936,7 +4936,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4493,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ resize selections if necessary,no,undetermined,0,9
 4494,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4495,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4496,jEdit-4.2,WITHOUT_CLASSIFICATION,"// case of a backward jump with an offset >= -32768, or of a forward jump // with, of course, an unknown offset. In these cases we store the offset // in 2 bytes (which will be increased in resizeInstructions, if needed).",no,undetermined,0,9
+4496,jEdit-4.2,WITHOUT_CLASSIFICATION,"// case of a backward jump with an offset >= -32768, or of a forward jump // with, of course, an unknown offset. In these cases we store the offset // in 2 bytes (which will be increased in resizeInstructions, if needed).",no,undetermined,1,8
 4497,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Sort recent file list */,no,undetermined,0,9
 4498,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isCellEditable() method,no,undetermined,0,9
 4499,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toHashtable() method,no,undetermined,0,9
@@ -4952,7 +4952,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4507,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getExtensions() method,no,undetermined,0,9
 4508,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBufferHistory() method,no,undetermined,0,9
 4509,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ update() method,no,undetermined,0,9
-4510,jEdit-4.2,WITHOUT_CLASSIFICATION,// assign doesn't need the pre-value,no,undetermined,1,8
+4510,jEdit-4.2,WITHOUT_CLASSIFICATION,// assign doesn't need the pre-value,no,undetermined,0,9
 4511,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4512,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 4513,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ StringCompare class,no,undetermined,0,9
@@ -4983,7 +4983,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4538,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ FavoritesEntry class,no,undetermined,0,9
 4539,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 	*/",no,undetermined,0,9
-4540,jEdit-4.2,WITHOUT_CLASSIFICATION,// this might be a bit slow if __char__ occurs a lot,no,undetermined,0,9
+4540,jEdit-4.2,WITHOUT_CLASSIFICATION,// this might be a bit slow if __char__ occurs a lot,no,undetermined,1,8
 4541,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ foldLevelChanged() method,no,undetermined,0,9
 4542,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ markKeyword() method,no,undetermined,0,9
 4543,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setLineContext() method,no,undetermined,0,9
@@ -5013,9 +5013,9 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4567,jEdit-4.2,WITHOUT_CLASSIFICATION,// maintain backwards compatibility,no,undetermined,0,9
 4568,jEdit-4.2,WITHOUT_CLASSIFICATION,// setting the message to 'null' causes the status bar to check // if a recording is in progress,no,undetermined,0,9
 4569,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4570,jEdit-4.2,WITHOUT_CLASSIFICATION,// strings might be equal!,no,undetermined,0,9
+4570,jEdit-4.2,WITHOUT_CLASSIFICATION,// strings might be equal!,no,undetermined,1,8
 4571,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ splitHorizontally() method,no,undetermined,0,9
-4572,jEdit-4.2,WITHOUT_CLASSIFICATION,/*WIDE*/,no,undetermined,1,8
+4572,jEdit-4.2,WITHOUT_CLASSIFICATION,/*WIDE*/,no,undetermined,0,9
 4573,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4574,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ dump() method,no,undetermined,0,9
 4575,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ incrementalSearch() method,no,undetermined,0,9
@@ -5028,7 +5028,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4582,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _createInputStream() method,no,undetermined,0,9
 4583,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4584,jEdit-4.2,WITHOUT_CLASSIFICATION,// creates a new Edge object or reuses one from the shared pool,no,undetermined,0,9
-4585,jEdit-4.2,WITHOUT_CLASSIFICATION,// fixes the hang that can occur if we 'save as' to a // new filename which requires re-sorting,no,undetermined,0,9
+4585,jEdit-4.2,WITHOUT_CLASSIFICATION,// fixes the hang that can occur if we 'save as' to a // new filename which requires re-sorting,no,undetermined,1,8
 4586,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4587,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4588,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5037,7 +5037,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4591,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ preloadSearchDialog() method,no,undetermined,0,9
 4592,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4593,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4594,jEdit-4.2,WITHOUT_CLASSIFICATION,"// in this case, we can't directly call // view.close(); we have to call closeView() // for all open views",no,undetermined,1,8
+4594,jEdit-4.2,WITHOUT_CLASSIFICATION,"// in this case, we can't directly call // view.close(); we have to call closeView() // for all open views",no,undetermined,0,9
 4595,jEdit-4.2,WITHOUT_CLASSIFICATION,// Test it,no,undetermined,0,9
 4596,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 4597,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5072,7 +5072,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4626,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4627,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ insert() method,no,undetermined,0,9
 4628,jEdit-4.2,WITHOUT_CLASSIFICATION,// need to let \b through so that backspace will work // in HistoryTextFields,no,undetermined,0,9
-4629,jEdit-4.2,WITHOUT_CLASSIFICATION,// null some variables so that retaining references // to closed views won't hurt as much.,no,undetermined,1,8
+4629,jEdit-4.2,WITHOUT_CLASSIFICATION,// null some variables so that retaining references // to closed views won't hurt as much.,no,undetermined,0,9
 4630,jEdit-4.2,WITHOUT_CLASSIFICATION,// protected members,no,undetermined,0,9
 4631,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4632,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
@@ -5159,14 +5159,14 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4708,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4709,jEdit-4.2,WITHOUT_CLASSIFICATION,// // QuickNotepadActions implementation //,no,undetermined,0,9
 4710,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4711,jEdit-4.2,WITHOUT_CLASSIFICATION,// like TABL_INSN,no,undetermined,1,8
+4711,jEdit-4.2,WITHOUT_CLASSIFICATION,// like TABL_INSN,no,undetermined,0,9
 4712,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4713,jEdit-4.2,WITHOUT_CLASSIFICATION,// For operator-assign operations save the lhs value before evaluating // the rhs.  This is correct Java behavior for postfix operations // e.g. i=1; i+=i++; // should be 2 not 3,no,undetermined,0,9
 4714,jEdit-4.2,WITHOUT_CLASSIFICATION,// cache the fact that this is a static method invocation on this class,no,undetermined,0,9
 4715,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBorderInsets() method,no,undetermined,0,9
 4716,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4717,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-4718,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,1,8
+4718,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,0,9
 4719,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4720,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ peekElement() method,no,undetermined,0,9
 4721,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5220,7 +5220,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4766,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4767,jEdit-4.2,WITHOUT_CLASSIFICATION,// Stop if there are no more tuples.,no,undetermined,0,9
 4768,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ layoutContainer() method,no,undetermined,0,9
-4769,jEdit-4.2,DEFECT,"// the view should not be null, but some plugins might do this",yes,undetermined,1,8
+4769,jEdit-4.2,DEFECT,"// the view should not be null, but some plugins might do this",yes,undetermined,2,7
 4770,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ init() method,no,undetermined,0,9
 4771,jEdit-4.2,DEFECT,"/*
 			Original note: Jdk under Win is throwing these to
@@ -5336,7 +5336,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 				 * close the existing file, since the user
 				 * would have confirmed the overwrite in the
 				 * 'save as' dialog box anyway */",no,undetermined,0,9
-4843,jEdit-4.2,WITHOUT_CLASSIFICATION,// how much an occurrence in the title is worth,no,undetermined,0,9
+4843,jEdit-4.2,WITHOUT_CLASSIFICATION,// how much an occurrence in the title is worth,no,undetermined,1,8
 4844,jEdit-4.2,WITHOUT_CLASSIFICATION,// save caret info. Buffer.load() will load it.,no,undetermined,0,9
 4845,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 4846,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5358,7 +5358,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 4856,jEdit-4.2,WITHOUT_CLASSIFICATION,// don't sort markers while buffer is being loaded,no,undetermined,0,9
 4857,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ initPlugins() method,no,undetermined,0,9
 4858,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setLineNumberAlignment() method,no,undetermined,0,9
-4859,jEdit-4.2,DESIGN,// we consume this to work around the bug // where A+TAB window switching activates // the menu bar on Windows.,yes,undetermined,1,8
+4859,jEdit-4.2,DESIGN,// we consume this to work around the bug // where A+TAB window switching activates // the menu bar on Windows.,yes,undetermined,2,7
 4860,jEdit-4.2,WITHOUT_CLASSIFICATION,// End constructors,no,undetermined,0,9
 4861,jEdit-4.2,DESIGN,"/*
 		Note: we need a form of eval that passes the callstack through...
@@ -5517,7 +5517,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5005,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5006,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if we are already in the AWT thread, take a shortcut",no,undetermined,0,9
 5007,jEdit-4.2,WITHOUT_CLASSIFICATION,// try next repeat at all possible positions,no,undetermined,0,9
-5008,jEdit-4.2,DESIGN,// stupid Swing,yes,undetermined,1,8
+5008,jEdit-4.2,DESIGN,// stupid Swing,yes,undetermined,0,9
 5009,jEdit-4.2,WITHOUT_CLASSIFICATION,// move pos to last character of match sequence,no,undetermined,0,9
 5010,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paintChunkBackgrounds() method,no,undetermined,0,9
 5011,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
@@ -5537,7 +5537,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5025,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
                  * Find the coding table which is best for this group,
                  * and record its identity in the selector table.
-                 */",no,undetermined,0,9
+                 */",no,undetermined,1,8
 5026,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5027,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5028,jEdit-4.2,WITHOUT_CLASSIFICATION,// private members,no,undetermined,0,9
@@ -5549,7 +5549,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5034,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ runMacro() method,no,undetermined,0,9
 5035,jEdit-4.2,WITHOUT_CLASSIFICATION,// set flag that next should fail next time?,no,undetermined,0,9
 5036,jEdit-4.2,WITHOUT_CLASSIFICATION,/* isLineVisible(i) && */,no,undetermined,0,9
-5037,jEdit-4.2,WITHOUT_CLASSIFICATION,// force the fold levels to be // updated.,no,undetermined,0,9
+5037,jEdit-4.2,WITHOUT_CLASSIFICATION,// force the fold levels to be // updated.,no,undetermined,1,8
 5038,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getScrollLineCount() method,no,undetermined,0,9
 5039,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ removeKeyBinding() method,no,undetermined,0,9
 5040,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Sort buffer list,no,undetermined,0,9
@@ -5595,7 +5595,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 	 *
 	 * In the old document model there were 5 objects per line, for a
 	 * total of about 100 bytes, plus a cached token list, which used
-	 * another 100 or so bytes. */",no,undetermined,0,9
+	 * another 100 or so bytes. */",no,undetermined,1,8
 5072,jEdit-4.2,WITHOUT_CLASSIFICATION,// remove empty category branches,no,undetermined,0,9
 5073,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5074,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BufferPrintable constructor,no,undetermined,0,9
@@ -5615,7 +5615,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5088,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toggleOverwriteEnabled() method,no,undetermined,0,9
 5089,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ nextTabStop() method,no,undetermined,0,9
 5090,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* Some characters that we like to use in action names
-		 * ('.', '-') are not allowed in BeanShell identifiers. */",no,undetermined,1,8
+		 * ('.', '-') are not allowed in BeanShell identifiers. */",no,undetermined,0,9
 5091,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getWordToComplete() method,no,undetermined,0,9
 5092,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ waitForRequests() method,no,undetermined,0,9
 5093,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5624,7 +5624,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5096,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5097,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ extendSelection() method,no,undetermined,0,9
 5098,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSize() method,no,undetermined,0,9
-5099,jEdit-4.2,WITHOUT_CLASSIFICATION,"// when the text area switches to us, it will do // a reset anyway",no,undetermined,1,8
+5099,jEdit-4.2,WITHOUT_CLASSIFICATION,"// when the text area switches to us, it will do // a reset anyway",no,undetermined,0,9
 5100,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 5101,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ processKeyEvent() method,no,undetermined,0,9
 5102,jEdit-4.2,WITHOUT_CLASSIFICATION,// does the variable already exist?,no,undetermined,0,9
@@ -5640,7 +5640,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5112,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5113,jEdit-4.2,WITHOUT_CLASSIFICATION,// Do the actual synchronization,no,undetermined,0,9
 5114,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Go on to previous line,no,undetermined,0,9
-5115,jEdit-4.2,WITHOUT_CLASSIFICATION,// handleEvent gets all events,no,undetermined,0,9
+5115,jEdit-4.2,WITHOUT_CLASSIFICATION,// handleEvent gets all events,no,undetermined,1,8
 5116,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBackgroundColor() method,no,undetermined,0,9
 5117,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setText() method,no,undetermined,0,9
 5118,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
@@ -5738,7 +5738,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5210,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 5211,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
 5212,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5213,jEdit-4.2,WITHOUT_CLASSIFICATION,/*bubble up if allowed*/,no,undetermined,0,9
+5213,jEdit-4.2,WITHOUT_CLASSIFICATION,/*bubble up if allowed*/,no,undetermined,1,8
 5214,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 5215,jEdit-4.2,WITHOUT_CLASSIFICATION,// search all of its interfaces breadth first,no,undetermined,0,9
 5216,jEdit-4.2,WITHOUT_CLASSIFICATION,// Generate a hash code.,no,undetermined,0,9
@@ -5916,7 +5916,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5386,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5387,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BufferUpdate constructor,no,undetermined,0,9
 5388,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addToken() method,no,undetermined,0,9
-5389,jEdit-4.2,DESIGN,"// some other primitive // should avoid calling methods on primitive, as we do // in Name (can't treat primitive like an object message) // but the hole is useful right now.",yes,undetermined,1,8
+5389,jEdit-4.2,DESIGN,"// some other primitive // should avoid calling methods on primitive, as we do // in Name (can't treat primitive like an object message) // but the hole is useful right now.",yes,undetermined,0,9
 5390,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paintLine() method,no,undetermined,0,9
 5391,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Even if reallyExit is false, we still exit properly // if background mode is off",no,undetermined,0,9
 5392,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -5966,7 +5966,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5436,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5437,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Inner classes,no,undetermined,0,9
 5438,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5439,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise DisplayManager.BufferChangeHandler calls */,no,undetermined,0,9
+5439,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise DisplayManager.BufferChangeHandler calls */,no,undetermined,1,8
 5440,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
              * Now ftab contains the first loc of every small bucket.
              * Calculate the running order, from smallest to largest
@@ -5977,7 +5977,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5443,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showWordCountDialog() method,no,undetermined,0,9
 5444,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ShowRecentDirMenuItem class,no,undetermined,0,9
 5445,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5446,jEdit-4.2,WITHOUT_CLASSIFICATION,// A method name that starts with _ requires a session object,no,undetermined,0,9
+5446,jEdit-4.2,WITHOUT_CLASSIFICATION,// A method name that starts with _ requires a session object,no,undetermined,1,8
 5447,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ok() method,no,undetermined,0,9
 5448,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ maximumLayoutSize() method,no,undetermined,0,9
 5449,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ changedUpdate() method,no,undetermined,0,9
@@ -6127,7 +6127,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5581,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ dispose() method,no,undetermined,0,9
 5582,jEdit-4.2,WITHOUT_CLASSIFICATION,// map voids to nulls for the outside world,no,undetermined,0,9
 5583,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5584,jEdit-4.2,WITHOUT_CLASSIFICATION,// ... and we save them in order not to recompute them in the future,no,undetermined,0,9
+5584,jEdit-4.2,WITHOUT_CLASSIFICATION,// ... and we save them in order not to recompute them in the future,no,undetermined,1,8
 5585,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 5586,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5587,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
@@ -6203,15 +6203,15 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5647,jEdit-4.2,WITHOUT_CLASSIFICATION,// Generate code to unwrap bsh Primitive types,no,undetermined,0,9
 5648,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5649,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createBrowserMenuItems() method,no,undetermined,0,9
-5650,jEdit-4.2,DESIGN,// This could be static,yes,undetermined,0,9
+5650,jEdit-4.2,DESIGN,// This could be static,yes,undetermined,1,8
 5651,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ updateEveryTime() method,no,undetermined,0,9
 5652,jEdit-4.2,WITHOUT_CLASSIFICATION,// dubious? //setFirstLine(0);,no,undetermined,0,9
 5653,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ActionListHandler constructor,no,undetermined,0,9
 5654,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5655,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addSeparator() method,no,undetermined,0,9
 5656,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ GZipped setting,no,undetermined,0,9
-5657,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise just insert the text */,no,undetermined,0,9
-5658,jEdit-4.2,WITHOUT_CLASSIFICATION,// reset default cursor so that the hand cursor doesn't // stick around,no,undetermined,1,8
+5657,jEdit-4.2,WITHOUT_CLASSIFICATION,/* otherwise just insert the text */,no,undetermined,1,8
+5658,jEdit-4.2,WITHOUT_CLASSIFICATION,// reset default cursor so that the hand cursor doesn't // stick around,no,undetermined,0,9
 5659,jEdit-4.2,WITHOUT_CLASSIFICATION,// 2-byte sequence: 00000yyyyyxxxxxx = 110yyyyy 10xxxxxx,no,undetermined,0,9
 5660,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBuffer() method,no,undetermined,0,9
 5661,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BeanShellHandler constructor,no,undetermined,0,9
@@ -6258,7 +6258,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5699,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5700,jEdit-4.2,WITHOUT_CLASSIFICATION,// private members,no,undetermined,0,9
 5701,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5702,jEdit-4.2,DESIGN,// ??? this should only be called with // fully loaded action set,yes,undetermined,0,9
+5702,jEdit-4.2,DESIGN,// ??? this should only be called with // fully loaded action set,yes,undetermined,1,8
 5703,jEdit-4.2,WITHOUT_CLASSIFICATION,// NON-ALPHANUMERIC OPERATOR //  \W,no,undetermined,0,9
 5704,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _init() method,no,undetermined,0,9
 5705,jEdit-4.2,WITHOUT_CLASSIFICATION,"// volatile, transient",no,undetermined,0,9
@@ -6270,7 +6270,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5711,jEdit-4.2,WITHOUT_CLASSIFICATION,// check the next two characters,no,undetermined,0,9
 5712,jEdit-4.2,WITHOUT_CLASSIFICATION,"//branch.satisfyDependencies(roster,installDirectory, //	downloadSource);",no,undetermined,0,9
 5713,jEdit-4.2,WITHOUT_CLASSIFICATION,// Both numeric wrapper types?  // Try numeric style promotion wrapper cast,no,undetermined,0,9
-5714,jEdit-4.2,WITHOUT_CLASSIFICATION,// not a class (or variable per above),no,undetermined,0,9
+5714,jEdit-4.2,WITHOUT_CLASSIFICATION,// not a class (or variable per above),no,undetermined,1,8
 5715,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getActionSetForAction() method,no,undetermined,0,9
 5716,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5717,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ charData() method,no,undetermined,0,9
@@ -6278,7 +6278,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5719,jEdit-4.2,WITHOUT_CLASSIFICATION,/*filter*/,no,undetermined,0,9
 5720,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ dispose() method,no,undetermined,0,9
 5721,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-5722,jEdit-4.2,WITHOUT_CLASSIFICATION,// align everything to paragraph's leading indent,no,undetermined,1,8
+5722,jEdit-4.2,WITHOUT_CLASSIFICATION,// align everything to paragraph's leading indent,no,undetermined,0,9
 5723,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5724,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isVisible() method,no,undetermined,0,9
 5725,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addMode() method,no,undetermined,0,9
@@ -6302,7 +6302,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 5743,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5744,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paintComponent() method,no,undetermined,0,9
 5745,jEdit-4.2,WITHOUT_CLASSIFICATION,//else,no,undetermined,0,9
-5746,jEdit-4.2,DEFECT,// 2 aug 2003: OS/2 Java has a broken getCanonicalPath(),yes,undetermined,2,7
+5746,jEdit-4.2,DEFECT,// 2 aug 2003: OS/2 Java has a broken getCanonicalPath(),yes,undetermined,0,9
 5747,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5748,jEdit-4.2,WITHOUT_CLASSIFICATION,// Buffer sort,no,undetermined,0,9
 5749,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ update() method,no,undetermined,0,9
@@ -6505,7 +6505,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
          * decompression do *not* rely on these statistical properties.
          * They are only important when trying to recover blocks from
          * damaged files.
-         */",no,undetermined,1,8
+         */",no,undetermined,0,9
 5921,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5922,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 5923,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* When closing the last buffer, the BufferUpdate.CLOSED
@@ -6612,7 +6612,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
          * Finally, block's contents proper.
          */",no,undetermined,0,9
 6003,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6004,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Multiple selection color */,no,undetermined,2,7
+6004,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Multiple selection color */,no,undetermined,1,8
 6005,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6006,jEdit-4.2,WITHOUT_CLASSIFICATION,// import the package we're in by default...,no,undetermined,0,9
 6007,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -6697,7 +6697,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6086,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6087,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getJAR() method,no,undetermined,0,9
 6088,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DirectoryEntry constructor,no,undetermined,0,9
-6089,jEdit-4.2,DEFECT,// Warning: Null callstack here.  Don't think we need // a stack trace to indicate how we sourced the method.,yes,undetermined,0,9
+6089,jEdit-4.2,DEFECT,// Warning: Null callstack here.  Don't think we need // a stack trace to indicate how we sourced the method.,yes,undetermined,1,8
 6090,jEdit-4.2,WITHOUT_CLASSIFICATION,// find first split pane parenting current edit pane,no,undetermined,1,8
 6091,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ finishLoading() method,no,undetermined,0,9
 6092,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -6766,7 +6766,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6152,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getFileNameNoExtension() method,no,undetermined,0,9
 6153,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6154,jEdit-4.2,WITHOUT_CLASSIFICATION,// check whether this shortcut already exists,no,undetermined,0,9
-6155,jEdit-4.2,WITHOUT_CLASSIFICATION,// --------------------------------------------------------- // The following instance variables mutate during evaluation and should // be reset by the reset() method where necessary,no,undetermined,1,8
+6155,jEdit-4.2,WITHOUT_CLASSIFICATION,// --------------------------------------------------------- // The following instance variables mutate during evaluation and should // be reset by the reset() method where necessary,no,undetermined,0,9
 6156,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6157,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showInFinder() method,no,undetermined,0,9
 6158,jEdit-4.2,WITHOUT_CLASSIFICATION,// // Constants for element content type. //,no,undetermined,0,9
@@ -6787,7 +6787,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6173,jEdit-4.2,WITHOUT_CLASSIFICATION,// -------------------------------------------------------------------------- // Constructor // --------------------------------------------------------------------------,no,undetermined,0,9
 6174,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isAntiAliasEnabled() method,no,undetermined,0,9
 6175,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6176,jEdit-4.2,WITHOUT_CLASSIFICATION,// Some arbitrary kind of node,no,undetermined,1,8
+6176,jEdit-4.2,WITHOUT_CLASSIFICATION,// Some arbitrary kind of node,no,undetermined,0,9
 6177,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6178,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6179,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -6811,7 +6811,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6190,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6191,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setRectangularSelectionEnabled() method,no,undetermined,0,9
 6192,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6193,jEdit-4.2,WITHOUT_CLASSIFICATION,// what to do?,no,undetermined,1,8
+6193,jEdit-4.2,WITHOUT_CLASSIFICATION,// what to do?,no,undetermined,2,7
 6194,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6195,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6196,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -6836,7 +6836,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 		Note: it may see like with the new 1.3 scoping this test could be
 		removed, but it cannot.  When recurse is false we still need to set the
 		variable in our parent, not here.
-	*/",no,undetermined,1,8
+	*/",no,undetermined,0,9
 6215,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ saveRegisters() method,no,undetermined,0,9
 6216,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
 6217,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -6920,7 +6920,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6288,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ MouseActions constructor,no,undetermined,0,9
 6289,jEdit-4.2,WITHOUT_CLASSIFICATION,// // Begin methods which simply delegate to our parent (enclosing scope)  //,no,undetermined,0,9
 6290,jEdit-4.2,WITHOUT_CLASSIFICATION,// get rid of embedded tabs not removed by trim(),no,undetermined,0,9
-6291,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Used to store property values,no,undetermined,1,8
+6291,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Used to store property values,no,undetermined,0,9
 6292,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Class initializer,no,undetermined,0,9
 6293,jEdit-4.2,WITHOUT_CLASSIFICATION,// must be before the below call // so that the chunk cache is not // updated with an invisible first // line (see above),no,undetermined,0,9
 6294,jEdit-4.2,WITHOUT_CLASSIFICATION,// End BeanShell Modification - override error methods and toString,no,undetermined,0,9
@@ -6929,9 +6929,9 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6297,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ loop through all lines of current buffer,no,undetermined,0,9
 6298,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*, CallStack callstack */",no,undetermined,0,9
 6299,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6300,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for bug #765507 // we don't type complete in save dialog // boxes. Press TAB to do an explicit // complete,no,undetermined,3,6
+6300,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix for bug #765507 // we don't type complete in save dialog // boxes. Press TAB to do an explicit // complete,no,undetermined,2,7
 6301,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _save() method,no,undetermined,0,9
-6302,jEdit-4.2,WITHOUT_CLASSIFICATION,// internal constructor used for alternation,no,undetermined,1,8
+6302,jEdit-4.2,WITHOUT_CLASSIFICATION,// internal constructor used for alternation,no,undetermined,0,9
 6303,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6304,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Text getters and setters,no,undetermined,0,9
 6305,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
@@ -6950,7 +6950,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 	fold this functionality back into the base NameSpace as a special case.
 	But this has changed a few times so I'd like to leave this abstraction for
 	now.
-*/",yes,undetermined,2,7
+*/",yes,undetermined,1,8
 6316,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6317,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addNotify() method,no,undetermined,0,9
 6318,jEdit-4.2,WITHOUT_CLASSIFICATION,// cut off alternates,no,undetermined,0,9
@@ -6980,7 +6980,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6342,jEdit-4.2,WITHOUT_CLASSIFICATION,// component that will parent any dialog boxes,no,undetermined,0,9
 6343,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ hideLineRange() method,no,undetermined,0,9
 6344,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if the caret is on a collapsed fold, collapse the // parent fold",no,undetermined,0,9
-6345,jEdit-4.2,DESIGN,/* this should be before dockables are initialized */,yes,undetermined,0,9
+6345,jEdit-4.2,DESIGN,/* this should be before dockables are initialized */,yes,undetermined,1,8
 6346,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6347,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ KEY_TYPED...,no,undetermined,0,9
 6348,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Constructor,no,undetermined,0,9
@@ -7075,7 +7075,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			According to the JLS, value may be anything.
 			In BeanShell, we'll disallow VOID (undefined) values.
 			(or should we map them to the empty string?)
-		*/",yes,undetermined,2,7
+		*/",yes,undetermined,0,9
 6422,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 6423,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6424,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Input/output methods,no,undetermined,0,9
@@ -7225,7 +7225,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6541,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6542,jEdit-4.2,WITHOUT_CLASSIFICATION,/* do nothing! */,no,undetermined,0,9
 6543,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6544,jEdit-4.2,WITHOUT_CLASSIFICATION,// Do we have the necessary jdk1.2 packages and optional package?,no,undetermined,1,8
+6544,jEdit-4.2,WITHOUT_CLASSIFICATION,// Do we have the necessary jdk1.2 packages and optional package?,no,undetermined,0,9
 6545,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setShowHiddenFiles() method,no,undetermined,0,9
 6546,jEdit-4.2,WITHOUT_CLASSIFICATION,// do nothing - ch already contains correct character,no,undetermined,0,9
 6547,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7237,7 +7237,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 					 * either hang, or be forced to duplicate
 					 * it inside the buffer == null, or add
 					 * a 'finally' clause. you decide which one's
-					 * worse. */",yes,undetermined,1,8
+					 * worse. */",yes,undetermined,0,9
 6550,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 6551,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6552,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7279,7 +7279,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6588,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* read() and write() must be kept perfectly in sync...
 		 * its a very simple file format. doing it this way is
 		 * faster than serializing since serialization calls
-		 * reflection, etc. */",no,undetermined,0,9
+		 * reflection, etc. */",no,undetermined,1,8
 6589,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6590,jEdit-4.2,WITHOUT_CLASSIFICATION,// boolean,no,undetermined,0,9
 6591,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7295,7 +7295,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6601,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6602,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6603,jEdit-4.2,WITHOUT_CLASSIFICATION,"//Log.log(Log.DEBUG,jEdit.class,fnf);",no,undetermined,0,9
-6604,jEdit-4.2,WITHOUT_CLASSIFICATION,// General case - performe the instanceof based on assignability,no,undetermined,0,9
+6604,jEdit-4.2,WITHOUT_CLASSIFICATION,// General case - performe the instanceof based on assignability,no,undetermined,1,8
 6605,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 6606,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ constructPath() method,no,undetermined,0,9
 6607,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Insert the attributes, if any.",no,undetermined,0,9
@@ -7343,14 +7343,14 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 				   we don't extend it, instead we push the
 				   insert into the next range, however for this
 				   to work properly we also have to mess with
-				   screen line counts. */",yes,undetermined,6,3
+				   screen line counts. */",yes,undetermined,7,2
 6643,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getHorizontalOffset() method,no,undetermined,0,9
 6644,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
                      * 10
                      */",no,undetermined,0,9
 6645,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* 
 			Some kind of field access?
-		*/",no,undetermined,1,8
+		*/",no,undetermined,0,9
 6646,jEdit-4.2,WITHOUT_CLASSIFICATION,// private members,no,undetermined,0,9
 6647,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6648,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ processMouseEvent() method,no,undetermined,0,9
@@ -7385,7 +7385,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			generator whereby it does not wrap nulls on method delegate.  See
 			Class Generator.java.  If we fix that then we can remove this.
 			(just have to generate the code there.)
-		*/",yes,undetermined,2,7
+		*/",yes,undetermined,1,8
 6675,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 6676,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ HelpFile class,no,undetermined,0,9
 6677,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ popElement() method,no,undetermined,0,9
@@ -7449,7 +7449,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6728,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6729,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6730,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6731,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that jEdit doesn't exit with no views open automatically //setDaemon(true);,no,undetermined,1,8
+6731,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that jEdit doesn't exit with no views open automatically //setDaemon(true);,no,undetermined,0,9
 6732,jEdit-4.2,WITHOUT_CLASSIFICATION,// check the next character,no,undetermined,0,9
 6733,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ newFile() method,no,undetermined,0,9
 6734,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
@@ -7464,7 +7464,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6743,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getRightDockingArea() method,no,undetermined,0,9
 6744,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6745,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ allowWrite() method,no,undetermined,0,9
-6746,jEdit-4.2,WITHOUT_CLASSIFICATION,"// updates current and max stack sizes only if opcode == NEW // (stack size variation = 0 for ANEWARRAY, CHECKCAST, INSTANCEOF)",no,undetermined,0,9
+6746,jEdit-4.2,WITHOUT_CLASSIFICATION,"// updates current and max stack sizes only if opcode == NEW // (stack size variation = 0 for ANEWARRAY, CHECKCAST, INSTANCEOF)",no,undetermined,1,8
 6747,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DockableLayout class,no,undetermined,0,9
 6748,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getIgnoreCase() method,no,undetermined,0,9
 6749,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7524,7 +7524,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 							Catch the mismatch and continue to try the next
 							Note: this is innefficient, should have an 
 							isAssignableFrom() that doesn't throw 
-						*/",yes,undetermined,1,8
+						*/",yes,undetermined,0,9
 6803,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6804,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6805,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7584,7 +7584,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6857,jEdit-4.2,WITHOUT_CLASSIFICATION,// evaluate a method declaration,no,undetermined,0,9
 6858,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6859,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6860,jEdit-4.2,WITHOUT_CLASSIFICATION,// According to Slava this is better,no,undetermined,3,6
+6860,jEdit-4.2,WITHOUT_CLASSIFICATION,// According to Slava this is better,no,undetermined,4,5
 6861,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ equals() method,no,undetermined,0,9
 6862,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6863,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7605,7 +7605,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6878,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 6879,jEdit-4.2,WITHOUT_CLASSIFICATION,// this line is the start of a fold,no,undetermined,0,9
 6880,jEdit-4.2,WITHOUT_CLASSIFICATION,// can't happen,no,undetermined,0,9
-6881,jEdit-4.2,WITHOUT_CLASSIFICATION,// Fix bug #922951 Off-by-one error in Word Count,no,undetermined,4,5
+6881,jEdit-4.2,WITHOUT_CLASSIFICATION,// Fix bug #922951 Off-by-one error in Word Count,no,undetermined,3,6
 6882,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ HelpNode class,no,undetermined,0,9
 6883,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ PROPS,no,undetermined,0,9
 6884,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7631,8 +7631,8 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6904,jEdit-4.2,WITHOUT_CLASSIFICATION,/*isInterface*/,no,undetermined,0,9
 6905,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ append() method,no,undetermined,0,9
 6906,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-6907,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix the bug where the horiz. // scroll bar was not updated // after creating a new file.,no,undetermined,4,5
-6908,jEdit-4.2,WITHOUT_CLASSIFICATION,"// otherwise, the number of subregions",no,undetermined,0,9
+6907,jEdit-4.2,WITHOUT_CLASSIFICATION,// fix the bug where the horiz. // scroll bar was not updated // after creating a new file.,no,undetermined,3,6
+6908,jEdit-4.2,WITHOUT_CLASSIFICATION,"// otherwise, the number of subregions",no,undetermined,1,8
 6909,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ propertiesChanged() method,no,undetermined,0,9
 6910,jEdit-4.2,WITHOUT_CLASSIFICATION,// Set up the variables for the current // element context.,no,undetermined,0,9
 6911,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addNotify() method,no,undetermined,0,9
@@ -7665,7 +7665,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 6934,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 6935,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 6936,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Scroll horizontally,no,undetermined,0,9
-6937,jEdit-4.2,WITHOUT_CLASSIFICATION,// I guess this is when we pass it as an argument? // Setting locally,no,undetermined,1,8
+6937,jEdit-4.2,WITHOUT_CLASSIFICATION,// I guess this is when we pass it as an argument? // Setting locally,no,undetermined,0,9
 6938,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCacheableActionNames() method,no,undetermined,0,9
 6939,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addToSelection() method,no,undetermined,0,9
 6940,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ save() method,no,undetermined,0,9
@@ -7813,7 +7813,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7076,jEdit-4.2,DESIGN,// Optimization - If classOfStaticMethod is set then we have already  // been here and determined that this is a static method invocation. // Note: maybe factor this out with path below... clean up.,yes,undetermined,0,9
 7077,jEdit-4.2,WITHOUT_CLASSIFICATION,/*@bgen(jjtree) AmbiguousName */,no,undetermined,0,9
 7078,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ No rotation,no,undetermined,0,9
-7079,jEdit-4.2,WITHOUT_CLASSIFICATION,// Evaluate any inner class class definitions in the block  // effectively recursively call this method for contained classes first,no,undetermined,1,8
+7079,jEdit-4.2,WITHOUT_CLASSIFICATION,// Evaluate any inner class class definitions in the block  // effectively recursively call this method for contained classes first,no,undetermined,0,9
 7080,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7081,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7082,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7826,7 +7826,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
           We'll print our banner using eval(String) in order to
           exercise the parser and get the basic expression classes loaded...
           This ameliorates the delay after typing the first statement.
-        */",no,undetermined,1,8
+        */",no,undetermined,0,9
 7089,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Whitespace...,no,undetermined,0,9
 7090,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7091,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ preContentRemoved() method,no,undetermined,0,9
@@ -7863,7 +7863,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 		 * first/last lines than what we will end up with eventually.
 		 * Instead of confusing the user with status messages that
 		 * appear at random when switching buffers, we simply hide the
-		 * message altogether. */",yes,undetermined,3,6
+		 * message altogether. */",yes,undetermined,2,7
 7114,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ VFSFileChooserDialog constructor,no,undetermined,0,9
 7115,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7116,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7916,7 +7916,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7153,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Entry class,no,undetermined,0,9
 7154,jEdit-4.2,WITHOUT_CLASSIFICATION,// create a panel with a BoxLayout. Can't use Box here // because Box doesn't have setBorder().,no,undetermined,0,9
 7155,jEdit-4.2,WITHOUT_CLASSIFICATION,// UNDONE,no,undetermined,0,9
-7156,jEdit-4.2,WITHOUT_CLASSIFICATION,// Request queue,no,undetermined,0,9
+7156,jEdit-4.2,WITHOUT_CLASSIFICATION,// Request queue,no,undetermined,1,8
 7157,jEdit-4.2,WITHOUT_CLASSIFICATION,// filter nodes,no,undetermined,0,9
 7158,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7159,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -7924,7 +7924,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7161,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCompletions() method,no,undetermined,0,9
 7162,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _finishCaretUpdate() method,no,undetermined,0,9
 7163,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getStart() method,no,undetermined,0,9
-7164,jEdit-4.2,DESIGN,// AHA! // this is probably the only way to fix this,yes,undetermined,2,7
+7164,jEdit-4.2,DESIGN,// AHA! // this is probably the only way to fix this,yes,undetermined,3,6
 7165,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7166,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ensureCapacity() method,no,undetermined,0,9
 7167,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ updateList() method,no,undetermined,0,9
@@ -7933,7 +7933,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7170,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ reset() method,no,undetermined,0,9
 7171,jEdit-4.2,WITHOUT_CLASSIFICATION,// opcode of current instruction // bytes to be added after this instruction,no,undetermined,0,9
 7172,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-7173,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Add to AWT queue...,no,undetermined,0,9
+7173,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Add to AWT queue...,no,undetermined,1,8
 7174,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7175,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getPreferredSize() method,no,undetermined,0,9
 7176,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Match class,no,undetermined,0,9
@@ -8131,7 +8131,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 	run seems to have stuff in it for interactive vs. non-interactive...
 	compare them side by side and see what they do differently, aside from the
 	exception handling.
-	*/",yes,undetermined,1,8
+	*/",yes,undetermined,0,9
 7357,jEdit-4.2,WITHOUT_CLASSIFICATION,// create dummy catalog,no,undetermined,0,9
 7358,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getLastBuffer() method,no,undetermined,0,9
 7359,jEdit-4.2,WITHOUT_CLASSIFICATION,// close button only there if 'temp' is true,no,undetermined,0,9
@@ -8222,7 +8222,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7440,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ IOProgressMonitor constructor,no,undetermined,0,9
 7441,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getColorProperty() method,no,undetermined,0,9
 7442,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ScriptRunner class,no,undetermined,0,9
-7443,jEdit-4.2,WITHOUT_CLASSIFICATION,// make everything up to here be a branch. create vector if nec.,no,undetermined,1,8
+7443,jEdit-4.2,WITHOUT_CLASSIFICATION,// make everything up to here be a branch. create vector if nec.,no,undetermined,0,9
 7444,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7445,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
              * Transmit the mapping table.
@@ -8253,12 +8253,12 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7469,jEdit-4.2,WITHOUT_CLASSIFICATION,// for debugging,no,undetermined,0,9
 7470,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setDimension() method,no,undetermined,0,9
 7471,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-7472,jEdit-4.2,WITHOUT_CLASSIFICATION,"// for the parent directory right-click; on the click we select // the clicked item, but when the popup goes away we select the // currently showing directory.",no,undetermined,1,8
+7472,jEdit-4.2,WITHOUT_CLASSIFICATION,"// for the parent directory right-click; on the click we select // the clicked item, but when the popup goes away we select the // currently showing directory.",no,undetermined,0,9
 7473,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7474,jEdit-4.2,WITHOUT_CLASSIFICATION,// number of child nodes ,no,undetermined,0,9
-7475,jEdit-4.2,DESIGN,// Move me to classpath/ClassManagerImpl???,yes,undetermined,0,9
+7475,jEdit-4.2,DESIGN,// Move me to classpath/ClassManagerImpl???,yes,undetermined,1,8
 7476,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-7477,jEdit-4.2,WITHOUT_CLASSIFICATION,// figure out what constitutes a word character and what // doesn't,no,undetermined,1,8
+7477,jEdit-4.2,WITHOUT_CLASSIFICATION,// figure out what constitutes a word character and what // doesn't,no,undetermined,2,7
 7478,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7479,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7480,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
@@ -8375,9 +8375,9 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 			Doing this first gives the correct Java precedence for vars 
 			vs. imported class names (at least in the simple case - see
 			tests/precedence1.bsh).  It should also speed things up a bit.
-		*/",no,undetermined,2,7
+		*/",no,undetermined,1,8
 7579,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ message() method,no,undetermined,0,9
-7580,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If we find some other // character that follows // a \r, so it is not a // Windows file, and probably // a Mac file",no,undetermined,0,9
+7580,jEdit-4.2,WITHOUT_CLASSIFICATION,"// If we find some other // character that follows // a \r, so it is not a // Windows file, and probably // a Mac file",no,undetermined,1,8
 7581,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getEnd() method,no,undetermined,0,9
 7582,jEdit-4.2,WITHOUT_CLASSIFICATION,/*superClass*/,no,undetermined,0,9
 7583,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ readLock() method,no,undetermined,0,9
@@ -8467,7 +8467,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7657,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7658,jEdit-4.2,DEFECT,"// dialogs fuck things up if a menu is visible, etc! //new BeanShellErrorDialog(view,e);",yes,undetermined,1,8
 7659,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addToBus() method,no,undetermined,0,9
-7660,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Fail silently, since we may be using UFS",no,undetermined,2,7
+7660,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Fail silently, since we may be using UFS",no,undetermined,1,8
 7661,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7662,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ MutableCaretEvent constructor,no,undetermined,0,9
 7663,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCheckedValues() method,no,undetermined,0,9
@@ -8534,7 +8534,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7724,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getAllPluginEntries() method,no,undetermined,0,9
 7725,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7726,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Show buffer switcher */,no,undetermined,0,9
-7727,jEdit-4.2,WITHOUT_CLASSIFICATION,// used for the delayed evaluation...,no,undetermined,2,7
+7727,jEdit-4.2,WITHOUT_CLASSIFICATION,// used for the delayed evaluation...,no,undetermined,1,8
 7728,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Class initializer,no,undetermined,0,9
 7729,jEdit-4.2,WITHOUT_CLASSIFICATION,// Read the first character.,no,undetermined,0,9
 7730,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -8562,7 +8562,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7752,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7753,jEdit-4.2,WITHOUT_CLASSIFICATION,// zeros,no,undetermined,0,9
 7754,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getName() method,no,undetermined,0,9
-7755,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make adjustments for some OS's,no,undetermined,1,8
+7755,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make adjustments for some OS's,no,undetermined,0,9
 7756,jEdit-4.2,WITHOUT_CLASSIFICATION,"// in case one of the above fails, we still want to // clear these flags.",no,undetermined,0,9
 7757,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getCellRenderer() method,no,undetermined,0,9
 7758,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -8754,7 +8754,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 				 * either hang, or be forced to duplicate
 				 * it inside the buffer == null, or add
 				 * a 'finally' clause. you decide which one's
-				 * worse. */",yes,undetermined,1,8
+				 * worse. */",yes,undetermined,0,9
 7920,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BracketMatcher class,no,undetermined,0,9
 7921,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Don't beep if the user presses some // key we don't know about unless a // prefix is active. Otherwise it will // beep when caps lock is pressed, etc.",no,undetermined,0,9
 7922,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
@@ -8799,7 +8799,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7950,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ contentRemoved() method,no,undetermined,0,9
 7951,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7952,jEdit-4.2,WITHOUT_CLASSIFICATION,////////////////////////////////////////////////////////////////////// // Error reporting. //////////////////////////////////////////////////////////////////////,no,undetermined,1,8
-7953,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Currently unused, but we'll probably need it later.",no,undetermined,3,6
+7953,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Currently unused, but we'll probably need it later.",no,undetermined,4,5
 7954,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7955,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ moveDown() method,no,undetermined,0,9
 7956,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createPrintStream() method,no,undetermined,0,9
@@ -8831,7 +8831,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7982,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ indentSelectedLines() method,no,undetermined,0,9
 7983,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7984,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ColorPickerDialog class,no,undetermined,0,9
-7985,jEdit-4.2,DESIGN,"// while this might be questionable, some // menus depend on properties",yes,undetermined,0,9
+7985,jEdit-4.2,DESIGN,"// while this might be questionable, some // menus depend on properties",yes,undetermined,1,8
 7986,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setSelectedText() method,no,undetermined,0,9
 7987,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ endElement() method,no,undetermined,0,9
 7988,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Handle regexps,no,undetermined,0,9
@@ -8844,7 +8844,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 7995,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7996,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 7997,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-7998,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,1,8
+7998,jEdit-4.2,IMPLEMENTATION,// Need to calculate this... just fudging here for now.,yes,undetermined,0,9
 7999,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ _save() method,no,undetermined,0,9
 8000,jEdit-4.2,WITHOUT_CLASSIFICATION,// This production is to determine lookahead only.,no,undetermined,0,9
 8001,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -8862,7 +8862,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8010,jEdit-4.2,WITHOUT_CLASSIFICATION,"// site properties are loaded as default properties, overwriting // jEdit's system properties",no,undetermined,0,9
 8011,jEdit-4.2,WITHOUT_CLASSIFICATION,// changes IFNULL and IFNONNULL to opcodes 218 and 219 (inclusive),no,undetermined,0,9
 8012,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-8013,jEdit-4.2,WITHOUT_CLASSIFICATION,"// otherwise, determine the next visible line",no,undetermined,0,9
+8013,jEdit-4.2,WITHOUT_CLASSIFICATION,"// otherwise, determine the next visible line",no,undetermined,1,8
 8014,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 8015,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isCellEditable() method,no,undetermined,0,9
 8016,jEdit-4.2,WITHOUT_CLASSIFICATION,"// OK, add it to the end of the // bucket.",no,undetermined,0,9
@@ -8889,7 +8889,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8034,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ EntryCompare class,no,undetermined,0,9
 8035,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ showPopupMenu() method,no,undetermined,0,9
 8036,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-8037,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that we don't try to reset() right away,no,undetermined,1,8
+8037,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that we don't try to reset() right away,no,undetermined,0,9
 8038,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8039,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ cacheDockableWindows() method,no,undetermined,0,9
 8040,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -8906,7 +8906,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8051,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8052,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getEntry() method,no,undetermined,0,9
 8053,jEdit-4.2,WITHOUT_CLASSIFICATION,// synchronized,no,undetermined,0,9
-8054,jEdit-4.2,DESIGN,// moved to GUIUtilities as it makes no sense being here.,yes,undetermined,0,9
+8054,jEdit-4.2,DESIGN,// moved to GUIUtilities as it makes no sense being here.,yes,undetermined,1,8
 8055,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setInterval() method,no,undetermined,0,9
 8056,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8057,jEdit-4.2,WITHOUT_CLASSIFICATION,// Force the install tab to refresh for possible // change of mirror,no,undetermined,0,9
@@ -9154,7 +9154,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8282,jEdit-4.2,WITHOUT_CLASSIFICATION,"// on insert, start search from beginning of // current match. This will continue to highlight // the current match until another match is found",no,undetermined,1,8
 8283,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8284,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ expandAbbrev() method,no,undetermined,0,9
-8285,jEdit-4.2,WITHOUT_CLASSIFICATION,// only paint visible chunks,no,undetermined,1,8
+8285,jEdit-4.2,WITHOUT_CLASSIFICATION,// only paint visible chunks,no,undetermined,0,9
 8286,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make a tmp namespace to hold the original constructor args for // use in eval of the parameters node,no,undetermined,0,9
 8287,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8288,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9201,7 +9201,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8329,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8330,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ updateRenderingHints() method,no,undetermined,0,9
 8331,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-8332,jEdit-4.2,DESIGN,// This should be per instance,yes,undetermined,1,8
+8332,jEdit-4.2,DESIGN,// This should be per instance,yes,undetermined,3,6
 8333,jEdit-4.2,WITHOUT_CLASSIFICATION,// try each one that matched,no,undetermined,0,9
 8334,jEdit-4.2,WITHOUT_CLASSIFICATION,"//{{{ Loading, saving window geometry",no,undetermined,0,9
 8335,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9218,7 +9218,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8346,jEdit-4.2,WITHOUT_CLASSIFICATION,// Filter out all carriage returns // if we've seen any.,no,undetermined,1,8
 8347,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ ListUpdater class,no,undetermined,0,9
 8348,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-8349,jEdit-4.2,DESIGN,// Allow getThis() to work through BlockNameSpace to the method // namespace // XXX re-eval this... do we need it?,yes,undetermined,4,5
+8349,jEdit-4.2,DESIGN,// Allow getThis() to work through BlockNameSpace to the method // namespace // XXX re-eval this... do we need it?,yes,undetermined,3,6
 8350,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8351,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8352,jEdit-4.2,WITHOUT_CLASSIFICATION,// previous round produced null,no,undetermined,0,9
@@ -9231,7 +9231,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8359,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8360,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ TipOfTheDay constructor,no,undetermined,0,9
 8361,jEdit-4.2,WITHOUT_CLASSIFICATION,/*@bgen(jjtree) ReturnStatement */,no,undetermined,0,9
-8362,jEdit-4.2,WITHOUT_CLASSIFICATION,/* called by DisplayManager.BufferChangeHandler.transactionComplete() */,no,undetermined,0,9
+8362,jEdit-4.2,WITHOUT_CLASSIFICATION,/* called by DisplayManager.BufferChangeHandler.transactionComplete() */,no,undetermined,1,8
 8363,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getViews() method,no,undetermined,0,9
 8364,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ update() method,no,undetermined,0,9
 8365,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9362,7 +9362,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8488,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ physDown() method // scroll down by physical line amount,no,undetermined,0,9
 8489,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8490,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if caret is inside leading whitespace, indent.",no,undetermined,0,9
-8491,jEdit-4.2,DEFECT,// Warning: Null callstack here.  Don't think we need // a stack trace to indicate how we sourced the method.,yes,undetermined,0,9
+8491,jEdit-4.2,DEFECT,// Warning: Null callstack here.  Don't think we need // a stack trace to indicate how we sourced the method.,yes,undetermined,1,8
 8492,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* ignore zero-height splits, etc */",no,undetermined,1,8
 8493,jEdit-4.2,WITHOUT_CLASSIFICATION,// Check for the occurrence indicator.,no,undetermined,0,9
 8494,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9406,7 +9406,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8524,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8525,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8526,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
-8527,jEdit-4.2,DEFECT,// Jun 9 2004 12:40 PM // waitFor() hangs on some Java // implementations.,yes,undetermined,0,9
+8527,jEdit-4.2,DEFECT,// Jun 9 2004 12:40 PM // waitFor() hangs on some Java // implementations.,yes,undetermined,1,8
 8528,jEdit-4.2,WITHOUT_CLASSIFICATION,// linked list of tokens (sort of -- some closed loops can exist),no,undetermined,0,9
 8529,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8530,jEdit-4.2,WITHOUT_CLASSIFICATION,// evaluate each child,no,undetermined,0,9
@@ -9490,7 +9490,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8604,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8605,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Static variables,no,undetermined,0,9
 8606,jEdit-4.2,DESIGN,// this is a weird hack. // we don't want C+e a to insert 'a' in the // search bar if the search bar has focus...,yes,undetermined,8,1
-8607,jEdit-4.2,DESIGN,// Perhaps here we would want to guard with // a property for parallel backups or not.,yes,undetermined,3,6
+8607,jEdit-4.2,DESIGN,// Perhaps here we would want to guard with // a property for parallel backups or not.,yes,undetermined,2,7
 8608,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8609,jEdit-4.2,WITHOUT_CLASSIFICATION,/*override*/,no,undetermined,0,9
 8610,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9530,7 +9530,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8640,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 8641,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8642,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createRegexpEOLSpanRule() method,no,undetermined,0,9
-8643,jEdit-4.2,DESIGN,"// Get available screens // O(n^3), this is nasty, but since we aren't dealling with // many items it should be fine",yes,undetermined,0,9
+8643,jEdit-4.2,DESIGN,"// Get available screens // O(n^3), this is nasty, but since we aren't dealling with // many items it should be fine",yes,undetermined,1,8
 8644,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ VFS constructor,no,undetermined,0,9
 8645,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSelectedFiles() method,no,undetermined,0,9
 8646,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMode() method,no,undetermined,0,9
@@ -9585,14 +9585,14 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8688,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8689,jEdit-4.2,WITHOUT_CLASSIFICATION,// Delegate to the static method,no,undetermined,0,9
 8690,jEdit-4.2,WITHOUT_CLASSIFICATION,// Set type/creator on save,no,undetermined,0,9
-8691,jEdit-4.2,WITHOUT_CLASSIFICATION,"// resolves previous forward references to label, if any",no,undetermined,0,9
+8691,jEdit-4.2,WITHOUT_CLASSIFICATION,"// resolves previous forward references to label, if any",no,undetermined,1,8
 8692,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Package-private members,no,undetermined,0,9
 8693,jEdit-4.2,WITHOUT_CLASSIFICATION,// private members,no,undetermined,0,9
 8694,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Word class,no,undetermined,0,9
 8695,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8696,jEdit-4.2,WITHOUT_CLASSIFICATION,// Remove '.bsh',no,undetermined,0,9
 8697,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-8698,jEdit-4.2,WITHOUT_CLASSIFICATION,// this makes HyperSearch much faster,no,undetermined,0,9
+8698,jEdit-4.2,WITHOUT_CLASSIFICATION,// this makes HyperSearch much faster,no,undetermined,1,8
 8699,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8700,jEdit-4.2,WITHOUT_CLASSIFICATION,// adds the instruction to the bytecode of the method,no,undetermined,0,9
 8701,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9605,7 +9605,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8708,jEdit-4.2,IMPLEMENTATION,// implement the recursion for getClassImpl(),yes,undetermined,1,8
 8709,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paintValidLine() method,no,undetermined,0,9
 8710,jEdit-4.2,WITHOUT_CLASSIFICATION,"//Log.log(Log.DEBUG,BufferHistory.class,fnf);",no,undetermined,0,9
-8711,jEdit-4.2,WITHOUT_CLASSIFICATION,// see above,no,undetermined,1,8
+8711,jEdit-4.2,WITHOUT_CLASSIFICATION,// see above,no,undetermined,0,9
 8712,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8713,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8714,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9649,7 +9649,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8749,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ loadMenuItem() method,no,undetermined,0,9
 8750,jEdit-4.2,DESIGN,// clear name resolvers... don't know if this is necessary.,yes,undetermined,0,9
 8751,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
-8752,jEdit-4.2,WITHOUT_CLASSIFICATION,// End BeanShell Modification - moved body to overloaded getMessage(),no,undetermined,0,9
+8752,jEdit-4.2,WITHOUT_CLASSIFICATION,// End BeanShell Modification - moved body to overloaded getMessage(),no,undetermined,1,8
 8753,jEdit-4.2,WITHOUT_CLASSIFICATION,// there was an error,no,undetermined,1,8
 8754,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ searchStarted() method,no,undetermined,0,9
 8755,jEdit-4.2,WITHOUT_CLASSIFICATION,// can't happen,no,undetermined,0,9
@@ -9667,7 +9667,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8767,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
  * Expression syntax follows.
  */",no,undetermined,0,9
-8768,jEdit-4.2,DESIGN,// JDK 1.4 workaround,yes,undetermined,8,1
+8768,jEdit-4.2,DESIGN,// JDK 1.4 workaround,yes,undetermined,7,2
 8769,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toHashtable() method,no,undetermined,0,9
 8770,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8771,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9678,18 +9678,18 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8776,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ LogViewer constructor,no,undetermined,0,9
 8777,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8778,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ doctypeDecl() method,no,undetermined,0,9
-8779,jEdit-4.2,WITHOUT_CLASSIFICATION,"// only used if what is ""plugin""",no,undetermined,1,8
+8779,jEdit-4.2,WITHOUT_CLASSIFICATION,"// only used if what is ""plugin""",no,undetermined,2,7
 8780,jEdit-4.2,WITHOUT_CLASSIFICATION,// no need to do this for macros!,no,undetermined,1,8
 8781,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Some constants,no,undetermined,0,9
 8782,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8783,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ equals() method,no,undetermined,0,9
 8784,jEdit-4.2,WITHOUT_CLASSIFICATION,// ug,no,undetermined,0,9
-8785,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,1,8
+8785,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,0,9
 8786,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8787,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BrowserOptionPane constructor,no,undetermined,0,9
 8788,jEdit-4.2,WITHOUT_CLASSIFICATION,// classExists caches the tests for us,no,undetermined,0,9
 8789,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ goTo() method,no,undetermined,0,9
-8790,jEdit-4.2,TEST,// TODO: test that surrogate value is legal.,yes,undetermined,9,0
+8790,jEdit-4.2,TEST,// TODO: test that surrogate value is legal.,yes,undetermined,8,1
 8791,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8792,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8793,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9728,7 +9728,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 				 * highlighting read-ins like this <<EOF
 				 * ...
 				 * EOF
-				 */",no,undetermined,1,8
+				 */",no,undetermined,0,9
 8820,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8821,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8822,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* if user drops into a selection,
@@ -9736,7 +9736,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8823,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8824,jEdit-4.2,WITHOUT_CLASSIFICATION,// check if web start,no,undetermined,0,9
 8825,jEdit-4.2,WITHOUT_CLASSIFICATION,// since recentBuffer will be set to the one that // was closed,no,undetermined,0,9
-8826,jEdit-4.2,WITHOUT_CLASSIFICATION,// multiple files w/ word bonus,no,undetermined,2,7
+8826,jEdit-4.2,WITHOUT_CLASSIFICATION,// multiple files w/ word bonus,no,undetermined,1,8
 8827,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isLoaded() method,no,undetermined,0,9
 8828,jEdit-4.2,WITHOUT_CLASSIFICATION,// Null interpreter and callstack references. // class only resolution should not require them.,no,undetermined,0,9
 8829,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getValueAt() method,no,undetermined,0,9
@@ -9854,7 +9854,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8922,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8923,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSubregionEndOffset() method,no,undetermined,0,9
 8924,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
-8925,jEdit-4.2,WITHOUT_CLASSIFICATION,"// now that we know how many chars there are, get the width.",no,undetermined,0,9
+8925,jEdit-4.2,WITHOUT_CLASSIFICATION,"// now that we know how many chars there are, get the width.",no,undetermined,1,8
 8926,jEdit-4.2,WITHOUT_CLASSIFICATION,// JSR_W,no,undetermined,0,9
 8927,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 8928,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setKeywords() method,no,undetermined,0,9
@@ -9954,7 +9954,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 8988,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getShortcut() method,no,undetermined,0,9
 8989,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ attribute() method,no,undetermined,0,9
 8990,jEdit-4.2,WITHOUT_CLASSIFICATION,// ignore,no,undetermined,0,9
-8991,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Default is c:\windows under win98, $HOME under Unix",no,undetermined,1,8
+8991,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Default is c:\windows under win98, $HOME under Unix",no,undetermined,0,9
 8992,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getNotLoadedPluginJARs() method,no,undetermined,0,9
 8993,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 8994,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -9971,7 +9971,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9005,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DockableWindowManager constructor,no,undetermined,0,9
 9006,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getEditServer() method,no,undetermined,0,9
 9007,jEdit-4.2,WITHOUT_CLASSIFICATION,// Return the value.,no,undetermined,0,9
-9008,jEdit-4.2,WITHOUT_CLASSIFICATION,// do not reset the stream and just treat it // like a normal UTF-8 file.,no,undetermined,1,8
+9008,jEdit-4.2,WITHOUT_CLASSIFICATION,// do not reset the stream and just treat it // like a normal UTF-8 file.,no,undetermined,0,9
 9009,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9010,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ removeUpdate() method,no,undetermined,0,9
 9011,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Strip trailing EOL */,no,undetermined,0,9
@@ -10011,7 +10011,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9044,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9045,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* Try to guess the eventual size to avoid unnecessary
 		 * copying */",no,undetermined,0,9
-9046,jEdit-4.2,WITHOUT_CLASSIFICATION,// stop people doing dumb stuff like C+ENTER 100 C+n,no,undetermined,1,8
+9046,jEdit-4.2,WITHOUT_CLASSIFICATION,// stop people doing dumb stuff like C+ENTER 100 C+n,no,undetermined,0,9
 9047,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Figure out if this is a start tag // or an empty element, and dispatch an // event accordingly.",no,undetermined,0,9
 9048,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9049,jEdit-4.2,WITHOUT_CLASSIFICATION,/* not really needed since threads don't start until after */,no,undetermined,0,9
@@ -10023,7 +10023,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9055,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ layoutContainer() method,no,undetermined,0,9
 9056,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9057,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Protected members,no,undetermined,0,9
-9058,jEdit-4.2,DESIGN,// this is where checked exceptions piss me off. this method only uses // a StringReader which can never throw an exception...,yes,undetermined,0,9
+9058,jEdit-4.2,DESIGN,// this is where checked exceptions piss me off. this method only uses // a StringReader which can never throw an exception...,yes,undetermined,1,8
 9059,jEdit-4.2,WITHOUT_CLASSIFICATION,//else,no,undetermined,0,9
 9060,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9061,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ clone() method,no,undetermined,0,9
@@ -10069,7 +10069,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9101,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9102,jEdit-4.2,WITHOUT_CLASSIFICATION,"// since subsequent macros with the same name are ignored, // load user macros first so that they override the system // macros.",no,undetermined,0,9
 9103,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9104,jEdit-4.2,DESIGN,// ConsoleInterface // The interpreter reflexively implements the console interface that it  // uses.  Should clean this up by using an inner class to implement the // console for us.,yes,undetermined,2,7
+9104,jEdit-4.2,DESIGN,// ConsoleInterface // The interpreter reflexively implements the console interface that it  // uses.  Should clean this up by using an inner class to implement the // console for us.,yes,undetermined,0,9
 9105,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9106,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* call sendBreak after fixed number of
 			 * lines of stdout are read
@@ -10083,7 +10083,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9113,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getSymbolicName() method,no,undetermined,0,9
 9114,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getFoldLevel() method,no,undetermined,0,9
 9115,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9116,jEdit-4.2,WITHOUT_CLASSIFICATION,// stop people doing dumb stuff like C+ENTER 100 C+n,no,undetermined,1,8
+9116,jEdit-4.2,WITHOUT_CLASSIFICATION,// stop people doing dumb stuff like C+ENTER 100 C+n,no,undetermined,0,9
 9117,jEdit-4.2,WITHOUT_CLASSIFICATION,// Tags plugin likes to call this method at times other than // startup; so we need to fire a SearchSettingsChanged to // notify the search bar and so on.,no,undetermined,0,9
 9118,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9119,jEdit-4.2,WITHOUT_CLASSIFICATION,// should try to use this as little as possible.,no,undetermined,1,8
@@ -10120,7 +10120,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 				someThisType.x=5;
 				
 				In the old scoping rules super didn't do this.
-			*/",no,undetermined,0,9
+			*/",no,undetermined,1,8
 9143,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ LocalDirectoryEntry class,no,undetermined,0,9
 9144,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 9145,jEdit-4.2,WITHOUT_CLASSIFICATION,// end HandlerBase implementation,no,undetermined,0,9
@@ -10172,7 +10172,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9191,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ TextAreaTransferHandler class,no,undetermined,0,9
 9192,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Variables,no,undetermined,0,9
 9193,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9194,jEdit-4.2,WITHOUT_CLASSIFICATION,// Not found -- we'll have to add it.,no,undetermined,1,8
+9194,jEdit-4.2,WITHOUT_CLASSIFICATION,// Not found -- we'll have to add it.,no,undetermined,0,9
 9195,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* I already wrote a comment expaining this in
 			 * Macro.invoke(). */",no,undetermined,0,9
 9196,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10195,11 +10195,11 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9213,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 9214,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9215,jEdit-4.2,WITHOUT_CLASSIFICATION,// proxy password,no,undetermined,0,9
-9216,jEdit-4.2,WITHOUT_CLASSIFICATION,// zero it here so that BufferTabs doesn't have any problems,no,undetermined,1,8
+9216,jEdit-4.2,WITHOUT_CLASSIFICATION,// zero it here so that BufferTabs doesn't have any problems,no,undetermined,0,9
 9217,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setWrapGuidePainted() method,no,undetermined,0,9
 9218,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9219,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that we don't see the same tip again if the user // clicks 'Next Tip',no,undetermined,0,9
-9220,jEdit-4.2,WITHOUT_CLASSIFICATION,// according to krisk this looks better on OS X...,no,undetermined,3,6
+9220,jEdit-4.2,WITHOUT_CLASSIFICATION,// according to krisk this looks better on OS X...,no,undetermined,2,7
 9221,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ Handle ordinary abbrevs,no,undetermined,0,9
 9222,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9223,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ Right...,no,undetermined,0,9
@@ -10237,7 +10237,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9255,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Read the attributes, if any. // After this loop, we should be just // in front of the closing delimiter.",no,undetermined,1,8
 9256,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 9257,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9258,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* There is no official Perl spec, but here's a ""best guess"" */",no,undetermined,1,8
+9258,jEdit-4.2,WITHOUT_CLASSIFICATION,"/* There is no official Perl spec, but here's a ""best guess"" */",no,undetermined,2,7
 9259,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 9260,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ paintValidLine() method,no,undetermined,0,9
 9261,jEdit-4.2,WITHOUT_CLASSIFICATION,// generate switch body,no,undetermined,0,9
@@ -10285,7 +10285,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9303,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9304,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9305,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
-9306,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Otherwise set a flag, // so that \n knows that last // was a \r",no,undetermined,0,9
+9306,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Otherwise set a flag, // so that \n knows that last // was a \r",no,undetermined,1,8
 9307,jEdit-4.2,WITHOUT_CLASSIFICATION,// show this message when all I/O requests are // complete,no,undetermined,0,9
 9308,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isScreenLineCountValid() method,no,undetermined,0,9
 9309,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10339,7 +10339,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9357,jEdit-4.2,WITHOUT_CLASSIFICATION,// files it occurs in,no,undetermined,0,9
 9358,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getMark() method,no,undetermined,0,9
 9359,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9360,jEdit-4.2,WITHOUT_CLASSIFICATION,"// to minimise synchronization and stuff like that, we only // show a status message at most twice a second",no,undetermined,1,8
+9360,jEdit-4.2,WITHOUT_CLASSIFICATION,"// to minimise synchronization and stuff like that, we only // show a status message at most twice a second",no,undetermined,0,9
 9361,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9362,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9363,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10351,7 +10351,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9369,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Static variables,no,undetermined,0,9
 9370,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9371,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isDragInProgress() method,no,undetermined,0,9
-9372,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Instead of passing these around to each method, we just store them // as instance variables. Note that this is not thread-safe.",no,undetermined,0,9
+9372,jEdit-4.2,WITHOUT_CLASSIFICATION,"// Instead of passing these around to each method, we just store them // as instance variables. Note that this is not thread-safe.",no,undetermined,1,8
 9373,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9374,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ handleClient() method,no,undetermined,0,9
 9375,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getField() method,no,undetermined,0,9
@@ -10360,7 +10360,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9378,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 		Note: bshmethod needs to re-evaluate the method return type here.
 		This is broken.
-	*/",no,undetermined,1,8
+	*/",no,undetermined,0,9
 9379,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
 9380,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ hyperSearch() method,no,undetermined,0,9
 9381,jEdit-4.2,WITHOUT_CLASSIFICATION,// Only do this after all I/O requests are complete,no,undetermined,1,8
@@ -10424,7 +10424,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9439,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //{{{ KEY_RELEASED...,no,undetermined,0,9
 9440,jEdit-4.2,WITHOUT_CLASSIFICATION,/*ISTORE_0*/,no,undetermined,0,9
 9441,jEdit-4.2,WITHOUT_CLASSIFICATION,"// not a field, try property access",no,undetermined,0,9
-9442,jEdit-4.2,DESIGN,// have to do this hack until VFSPath class is written,yes,undetermined,8,1
+9442,jEdit-4.2,DESIGN,// have to do this hack until VFSPath class is written,yes,undetermined,9,0
 9443,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ BrowserHandler class,no,undetermined,0,9
 9444,jEdit-4.2,WITHOUT_CLASSIFICATION,// this helps a little,no,undetermined,0,9
 9445,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10485,7 +10485,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9497,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9498,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ isTemporary() method,no,undetermined,0,9
 9499,jEdit-4.2,WITHOUT_CLASSIFICATION,// we have to be careful,no,undetermined,0,9
-9500,jEdit-4.2,WITHOUT_CLASSIFICATION,// used for SPAN_REGEXP rules; otherwise null,no,undetermined,0,9
+9500,jEdit-4.2,WITHOUT_CLASSIFICATION,// used for SPAN_REGEXP rules; otherwise null,no,undetermined,1,8
 9501,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getToolTipLocation() method,no,undetermined,0,9
 9502,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getTabSize() method,no,undetermined,0,9
 9503,jEdit-4.2,WITHOUT_CLASSIFICATION,// Old API,no,undetermined,0,9
@@ -10651,7 +10651,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9663,jEdit-4.2,WITHOUT_CLASSIFICATION,"// We could let a String fall through to final input, but since // it's the most likely input type, we check it first.",no,undetermined,0,9
 9664,jEdit-4.2,WITHOUT_CLASSIFICATION,// Note: if we want methods declared inside blocks to be accessible via // this.methodname() inside the block we could handle it here as a // special case.  See also resolveThisFieldReference() special handling // for BlockNameSpace case.  They currently work via the direct name // e.g. methodName().,no,undetermined,1,8
 9665,jEdit-4.2,WITHOUT_CLASSIFICATION,// install man page,no,undetermined,0,9
-9666,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that in the future we don't see streams of // exceptions,no,undetermined,1,8
+9666,jEdit-4.2,WITHOUT_CLASSIFICATION,// so that in the future we don't see streams of // exceptions,no,undetermined,2,7
 9667,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getColumnName() method,no,undetermined,0,9
 9668,jEdit-4.2,WITHOUT_CLASSIFICATION,// dissallow assignment to magic fields,no,undetermined,0,9
 9669,jEdit-4.2,WITHOUT_CLASSIFICATION,// can't happen,no,undetermined,0,9
@@ -10706,7 +10706,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9714,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 		Override this method if you want to customize how the node dumps
 		out its children.
-	*/",no,undetermined,0,9
+	*/",no,undetermined,1,8
 9715,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9716,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setHorizontalOffset() method,no,undetermined,0,9
 9717,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10770,7 +10770,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9770,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9771,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9772,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ LineManager constructor,no,undetermined,0,9
-9773,jEdit-4.2,DESIGN,"// On Unix, set permissions of port file to rw-------, // so that on broken Unices which give everyone read // access to user home dirs, people can't see your // port file (and hence send arbitriary BeanShell code // your way. Nasty.)",yes,undetermined,2,7
+9773,jEdit-4.2,DESIGN,"// On Unix, set permissions of port file to rw-------, // so that on broken Unices which give everyone read // access to user home dirs, people can't see your // port file (and hence send arbitriary BeanShell code // your way. Nasty.)",yes,undetermined,1,8
 9774,jEdit-4.2,WITHOUT_CLASSIFICATION,// don't show splash screen if there is a file named // 'nosplash' in the settings directory,no,undetermined,0,9
 9775,jEdit-4.2,WITHOUT_CLASSIFICATION,// Now try buffer.<property>,no,undetermined,0,9
 9776,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -10809,7 +10809,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 		namespace.  It is not necessary to declare this transient, because 
 		we can only be saved as part of our namespace anyway... (currently).
 	*/",yes,undetermined,0,9
-9801,jEdit-4.2,DESIGN,// Check for field on object  // Note: could eliminate throwing the exception somehow,yes,undetermined,0,9
+9801,jEdit-4.2,DESIGN,// Check for field on object  // Note: could eliminate throwing the exception somehow,yes,undetermined,1,8
 9802,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toggleMultipleSelectionEnabled() method,no,undetermined,0,9
 9803,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Instance variables,no,undetermined,0,9
 9804,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ setEscapeRule() method,no,undetermined,0,9
@@ -10826,11 +10826,11 @@ void VariableDeclaratorId() #VariableDeclaratorId :
      is pushed on to the stack. */",no,undetermined,0,9
 9813,jEdit-4.2,WITHOUT_CLASSIFICATION,// Dispatch to an encoding-specific // reader method to populate the // readBuffer.,no,undetermined,0,9
 9814,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Install class,no,undetermined,0,9
-9815,jEdit-4.2,DESIGN,// fuck me dead,yes,undetermined,0,9
+9815,jEdit-4.2,DESIGN,// fuck me dead,yes,undetermined,1,8
 9816,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
 9817,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getEOLMarkersPainted() method,no,undetermined,0,9
 9818,jEdit-4.2,WITHOUT_CLASSIFICATION,// fill the background,no,undetermined,0,9
-9819,jEdit-4.2,DEFECT,//{{{ Broken class,yes,undetermined,1,8
+9819,jEdit-4.2,DEFECT,//{{{ Broken class,yes,undetermined,0,9
 9820,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ saveGeometry() method,no,undetermined,0,9
 9821,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9822,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Private members,no,undetermined,0,9
@@ -10901,7 +10901,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9887,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ mouseReleased() method,no,undetermined,0,9
 9888,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9889,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ menuDeselected() method,no,undetermined,0,9
-9890,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,1,8
+9890,jEdit-4.2,DEFECT,"// looks bad with the OS X L&F, apparently...",yes,undetermined,0,9
 9891,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Electric borders */,no,undetermined,0,9
 9892,jEdit-4.2,WITHOUT_CLASSIFICATION,// allocate the array to store the initializers // description of the array // The other dimensions default to zero and are assigned when  // the values are set.,no,undetermined,0,9
 9893,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
@@ -10969,7 +10969,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9941,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9942,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Text font */,no,undetermined,0,9
 9943,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ addMacro() method,no,undetermined,0,9
-9944,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make it executable,no,undetermined,1,8
+9944,jEdit-4.2,WITHOUT_CLASSIFICATION,// Make it executable,no,undetermined,0,9
 9945,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9946,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getLineCount() method,no,undetermined,0,9
 9947,jEdit-4.2,WITHOUT_CLASSIFICATION,"// unwrap, etc.",no,undetermined,1,8
@@ -10982,7 +10982,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
          * of cache misses induced by the multiple traversals
          * of the MTF values when calculating coding tables.
          * Seems to improve compression speed by about 1%.
-         */",no,undetermined,0,9
+         */",no,undetermined,1,8
 9949,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9950,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9951,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ DirectoryEntryCompare class,no,undetermined,0,9
@@ -11014,7 +11014,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9973,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ goToNextBracket() method,no,undetermined,0,9
 9974,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9975,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9976,jEdit-4.2,DESIGN,// should implement getMinimumLength() -- any ideas?,yes,undetermined,1,8
+9976,jEdit-4.2,DESIGN,// should implement getMinimumLength() -- any ideas?,yes,undetermined,0,9
 9977,jEdit-4.2,WITHOUT_CLASSIFICATION,// invalidate the old selection,no,undetermined,0,9
 9978,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Move the caret down a line,no,undetermined,0,9
 9979,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}} //}}},no,undetermined,0,9
@@ -11029,7 +11029,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 9988,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getAbbrev() method,no,undetermined,0,9
 9989,jEdit-4.2,WITHOUT_CLASSIFICATION,/* this ensures that the first line is always visible */,no,undetermined,0,9
 9990,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
-9991,jEdit-4.2,WITHOUT_CLASSIFICATION,"// super.variables.containsKey( name ) not any faster, I checked",no,undetermined,1,8
+9991,jEdit-4.2,WITHOUT_CLASSIFICATION,"// super.variables.containsKey( name ) not any faster, I checked",no,undetermined,2,7
 9992,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 9993,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Convenience methods,no,undetermined,0,9
 9994,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
@@ -11139,7 +11139,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10092,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10093,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10094,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getInstance() method,no,undetermined,0,9
-10095,jEdit-4.2,WITHOUT_CLASSIFICATION,// coming out of background mode. // no views open. // no buffers open if args empty.,no,undetermined,1,8
+10095,jEdit-4.2,WITHOUT_CLASSIFICATION,// coming out of background mode. // no views open. // no buffers open if args empty.,no,undetermined,0,9
 10096,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10097,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10098,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
@@ -11156,7 +11156,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10107,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ getBrowserView() method,no,undetermined,0,9
 10108,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10109,jEdit-4.2,WITHOUT_CLASSIFICATION,// Primitive to arbitrary object type.  // Allow Primitive.castToType() to handle it as well as cases of  // Primitive.NULL and Primitive.VOID,no,undetermined,0,9
-10110,jEdit-4.2,WITHOUT_CLASSIFICATION,// copied from generated getMessage(),no,undetermined,1,8
+10110,jEdit-4.2,WITHOUT_CLASSIFICATION,// copied from generated getMessage(),no,undetermined,0,9
 10111,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10112,jEdit-4.2,WITHOUT_CLASSIFICATION,// impl.,no,undetermined,0,9
 10113,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ toggleExpanded() method,no,undetermined,0,9
@@ -11274,7 +11274,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10215,jEdit-4.2,WITHOUT_CLASSIFICATION,// XThis.this refers to the enclosing class instance,no,undetermined,1,8
 10216,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Plugin management methods,no,undetermined,0,9
 10217,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}} //}}},no,undetermined,0,9
-10218,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Buffer events,no,undetermined,0,9
+10218,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ Buffer events,no,undetermined,1,8
 10219,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10220,jEdit-4.2,WITHOUT_CLASSIFICATION,// evaluate the expression,no,undetermined,0,9
 10221,jEdit-4.2,WITHOUT_CLASSIFICATION,// Optimization: check if anchor + minimumLength > length,no,undetermined,0,9
@@ -11336,10 +11336,10 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10273,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ createToolBar() method,no,undetermined,0,9
 10274,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10275,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ keyPressed() method,no,undetermined,0,9
-10276,jEdit-4.2,WITHOUT_CLASSIFICATION,// only paint visible chunks,no,undetermined,1,8
+10276,jEdit-4.2,WITHOUT_CLASSIFICATION,// only paint visible chunks,no,undetermined,0,9
 10277,jEdit-4.2,WITHOUT_CLASSIFICATION,// Succeeded.  Cache the resolved method.,no,undetermined,0,9
 10278,jEdit-4.2,DESIGN,"// INTERVAL OPERATOR: //  {x} | {x,} | {x,y}  (RE_INTERVALS && RE_NO_BK_BRACES) //  \{x\} | \{x,\} | \{x,y\} (RE_INTERVALS && !RE_NO_BK_BRACES) // // OPEN QUESTION:  //  what is proper interpretation of '{' at start of string?",yes,undetermined,0,9
-10279,jEdit-4.2,WITHOUT_CLASSIFICATION,// Finally the bug fix release,no,undetermined,6,3
+10279,jEdit-4.2,WITHOUT_CLASSIFICATION,// Finally the bug fix release,no,undetermined,4,5
 10280,jEdit-4.2,WITHOUT_CLASSIFICATION,// Normalise whitespace if necessary.,no,undetermined,0,9
 10281,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10282,jEdit-4.2,WITHOUT_CLASSIFICATION,/* Show splash screen */,no,undetermined,0,9
@@ -11355,7 +11355,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10289,jEdit-4.2,WITHOUT_CLASSIFICATION,// block until its closed,no,undetermined,1,8
 10290,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10291,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ finished() method,no,undetermined,0,9
-10292,jEdit-4.2,WITHOUT_CLASSIFICATION,// we reuse the 'pp' vector to save time,no,undetermined,0,9
+10292,jEdit-4.2,WITHOUT_CLASSIFICATION,// we reuse the 'pp' vector to save time,no,undetermined,1,8
 10293,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 				Found the full name in imported classes.
 			*/",no,undetermined,0,9
@@ -11377,7 +11377,7 @@ void VariableDeclaratorId() #VariableDeclaratorId :
 10309,jEdit-4.2,WITHOUT_CLASSIFICATION,"/*
 			If we've fallen through here we are no longer resolving to
 			a class type.
-		*/",no,undetermined,0,9
+		*/",no,undetermined,1,8
 10310,jEdit-4.2,WITHOUT_CLASSIFICATION,"// if download OK, remove existing version",no,undetermined,0,9
 10311,jEdit-4.2,WITHOUT_CLASSIFICATION,//}}},no,undetermined,0,9
 10312,jEdit-4.2,WITHOUT_CLASSIFICATION,//{{{ WindowHandler class,no,undetermined,0,9

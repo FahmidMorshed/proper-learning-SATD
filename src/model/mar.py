@@ -12,14 +12,27 @@ import os
 from sklearn import preprocessing
 
 import pandas
+from sklearn.linear_model import LogisticRegression
 
 
 class MAR(object):
-    def __init__(self, dataset):
-        self.step = 10              # FAHID after how many steps we want to train again
-        self.enough = 30            # FAHID convert to agressive undersampling
-        self.atleast = 100          # FAHID if we have unlabeled data, assume all negative (as the chances are very low)
+    def __init__(self, dataset, enough, atleast, step, enable_est=False, stopat=.95):
+        self.step = step                 # FAHID after how many steps we want to train again
+        self.enough = enough            # FAHID convert to agressive undersampling
+        self.atleast = atleast          # FAHID if we have unlabeled data, assume all negative (as the chances are very low)
+        self.enable_est = enable_est
+        self.stopat = stopat
+        self.est_num = 500
         random.seed(0)
+
+
+        if stopat < .8:
+            self.ensemble_threshold = 1
+        elif stopat < .9:
+            self.ensemble_threshold = 2
+        else:
+            self.ensemble_threshold = 3
+
 
         # FAHID
         self.true_count = dataset.true_count
@@ -29,6 +42,8 @@ class MAR(object):
         self.body.loc[:, 'fixed'] = 0
         self.body.loc[:, 'count'] = 0
         self.csr_mat = dataset.csr_mat
+
+        self.results = []
 
     # FAHID predicted results
     def get_numbers(self):
@@ -44,6 +59,17 @@ class MAR(object):
     def get_random_ids(self):
         return self.body.sample(self.step).index
 
+    def get_ensemble_ids(self):
+        return self.body.loc[self.body['no_vote'] <= self.ensemble_threshold].index
+
+    def get_ensemble_help(self, no_vote):
+        return self.body.loc[(self.body['no_vote'] <= no_vote) & (self.body['code'] == 'undetermined')].index
+
+    def get_random_help(self):
+        a = self.body.loc[self.body['code'] == 'undetermined']
+        a = a.sample(self.step)
+        return a.index
+
     ## Train model ##
     def train(self, pne=True, weighting=True):
         clf = svm.SVC(kernel='linear', probability=True, class_weight='balanced') if weighting else svm.SVC(
@@ -58,11 +84,11 @@ class MAR(object):
         labeled_ids = list(labeled.index)
 
         try:
-            unlabeled = unlabeled.sample(self.atleast)
+            unlabeled = unlabeled.sample(self.atleast) #np.max((len(poses), self.atleast))
         except:
             pass
 
-        # TODO FAHID PRESUMTIVE NON RELEVANT AFTER APPLYING BM25
+        # FAHID PRESUMTIVE NON RELEVANT
         # Examples Presume all examples are false, because true examples are few
         # This reduces the biasness of not doing random sampling
         if not pne:
@@ -102,6 +128,10 @@ class MAR(object):
 
         uncertain_id, uncertain_prob = self.uncertain(clf)
         certain_id, certain_prob = self.certain(clf)
+
+        if self.enable_est:
+            self.est_num, self.est = self.estimate_curve(clf, num_neg=len(sample) - len(poses))
+            return uncertain_id, self.est[uncertain_id], certain_id, self.est[certain_id]
 
         return uncertain_id, uncertain_prob, certain_id, certain_prob
 
@@ -172,5 +202,112 @@ class MAR(object):
 
     def get_allpos(self):
         return len(self.body[self.body['label'] == 'yes'])
+
+    ## BM25 ##
+    def BM25(self, query):
+        if query[0] == '':
+            # FAHID This is not a random choice, but to generate n random numbers between [0,1)
+            test = len(self.body["commenttext"])
+            self.bm = np.random.rand(len(self.body["commenttext"]))
+            return
+
+        b = 0.75
+        k1 = 1.5
+
+        ### Combine title and abstract for training ###########
+        content = [self.body["commenttext"][index] for index in
+                   range(len(self.body["commenttext"]))]
+        #######################################################
+
+        ### Feature selection by tfidf in order to keep vocabulary ###
+
+        tfidfer = TfidfVectorizer(lowercase=True, stop_words=None, norm=None, use_idf=True, smooth_idf=False,
+                                  sublinear_tf=False, decode_error="ignore")
+        tf = tfidfer.fit_transform(content)
+        d_avg = np.mean(np.sum(tf, axis=1))
+        score = {}
+        for word in query:
+            score[word] = []
+            try:
+                id = tfidfer.vocabulary_[word]
+            except:
+                score[word] = [0] * len(content)
+                continue
+            df = sum([1 for wc in tf[:, id] if wc > 0])
+            idf = np.log((len(content) - df + 0.5) / (df + 0.5))
+            for i in range(len(content)):
+                score[word].append(
+                    idf * tf[i, id] / (tf[i, id] + k1 * ((1 - b) + b * np.sum(tf[0], axis=1)[0, 0] / d_avg)))
+        self.bm = np.sum(list(score.values()), axis=0)
+
+    def BM25_get(self):
+        # FAHID: get the indexes of bm at indexes of pool, then reverse and take the first step size of them
+        return self.pool[np.argsort(self.bm[self.pool])[::-1][:self.step]]
+
+    def estimate_curve(self, clf , num_neg=0):
+        from sklearn import linear_model
+
+        def prob_sample(probs):
+            order = np.argsort(probs)[::-1]
+            count = 0
+            can = []
+            sample = []
+            for i, x in enumerate(probs[order]):
+                count = count + (x * self.stopat)
+                can.append(order[i])
+                if count >= 1:
+                    sample.append(can[0])
+                    count = 0
+                    can = []
+            return sample
+
+        poses = np.where(np.array(self.body['code']) == "yes")[0]
+        negs = np.where(np.array(self.body['code']) == "no")[0]
+
+        poses = np.array(poses)[np.argsort(np.array(self.body['time'])[poses])[:]]
+        negs = np.array(negs)[np.argsort(np.array(self.body['time'])[negs])[:]]
+
+        ###############################################
+        prob1 = clf.decision_function(self.csr_mat)
+        prob = np.array([[x] for x in prob1])
+
+        y = np.array([1 if x == 'yes' else 0 for x in self.body['code']])
+        y0 = np.copy(y)
+
+        all = list(set(poses) | set(negs) | set(self.pool))
+
+        pos_num_last = Counter(y0)[1]
+
+        lifes = 1
+        life = lifes
+
+        while (True):
+            C = Counter(y[all])[1] / (num_neg)
+            es = linear_model.LogisticRegression(penalty='l2', fit_intercept=True, C=C)
+
+            es.fit(prob[all], y[all])
+            pos_at = list(es.classes_).index(1)
+
+            pre = es.predict_proba(prob[self.pool])[:, pos_at]
+
+            y = np.copy(y0)
+
+            sample = prob_sample(pre)
+            for x in self.pool[sample]:
+                y[x] = 1
+
+            pos_num = Counter(y)[1]
+
+            if pos_num == pos_num_last:
+                life = life - 1
+                if life == 0:
+                    break
+            else:
+                life = lifes
+            pos_num_last = pos_num
+        esty = pos_num
+        pre = es.predict_proba(prob)[:, pos_at]
+
+        return esty, pre
 
 

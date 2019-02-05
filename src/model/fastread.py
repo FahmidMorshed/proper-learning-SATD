@@ -11,36 +11,54 @@ import numpy as np
 import pandas as pd
 import logging
 
-def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_limit=20, seed=0):
+def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_limit=40, seed=0, enough=30, atleast=100
+                    , step=20, enable_est=True):
     logger = logging.getLogger(dataset_name)
     print("True: " + str(dataset.true_count) + " | False: " + str(dataset.false_count))
     logger.info("Total Yes: " + str(dataset.true_count) + " | Total No: " + str(dataset.false_count))
-
 
     stopat = float(stopat)                  # FAHID stop at recall
     starting = 5                            # FAHID Do random sampling until
 
     np.random.seed(seed)
 
-    read = MAR(dataset)
+    read = MAR(dataset, enough, atleast, step, enable_est=enable_est, stopat=stopat)
 
     print("Stop: " + str(stopat) + " | Error: " + str(error) + " | UncertainLim: " + str(uncertain_limit)
           + " | Step: " + str(read.step) + " | Agressive Undersampling: " + str(read.enough))
 
     num_of_total_pos = read.get_allpos()
-    target = int(num_of_total_pos * stopat)
+    total = dataset.true_count + dataset.false_count
+    target = int(total * stopat)
 
-    print ("Target: " + str(target))
     loop_count = 1
+    no_improvement_count = -1
+    old_pos = 0
     while True:
         pos, neg, total = read.get_numbers()
 
+        if no_improvement_count >= 7:
+            logger.info("%d, %d  %d" % (pos, pos + neg, int(read.est_num * stopat)))
+            print(dataset_name + " NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: " + str(read.est_num))
+            break
+
+        if pos > old_pos:
+            old_pos = pos
+            no_improvement_count = 0
+        else:
+            no_improvement_count += 1
+        if no_improvement_count >= 5:
+            print(dataset_name + " Forcing Random")
+            for id in read.get_random_help():
+                read.code_error(id, error=error)
+
+        pos, neg, total = read.get_numbers()
         # if pos > target:
         #     read.readjust()
 
         loop_count += 1
-        logger.info("%d, %d" % (pos, pos + neg))
-
+        logger.info("%d, %d  %d" % (pos, pos + neg, int(read.est_num * stopat)))
+        read.results.append([pos + neg, pos])
         # if (loop_count % 20 == 0):
         #     print("%d, %d" % (pos, pos + neg))
         #     print('20 loops done...')
@@ -49,11 +67,16 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
             break
 
         if pos < starting:
-            for id in read.get_random_ids():
+            for id in read.get_ensemble_ids():
                 read.code_error(id, error=error)
         else:
             a, b, c, d = read.train(weighting=True, pne=True)
-            if pos >= target:
+            if enable_est:
+                if stopat * read.est_num <= pos:
+                    no_improvement_count = 6
+                    continue
+
+            elif pos >= target:
                 break
 
             # QUERY
@@ -66,18 +89,23 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
                 for id in c:
                     read.code_error(id, error=error)
 
+            # target2 = read.estimate_knee()
+            #print("TARGET " + str(read.est_num))
+
 
     pos, neg, total = read.get_numbers()
-    print("Positive %d, Total Looked %d" % (pos, pos + neg))
+    print("Positive %d, Total Looked %d, Should have found %d" % (pos, pos + neg, int(read.get_allpos() * stopat)))
 
     print_summary(read.body, dataset_name)
+
+    return round(pos / dataset.true_count, 2)
     # #set_trace()
     # return read
 
 
 # Baselines
 # Use SVM, predict the probability, then use Human reader to label, find the retrival curve
-def baseline_fastread(train_data, test_data, dataset_name, clf, stopat=.95, error=None, step=10):
+def baseline_fastread(train_data, test_data, dataset_name, clf, stopat=1, error=None, step=10):
     import warnings
     warnings.filterwarnings("ignore", category=SettingWithCopyWarning)
     logger = logging.getLogger(dataset_name)
@@ -110,7 +138,7 @@ def pred_proba(clf, test_data, train_data, result_pd, col_name):
     result_pd[col_name] = y_pred.tolist()
     result_pd[col_name + '_proba'] = y_pred_proba.tolist()
 
-    print(classification_report(y_test, y_pred))
+    #print(classification_report(y_test, y_pred))
 
 
 def read(result_pd, col_name, stopat, error, step, dataset_name):
@@ -170,3 +198,38 @@ def divide_test_to_train(x, y, dataset_name):
         y_train, y_test = y.iloc[train_index], y.iloc[tune_index]
 
     return x_train, x_test, y_train, y_test
+
+
+def random_read(test_data, dataset_name, stopat=1, step=10):
+    import warnings
+    warnings.filterwarnings("ignore", category=SettingWithCopyWarning)
+    logger = logging.getLogger(dataset_name)
+
+    logger.info("Total Yes: " + str(test_data.true_count) + " | Total No: " + str(test_data.false_count))
+
+    data_pd = test_data.data_pd
+    data_pd['code'] = 'undetermined'
+
+    total_pos = len(data_pd[data_pd['label'] == 'yes'])
+    target = int(total_pos * stopat)
+    print("Target: " + str(target))
+
+    unlabeled_ids = data_pd.loc[data_pd['code'] == 'undetermined'].index
+    np.random.seed(0)
+    while len(unlabeled_ids) > 0:
+        pos = len(data_pd[data_pd["code"] == 'yes'])
+        neg = len(data_pd[data_pd["code"] == 'no'])
+
+        if pos > target:
+            break;
+        if len(unlabeled_ids) > step:
+            random_picks = np.random.choice(unlabeled_ids, step, replace=False)
+            data_pd.loc[random_picks, 'code'] = data_pd['label'].loc[random_picks]
+            logger.info("%d, %d" % (pos, pos + neg))
+        else:
+            data_pd.loc[unlabeled_ids, 'code'] = data_pd['label'].loc[unlabeled_ids]
+            logger.info("%d, %d" % (pos, pos + neg))
+        unlabeled_ids = data_pd.loc[data_pd['code'] == 'undetermined'].index
+
+    print_summary(data_pd, dataset_name)
+

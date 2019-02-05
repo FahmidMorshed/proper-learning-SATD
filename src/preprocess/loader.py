@@ -16,6 +16,7 @@ from random import shuffle
 from sklearn.feature_selection import mutual_info_classif
 from sklearn.model_selection import train_test_split
 
+WORD2VEC_SIZE = 511
 
 class SATDD:
     """
@@ -76,7 +77,7 @@ class DATASET:
         self.tfer = None
         self.csr_mat = None
 
-    def set_csr_mat(self, tfer=None ):
+    def set_csr_mat(self, tfer=None, MAX_FEATURE=None):
         """
         :param tfer: if training set, give nothing, it will learn and fit_transform. But for Test, it should use
         the tfidf from the training set
@@ -87,8 +88,10 @@ class DATASET:
             self.csr_mat = tfer.transform(self.data_pd['commenttext'])
         else:
             self.tfer = TfidfVectorizer(lowercase=True, stop_words=None, use_idf=True, smooth_idf=False,
-                                  sublinear_tf=False, max_features=None)#CountVectorizer(tokenizer=tokenize)#
+                                   sublinear_tf=False, max_features=MAX_FEATURE)#CountVectorizer(tokenizer=tokenize)#
             self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
+
+
 
     def make_test_train_on_same_dataset(self, ratio=.5):
 
@@ -99,6 +102,60 @@ class DATASET:
             X, y, stratify=y, test_size=ratio)
 
         return  DATASET(X_train), DATASET(X_test)
+
+
+    # WORD2VEC
+    def make_word2vec(self, dataset_name):
+        if os.path.isfile('../word2vecs/' + dataset_name + ".word2vec"):
+            my_model = gensim.models.Word2Vec.load('../word2vecs/' + dataset_name + ".word2vec")
+        else:
+            print("Creating new word2vec model for " + dataset_name)
+            training_tokens = []
+            for x in self.data_pd['commenttext']:
+                training_tokens.append([y for y in gensim.utils.simple_preprocess(x)])  # tokenize(x)]
+
+            my_model = build_model(training_tokens)
+            my_model.save('../word2vecs/' + dataset_name + ".word2vec")
+            print("Finished creating word2vec model for " + dataset_name)
+
+
+        return make_output_vec(self.data_pd, my_model)
+
+    def get_word2vec_model(self, dataset_name):
+        return gensim.models.Word2Vec.load('../word2vecs/' + dataset_name + ".word2vec")
+
+# Build Word2vec
+
+def make_output_vec(data_pd, word2vec):
+    data_pd["features"] = ""
+    itr = 0
+    for index, row in data_pd.iterrows():
+
+        comment_text = [y for y in gensim.utils.simple_preprocess(row['commenttext'])]
+
+        x = np.array(
+            [word2vec[i] for i in comment_text if
+             i in word2vec.wv.vocab])
+        word_count_p = len(x)
+        word_vecs_p = np.sum(x, axis=0)
+
+        temp = word_vecs_p / word_count_p
+        if word_count_p == 0:
+            temp = np.full((WORD2VEC_SIZE), 0)
+        data_pd.set_value(index, "features", temp)
+
+    print("Feature extraction complete")
+    return data_pd
+
+def build_model(documents):
+    model = gensim.models.Word2Vec(
+        documents,
+        size=WORD2VEC_SIZE,
+        window=10,
+        min_count=1,
+        workers=5)
+    model.train(documents, total_examples=len(documents), epochs=10)
+    return model
 
 # Preprocessing stuff for Prev Work
 def tokenize(document):

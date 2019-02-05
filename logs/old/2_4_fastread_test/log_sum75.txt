@@ -1,0 +1,20 @@
+jfreechart-1.0.19 | TARGET RECALL: 0.28
+
+apache-ant-1.7.0 | TARGET RECALL: 0.48
+
+columba-1.4-src | TARGET RECALL: 0.63
+
+jEdit-4.2 | TARGET RECALL: 0.4
+
+apache-jmeter-2.10 | TARGET RECALL: 0.66
+
+jruby-1.4.0 | TARGET RECALL: 0.62
+
+hibernate-distribution-3.3.2.GA | TARGET RECALL: 0.69
+
+sql12 | TARGET RECALL: 0.8
+
+argouml | TARGET RECALL: 0.79
+
+emf-2.4.1 | TARGET RECALL: 0.79
+

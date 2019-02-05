@@ -2,13 +2,15 @@ import logging
 
 import os
 
-LOG_FOLDER = '../logs/1_24_ensemble_dt'
+LOG_FOLDER = '../logs/2_5_fastread_95_test'
 def setup_custom_logger(name):
     formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
 
-    if not os.path.exists(LOG_FOLDER):
-        os.makedirs(LOG_FOLDER)
-        #os.makedirs(LOG_FOLDER + '/temp')
+    if not os.path.isdir(LOG_FOLDER):
+        try:
+            os.makedirs(LOG_FOLDER)
+        except FileExistsError:
+            print("Log folder already exists!")
 
     handler = logging.FileHandler(LOG_FOLDER + "/" + name + '.log')
     handler.setFormatter(formatter)

@@ -1,0 +1,624 @@
+C:\ProgramData\Anaconda3\python.exe C:/Users/Fahmid/GitRepo/proper-learning-SATD/src/main.py
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\sklearn\ensemble\weight_boosting.py:29: DeprecationWarning: numpy.core.umath_tests is an internal NumPy module and should not be imported. It will be removed in a future NumPy release.
+  from numpy.core.umath_tests import inner1d
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+C:\ProgramData\Anaconda3\lib\site-packages\gensim\utils.py:1212: UserWarning: detected Windows; aliasing chunkize to chunkize_serial
+  warnings.warn("detected Windows; aliasing chunkize to chunkize_serial")
+columba-1.4-src STARTS...
+CALLING ENSEMBLE... 
+204 | 6264
+jfreechart-1.0.19 STARTS...
+CALLING ENSEMBLE... 
+209 | 4199
+jEdit-4.2 STARTS...
+CALLING ENSEMBLE... 
+256 | 10066
+apache-ant-1.7.0 STARTS...
+CALLING ENSEMBLE... 
+131 | 3967
+sql12 STARTS...
+CALLING ENSEMBLE... 
+286 | 6929
+True: 209 | False: 4199
+True: 204 | False: 6264
+True: 131 | False: 3967
+Stop: 0.95 | Error: None | UncertainLim: 20 | Step: 22 | Agressive Undersampling: 69
+True: 256 | False: 10066
+Stop: 0.95 | Error: None | UncertainLim: 20 | Step: 32 | Agressive Undersampling: 68
+True: 286 | False: 6929
+Stop: 0.95 | Error: None | UncertainLim: 13 | Step: 20 | Agressive Undersampling: 43
+Stop: 0.95 | Error: None | UncertainLim: 25 | Step: 51 | Agressive Undersampling: 85
+Stop: 0.95 | Error: None | UncertainLim: 28 | Step: 36 | Agressive Undersampling: 95
+TARGET 90
+TARGET 107
+TARGET 122
+TARGET 150
+TARGET 103
+TARGET 180
+TARGET 119
+TARGET 141
+TARGET 185
+TARGET 129
+TARGET 134
+TARGET 204
+TARGET 407
+TARGET 255
+TARGET 135
+TARGET 169
+TARGET 187
+TARGET 303
+TARGET 132
+TARGET 541
+TARGET 176
+TARGET 138
+TARGET 201
+TARGET 182
+TARGET 332
+TARGET 131
+TARGET 184
+TARGET 471
+TARGET 134
+TARGET 195
+TARGET 329
+TARGET 177
+TARGET 134
+TARGET 167
+TARGET 629
+TARGET 136
+TARGET 354
+TARGET 156
+TARGET 132
+TARGET 192
+TARGET 579
+TARGET 174
+TARGET 309
+TARGET 136
+TARGET 169
+TARGET 130
+TARGET 196
+TARGET 166
+TARGET 320
+TARGET 592
+TARGET 126
+TARGET 161
+TARGET 133
+TARGET 308
+TARGET 153
+TARGET 579
+TARGET 224
+TARGET 128
+TARGET 152
+TARGET 287
+TARGET 127
+TARGET 149
+TARGET 544
+TARGET 127
+TARGET 232
+TARGET 147
+TARGET 308
+TARGET 123
+TARGET 146
+TARGET 500
+TARGET 122
+TARGET 310
+TARGET 149
+TARGET 213
+TARGET 124
+TARGET 145
+TARGET 286
+TARGET 514
+TARGET 126
+TARGET 147
+TARGET 218
+TARGET 124
+TARGET 295
+TARGET 147
+TARGET 479
+TARGET 123
+TARGET 151
+TARGET 280
+TARGET 126
+TARGET 233
+TARGET 155
+TARGET 121
+TARGET 479
+TARGET 153
+TARGET 276
+TARGET 123
+TARGET 227
+TARGET 156
+TARGET 122
+TARGET 267
+TARGET 470
+TARGET 160
+TARGET 123
+TARGET 162
+TARGET 266
+TARGET 225
+TARGET 120
+TARGET 449
+TARGET 173
+TARGET 120
+TARGET 263
+TARGET 168
+TARGET 229
+TARGET 125
+TARGET 437
+TARGET 166
+TARGET 257
+columba-1.4-src Forcing Random
+TARGET 125
+TARGET 166
+TARGET 125
+TARGET 228
+TARGET 439
+TARGET 172
+TARGET 127
+TARGET 247
+columba-1.4-src Forcing Random
+TARGET 169
+TARGET 127
+TARGET 436
+TARGET 229
+TARGET 168
+TARGET 125
+TARGET 238
+columba-1.4-src Forcing Random
+TARGET 166
+TARGET 127
+TARGET 411
+TARGET 164
+TARGET 232
+TARGET 125
+TARGET 168
+TARGET 234
+columba-1.4-src NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 234
+Positive 196, Total Looked 984, Should have found 193
+columba-1.4-src | Total: 6468 | Total Checked: 984 | Total Yes Data: 204 | Total Yes Checked: 196
+columba-1.4-src | TARGET RECALL: 0.96
+jruby-1.4.0 STARTS...
+CALLING ENSEMBLE... 
+TARGET 125
+622 | 4275
+TARGET 449
+TARGET 168
+TARGET 239
+TARGET 126
+TARGET 165
+TARGET 130
+TARGET 167
+TARGET 394
+True: 622 | False: 4275
+Stop: 0.95 | Error: None | UncertainLim: 62 | Step: 24 | Agressive Undersampling: 207
+TARGET 133
+TARGET 241
+TARGET 167
+TARGET 131
+TARGET 165
+jfreechart-1.0.19 Forcing Random
+TARGET 412
+TARGET 129
+TARGET 248
+TARGET 164
+jfreechart-1.0.19 Forcing Random
+TARGET 130
+TARGET 393
+TARGET 127
+apache-ant-1.7.0 Forcing Random
+TARGET 165
+jfreechart-1.0.19 Forcing Random
+TARGET 246
+TARGET 374
+TARGET 129
+TARGET 168
+jfreechart-1.0.19 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 168
+Positive 148, Total Looked 1235, Should have found 198
+jfreechart-1.0.19 | Total: 4408 | Total Checked: 1235 | Total Yes Data: 209 | Total Yes Checked: 148
+jfreechart-1.0.19 | TARGET RECALL: 0.71
+apache-jmeter-2.10 STARTS...
+CALLING ENSEMBLE... 
+374 | 7683
+TARGET 135
+TARGET 246
+TARGET 379
+TARGET 133
+TARGET 131
+True: 374 | False: 7683
+Stop: 0.95 | Error: None | UncertainLim: 37 | Step: 40 | Agressive Undersampling: 124
+TARGET 245
+TARGET 377
+TARGET 131
+TARGET 131
+TARGET 252
+TARGET 367
+TARGET 134
+TARGET 133
+TARGET 252
+TARGET 347
+TARGET 136
+TARGET 136
+TARGET 345
+TARGET 253
+TARGET 138
+TARGET 136
+TARGET 830
+TARGET 345
+TARGET 252
+TARGET 136
+TARGET 1286
+TARGET 136
+TARGET 394
+TARGET 349
+TARGET 1146
+TARGET 255
+TARGET 134
+apache-ant-1.7.0 Forcing Random
+TARGET 468
+TARGET 1110
+TARGET 333
+TARGET 136
+apache-ant-1.7.0 Forcing Random
+TARGET 258
+TARGET 824
+TARGET 446
+TARGET 136
+apache-ant-1.7.0 Forcing Random
+TARGET 345
+TARGET 762
+TARGET 255
+TARGET 455
+TARGET 136
+apache-ant-1.7.0 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 136
+Positive 116, Total Looked 1494, Should have found 124
+apache-ant-1.7.0 | Total: 4098 | Total Checked: 1494 | Total Yes Data: 131 | Total Yes Checked: 116
+apache-ant-1.7.0 | TARGET RECALL: 0.89
+argouml STARTS...
+CALLING ENSEMBLE... 
+1413 | 8039
+TARGET 771
+TARGET 341
+TARGET 255
+TARGET 433
+TARGET 771
+True: 1413 | False: 8039
+Stop: 0.95 | Error: None | UncertainLim: 141 | Step: 47 | Agressive Undersampling: 471
+TARGET 351
+TARGET 774
+TARGET 462
+TARGET 255
+TARGET 758
+TARGET 344
+TARGET 453
+TARGET 255
+TARGET 755
+TARGET 467
+TARGET 334
+TARGET 751
+TARGET 255
+TARGET 531
+TARGET 747
+TARGET 333
+TARGET 260
+TARGET 404
+TARGET 756
+TARGET 326
+TARGET 748
+TARGET 473
+TARGET 261
+TARGET 321
+sql12 Forcing Random
+TARGET 748
+TARGET 493
+TARGET 261
+TARGET 743
+TARGET 511
+TARGET 314
+sql12 Forcing Random
+TARGET 261
+TARGET 743
+TARGET 439
+TARGET 738
+TARGET 262
+TARGET 306
+sql12 Forcing Random
+TARGET 450
+TARGET 737
+TARGET 275
+TARGET 453
+TARGET 729
+TARGET 304
+sql12 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 304
+Positive 259, Total Looked 1780, Should have found 271
+sql12 | Total: 7215 | Total Checked: 1780 | Total Yes Data: 286 | Total Yes Checked: 259
+sql12 | TARGET RECALL: 0.91
+hibernate-distribution-3.3.2.GA STARTS...
+CALLING ENSEMBLE... 
+472 | 2496
+TARGET 364
+TARGET 729
+TARGET 274
+True: 472 | False: 2496
+Stop: 0.95 | Error: None | UncertainLim: 47 | Step: 14 | Agressive Undersampling: 157
+TARGET 355
+TARGET 722
+TARGET 279
+TARGET 358
+TARGET 716
+TARGET 281
+TARGET 359
+TARGET 713
+TARGET 384
+TARGET 774
+TARGET 281
+jEdit-4.2 Forcing Random
+TARGET 778
+TARGET 401
+TARGET 771
+TARGET 401
+TARGET 283
+TARGET 814
+TARGET 604
+TARGET 761
+TARGET 395
+TARGET 1097
+TARGET 283
+TARGET 918
+TARGET 761
+TARGET 704
+TARGET 389
+TARGET 640
+TARGET 286
+TARGET 597
+TARGET 750
+TARGET 587
+TARGET 390
+TARGET 582
+TARGET 745
+TARGET 287
+TARGET 599
+TARGET 397
+TARGET 590
+TARGET 738
+TARGET 593
+TARGET 286
+TARGET 384
+TARGET 594
+TARGET 733
+TARGET 592
+TARGET 2166
+TARGET 587
+TARGET 388
+TARGET 287
+TARGET 727
+TARGET 585
+TARGET 579
+TARGET 370
+TARGET 718
+TARGET 584
+TARGET 287
+jEdit-4.2 Forcing Random
+TARGET 583
+TARGET 368
+TARGET 1917
+TARGET 714
+TARGET 577
+TARGET 575
+TARGET 368
+TARGET 710
+TARGET 570
+TARGET 289
+jEdit-4.2 Forcing Random
+TARGET 568
+TARGET 370
+TARGET 703
+TARGET 560
+TARGET 1868
+TARGET 557
+TARGET 699
+jruby-1.4.0 Forcing Random
+TARGET 370
+TARGET 555
+TARGET 292
+jEdit-4.2 Forcing Random
+TARGET 552
+TARGET 377
+TARGET 689
+TARGET 551
+TARGET 544
+TARGET 1774
+TARGET 381
+TARGET 691
+TARGET 291
+jEdit-4.2 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 291
+Positive 251, Total Looked 3064, Should have found 243
+jEdit-4.2 | Total: 10322 | Total Checked: 3064 | Total Yes Data: 256 | Total Yes Checked: 251
+jEdit-4.2 | TARGET RECALL: 0.98
+emf-2.4.1 STARTS...
+CALLING ENSEMBLE... 
+104 | 4285
+TARGET 539
+TARGET 533
+TARGET 680
+TARGET 380
+True: 104 | False: 4285
+Stop: 0.95 | Error: None | UncertainLim: 10 | Step: 21 | Agressive Undersampling: 34
+TARGET 531
+TARGET 527
+TARGET 681
+TARGET 378
+TARGET 100
+TARGET 525
+TARGET 1629
+TARGET 113
+TARGET 676
+TARGET 109
+TARGET 559
+TARGET 375
+TARGET 133
+TARGET 553
+TARGET 123
+TARGET 673
+jruby-1.4.0 Forcing Random
+TARGET 116
+TARGET 550
+TARGET 374
+TARGET 109
+TARGET 553
+TARGET 102
+TARGET 662
+jruby-1.4.0 Forcing Random
+TARGET 109
+TARGET 545
+TARGET 1596
+TARGET 379
+apache-jmeter-2.10 Forcing Random
+TARGET 107
+TARGET 540
+TARGET 113
+TARGET 122
+TARGET 658
+TARGET 537
+TARGET 128
+TARGET 136
+TARGET 376
+TARGET 530
+TARGET 147
+TARGET 659
+TARGET 525
+TARGET 118
+TARGET 132
+TARGET 383
+TARGET 1518
+TARGET 518
+TARGET 654
+TARGET 117
+TARGET 116
+TARGET 515
+TARGET 112
+TARGET 383
+TARGET 653
+TARGET 512
+TARGET 112
+TARGET 115
+TARGET 509
+TARGET 652
+TARGET 115
+TARGET 377
+TARGET 509
+TARGET 107
+TARGET 110
+emf-2.4.1 Forcing Random
+TARGET 1495
+TARGET 506
+TARGET 650
+TARGET 381
+TARGET 111
+emf-2.4.1 Forcing Random
+TARGET 510
+Positive 617, Total Looked 1924, Should have found 590
+jruby-1.4.0 | Total: 4897 | Total Checked: 1924 | Total Yes Data: 622 | Total Yes Checked: 617
+jruby-1.4.0 | TARGET RECALL: 0.99
+TARGET 117
+emf-2.4.1 Forcing Random
+TARGET 511
+TARGET 377
+TARGET 510
+TARGET 125
+emf-2.4.1 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 125
+Positive 63, Total Looked 697, Should have found 98
+emf-2.4.1 | Total: 4389 | Total Checked: 697 | Total Yes Data: 104 | Total Yes Checked: 63
+emf-2.4.1 | TARGET RECALL: 0.61
+TARGET 501
+TARGET 376
+TARGET 1454
+TARGET 503
+TARGET 395
+TARGET 502
+TARGET 498
+TARGET 385
+TARGET 496
+TARGET 499
+TARGET 386
+TARGET 1436
+TARGET 497
+TARGET 494
+TARGET 389
+TARGET 496
+TARGET 494
+TARGET 393
+TARGET 494
+TARGET 1424
+TARGET 498
+TARGET 381
+TARGET 495
+TARGET 492
+TARGET 388
+TARGET 490
+TARGET 397
+TARGET 489
+hibernate-distribution-3.3.2.GA Forcing Random
+TARGET 1412
+TARGET 487
+TARGET 398
+TARGET 486
+TARGET 482
+TARGET 394
+TARGET 482
+Positive 457, Total Looked 1380, Should have found 448
+hibernate-distribution-3.3.2.GA | Total: 2968 | Total Checked: 1380 | Total Yes Data: 472 | Total Yes Checked: 457
+hibernate-distribution-3.3.2.GA | TARGET RECALL: 0.97
+TARGET 404
+TARGET 1403
+TARGET 400
+apache-jmeter-2.10 Forcing Random
+TARGET 392
+apache-jmeter-2.10 Forcing Random
+TARGET 1399
+TARGET 397
+TARGET 394
+TARGET 1394
+TARGET 393
+TARGET 391
+TARGET 391
+TARGET 1400
+TARGET 390
+apache-jmeter-2.10 Forcing Random
+TARGET 388
+apache-jmeter-2.10 Forcing Random
+TARGET 1397
+TARGET 390
+apache-jmeter-2.10 Forcing Random
+TARGET 388
+apache-jmeter-2.10 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 388
+Positive 364, Total Looked 3358, Should have found 355
+apache-jmeter-2.10 | Total: 8057 | Total Checked: 3358 | Total Yes Data: 374 | Total Yes Checked: 364
+apache-jmeter-2.10 | TARGET RECALL: 0.97
+TARGET 1399
+TARGET 1403
+TARGET 1395
+TARGET 1389
+Positive 1317, Total Looked 2442, Should have found 1342
+argouml | Total: 9452 | Total Checked: 2442 | Total Yes Data: 1413 | Total Yes Checked: 1317
+argouml | TARGET RECALL: 0.93
+End
+
+Process finished with exit code 0
