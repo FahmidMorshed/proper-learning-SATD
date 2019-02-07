@@ -2,173 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74759962-d775-428e-8e72-777f81fb7170" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/model/proper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_dt_ensemble_entropy.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_dt_ensemble_gini.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_dt_ensemble_gini_max50.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_18_19_test/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_19_19_dt_ensemble_flash.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_dt/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_knn/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_nbm/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_base_svm/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_baseline_dt.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_22_fastread_baseline_svm.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_dt_half/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_knn_half/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_nbm_half/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_base_svm_half/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_fastread_total/TOTAL.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/apache-ant-1.7.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/apache-jmeter-2.10.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/argouml.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/columba-1.4-src.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/emf-2.4.1.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/hibernate-distribution-3.3.2.GA.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/jEdit-4.2.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/jfreechart-1.0.19.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/jruby-1.4.0.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/1_24_test_fastread/sql12.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_18_9_dt_ensemble_feaNone.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_18_9_dt_ensemble_gini.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_18_9_dt_ensemble_gini_max50.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_22_fastread.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_22_fastread_base_dt.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_22_fastread_base_nbm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_22_fastread_base_svm.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/apache-ant-1.7.0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/apache-jmeter-2.10.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/argouml.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/columba-1.4-src.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/emf-2.4.1.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/hibernate-distribution-3.3.2.GA.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/jEdit-4.2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/jfreechart-1.0.19.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/jruby-1.4.0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread/sql12.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread_base_dt_half.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread_base_knn_half.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread_base_nbm_half.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread_base_svm_half.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/1_24_fastread_half_dataset.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/huang.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/columba-1.4-src.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/columba-1.4-src.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jEdit-4.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jEdit-4.2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jfreechart-1.0.19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jfreechart-1.0.19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/old/2_4_fastread_test/log_sum95.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/old/2_4_fastread_test/log_sum95.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/rig.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/rig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ensemble.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/fastread.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fastread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/mar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/mar.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/preprocess/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocess/loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/log.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/result.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/apache-ant-1.7.0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp/apache-ant-1.7.0.csv" afterDir="false" />
@@ -193,8 +35,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+            <state relative-caret-position="112">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
               </folding>
@@ -202,13 +44,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/core/rig.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+            <state relative-caret-position="228">
+              <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
               <folding>
-                <element signature="e#0#45#0" expanded="true" />
+                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -217,8 +59,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="129" column="27" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="27" />
+            <state relative-caret-position="1008">
+              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -229,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-35">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="32">
+              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
               </folding>
@@ -265,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/mar.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="237">
-              <caret line="292" column="27" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="27" />
+            <state relative-caret-position="199">
+              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -274,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="51" column="42" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="42" />
+            <state relative-caret-position="96">
+              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
               <folding>
                 <element signature="e#0#53#0" expanded="true" />
               </folding>
@@ -314,6 +156,7 @@
       <find>threshold_regression</find>
       <find>estimate_curve</find>
       <find>sample</find>
+      <find>self.clf</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -347,14 +190,14 @@
         <option value="$PROJECT_DIR$/src/preprocess/loader.py" />
         <option value="$PROJECT_DIR$/src/model/proper.py" />
         <option value="$PROJECT_DIR$/src/model/ensemble.py" />
-        <option value="$PROJECT_DIR$/src/model/mar.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py" />
         <option value="$PROJECT_DIR$/src/util/result.py" />
+        <option value="$PROJECT_DIR$/src/util/log.py" />
         <option value="$PROJECT_DIR$/src/main.py" />
+        <option value="$PROJECT_DIR$/src/model/mar.py" />
         <option value="$PROJECT_DIR$/src/model/fastread.py" />
         <option value="$PROJECT_DIR$/src/core/rig.py" />
-        <option value="$PROJECT_DIR$/src/util/log.py" />
       </list>
     </option>
   </component>
@@ -546,11 +389,6 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/util/result.py</url>
-          <line>64</line>
-          <option name="timeStamp" value="68" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/model/ensemble.py</url>
           <line>52</line>
           <option name="timeStamp" value="78" />
@@ -564,11 +402,6 @@
           <url>file://$PROJECT_DIR$/src/model/ensemble.py</url>
           <line>142</line>
           <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/util/result.py</url>
-          <line>98</line>
-          <option name="timeStamp" value="101" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -733,6 +566,36 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py" />
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#49#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1008">
+          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2272">
@@ -755,60 +618,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/model/mar.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="292" column="27" selection-start-line="292" selection-start-column="27" selection-end-line="292" selection-end-column="27" />
+        <state relative-caret-position="199">
+          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/result.py">
+    <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="129" column="27" selection-start-line="129" selection-start-column="20" selection-end-line="129" selection-end-column="27" />
+        <state relative-caret-position="96">
+          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
           <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
+            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/rig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        <state relative-caret-position="228">
+          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
           <folding>
-            <element signature="e#0#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/log.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-35">
-          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="51" column="42" selection-start-line="51" selection-start-column="27" selection-end-line="51" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
           </folding>
         </state>
       </provider>

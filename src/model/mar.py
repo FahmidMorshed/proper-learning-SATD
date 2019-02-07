@@ -12,7 +12,7 @@ import os
 from sklearn import preprocessing
 
 import pandas
-from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegression, SGDClassifier
 
 
 class MAR(object):
@@ -24,7 +24,6 @@ class MAR(object):
         self.stopat = stopat
         self.est_num = 500
         random.seed(0)
-
 
         if stopat < .8:
             self.ensemble_threshold = 1
@@ -70,10 +69,15 @@ class MAR(object):
         a = a.sample(self.step)
         return a.index
 
+    def get_neg_help(self):
+        a = self.body.loc[self.body['yes_vote'] == 0 & (self.body['code'] == 'undetermined')]
+        a = a.sample(self.step)
+        return a.index
+
     ## Train model ##
     def train(self, pne=True, weighting=True):
         clf = svm.SVC(kernel='linear', probability=True, class_weight='balanced') if weighting else svm.SVC(
-            kernel='linear', probability=True)
+           kernel='linear', probability=True)
 
         poses = self.body.loc[self.body['code'] == 'yes']
         negs = self.body.loc[self.body['code'] == 'no']
@@ -124,7 +128,7 @@ class MAR(object):
             unlabel_sel = np.argsort(train_dist)[::-1][:int(len(unlabeled_ids) / 2)]
             sample_ids = list(labeled_ids) + list(np.array(unlabeled_ids)[unlabel_sel])
 
-            clf.fit(self.csr_mat[sample_ids], labels[sample_ids])
+            clf.partial_fit(self.csr_mat[sample_ids], labels[sample_ids])
 
         uncertain_id, uncertain_prob = self.uncertain(clf)
         certain_id, certain_prob = self.certain(clf)

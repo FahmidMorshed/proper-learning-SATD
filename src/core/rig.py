@@ -1,3 +1,4 @@
+from sklearn.linear_model import SGDClassifier
 from sklearn.naive_bayes import MultinomialNB
 from sklearn.neighbors import KNeighborsClassifier
 from sklearn.svm import SVC
@@ -58,6 +59,7 @@ def fast_read(satdd, dataset_name):
     atleast = int(test_data.false_count / 100)
     uncertain_limit = int(test_data.true_count / 10)
     step = int((test_data.false_count + test_data.true_count)/200)
+
     target_found = active_learning(test_data, dataset_name, enough=enough, atleast=atleast, stopat=target,
                     uncertain_limit=uncertain_limit, step=step, enable_est=True)
 
@@ -70,6 +72,11 @@ def fast_read(satdd, dataset_name):
     # logger.info("++++NEW CLF++++ ENSEMBLE_NBM")
     # read_ensemble(nbm_ensemble_data.data_pd, dataset_name, stopat=target)
     #
+
+    clf = SGDClassifier(random_state=1, class_weight='balanced', loss='log')  # # #
+    logger.info("++++NEW CLF++++ SGD")
+    baseline_fastread(train_data, test_data, dataset_name, clf, stopat=target)
+
     # print("++++NEW CLF++++ RANDOM")
     # logger.info("++++NEW CLF++++ RANDOM")
     # random_read(test_data, dataset_name, stopat=target)

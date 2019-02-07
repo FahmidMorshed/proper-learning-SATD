@@ -18,3 +18,11 @@ apache-jmeter-2.10 | TARGET RECALL: 0.97
 
 argouml | TARGET RECALL: 0.93
 
+
+
+stop on coverage
+only fast read
+
+use histagram at 20% read vs best learner
+
+use histagram at 95% recall vs best learner

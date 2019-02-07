@@ -58,67 +58,12 @@ def process_fastread(directory, output_file):
         df['perc_read'] = perc
 
         current_col = ''
-        last_read_perc = 0
-        col_val = []
-        estimate = []
-        with open(directory + '/' + filename) as file:
-            for line in file.readlines():
-                if 'rig - ++' in line:
-                    if len(col_val) > 0:
-                        df[current_col] = pd.Series(col_val)
-                    tokens = line.split()
-                    current_col = tokens[9]
-                    df[current_col] = 0
-                    last_read_perc = 0
-                    last_found = 0
-                    col_val = []
-                    col_val.append(0)
-                    continue
-                elif 'rig' in line:
-                    continue
-                line = line.strip()
-                if 'Total Yes:' in line and 'Total No:' in line:
-                    tokens = line.split()
-                    total_yes = int(tokens[9])
-                    total_no = int(tokens[13])
-                    continue
-
-                tokens = line.split()
-                found = float(tokens[7].split(',')[0])
-                read = float(tokens[8])
-
-                read_prec = round(read / (total_yes + total_no) * 100, 0)
-                if read_prec > last_read_perc:
-                    read_diff = int(read_prec - last_read_perc)
-                    last_read_perc = read_prec
-                    for i in range(read_diff):
-                        col_val.append(last_found)
-                    last_found = round(found/ total_yes * 100, 2)
-                    col_val.append(round(found/ total_yes * 100, 2))
-                    if len(tokens) > 9:
-                        estimate.append(round(float(tokens[9]) / total_yes * 100, 2))
-
-            col_val.append(round(found / total_yes * 100, 2))
-        if len(col_val) > 0:
-            df[current_col] = pd.Series(col_val)
-        if len(estimate) > 0:
-            df["estimate"] = pd.Series(estimate)
-        df.to_csv('../results/' + output_file + '/' + filename[:-4] + '.csv')
-
-def process_fastread_new(directory, output_file):
-    output = ''
-    perc = [i for i in range(0, 101)]
-    os.makedirs('../results/' + output_file)
-
-    for filename in os.listdir(directory):
-        df = pd.DataFrame()
-        df['perc_read'] = perc
-
-        current_col = ''
         my_dict = {}
         estimate = {}
         with open(directory + '/' + filename) as file:
             for line in file.readlines():
+                if 'IGNORE' in line:
+                    continue
                 if 'rig - ++' in line:
                     if len(my_dict) > 0:
                         df[current_col] = df['perc_read'].map(my_dict)

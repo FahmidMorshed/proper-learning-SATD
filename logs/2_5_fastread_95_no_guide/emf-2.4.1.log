@@ -1,0 +1,43 @@
+2019-02-05 13:18:52,345 - INFO - rig - emf-2.4.1
+2019-02-05 13:19:00,654 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-05 13:19:00,654 - INFO - fastread - Total Yes: 104 | Total No: 4285
+2019-02-05 13:19:01,213 - INFO - fastread - 0, 0  475
+2019-02-05 13:19:04,882 - INFO - fastread - 0, 21  475
+2019-02-05 13:19:08,554 - INFO - fastread - 0, 42  475
+2019-02-05 13:19:12,266 - INFO - fastread - 0, 63  475
+2019-02-05 13:19:19,722 - INFO - fastread - 1, 105  475
+2019-02-05 13:19:23,385 - INFO - fastread - 1, 125  475
+2019-02-05 13:19:27,043 - INFO - fastread - 2, 146  475
+2019-02-05 13:19:30,744 - INFO - fastread - 3, 166  475
+2019-02-05 13:19:34,487 - INFO - fastread - 5, 187  475
+2019-02-05 13:19:38,761 - INFO - fastread - 10, 208  66
+2019-02-05 13:19:42,922 - INFO - fastread - 17, 229  66
+2019-02-05 13:19:47,146 - INFO - fastread - 21, 250  69
+2019-02-05 13:19:51,350 - INFO - fastread - 26, 271  67
+2019-02-05 13:19:55,596 - INFO - fastread - 29, 292  69
+2019-02-05 13:19:59,880 - INFO - fastread - 30, 313  72
+2019-02-05 13:20:04,199 - INFO - fastread - 38, 334  72
+2019-02-05 13:20:08,456 - INFO - fastread - 41, 355  112
+2019-02-05 13:20:12,676 - INFO - fastread - 43, 376  110
+2019-02-05 13:20:16,854 - INFO - fastread - 49, 397  114
+2019-02-05 13:20:21,032 - INFO - fastread - 50, 418  111
+2019-02-05 13:20:25,180 - INFO - fastread - 50, 439  114
+2019-02-05 13:20:29,343 - INFO - fastread - 53, 460  110
+2019-02-05 13:20:33,507 - INFO - fastread - 55, 481  113
+2019-02-05 13:20:37,750 - INFO - fastread - 55, 502  111
+2019-02-05 13:20:42,020 - INFO - fastread - 57, 523  109
+2019-02-05 13:20:46,307 - INFO - fastread - 60, 544  111
+2019-02-05 13:20:50,544 - INFO - fastread - 62, 565  114
+2019-02-05 13:20:54,761 - INFO - fastread - 65, 586  111
+2019-02-05 13:20:58,971 - INFO - fastread - 66, 607  111
+2019-02-05 13:21:03,193 - INFO - fastread - 68, 628  114
+2019-02-05 13:21:07,505 - INFO - fastread - 70, 649  115
+2019-02-05 13:21:11,876 - INFO - fastread - 70, 670  117
+2019-02-05 13:21:16,253 - INFO - fastread - 70, 691  116
+2019-02-05 13:21:20,620 - INFO - fastread - 70, 712  114
+2019-02-05 13:21:28,568 - INFO - fastread - 70, 754  115
+2019-02-05 13:21:36,631 - INFO - fastread - 70, 796  118
+2019-02-05 13:21:44,605 - INFO - fastread - 71, 838  118
+2019-02-05 13:21:48,915 - INFO - fastread - 72, 859  122
+2019-02-05 13:21:48,915 - INFO - fastread - IGNORE emf-2.4.1 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 129
+2019-02-05 13:21:48,935 - INFO - fastread - IGNORE emf-2.4.1 | Total: 4389 | Percent Checked: 0.2 | Total Yes Data: 104 | Percent Yes Checked: 0.69

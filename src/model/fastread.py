@@ -37,9 +37,10 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
     while True:
         pos, neg, total = read.get_numbers()
 
-        if no_improvement_count >= 7:
+        if no_improvement_count >= 6:
             logger.info("%d, %d  %d" % (pos, pos + neg, int(read.est_num * stopat)))
             print(dataset_name + " NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: " + str(read.est_num))
+            logger.info("IGNORE " + dataset_name + " NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: " + str(read.est_num))
             break
 
         if pos > old_pos:
@@ -47,8 +48,10 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
             no_improvement_count = 0
         else:
             no_improvement_count += 1
-        if no_improvement_count >= 5:
-            print(dataset_name + " Forcing Random")
+        if no_improvement_count >= 4:
+            print(dataset_name + " Forcing Random and Neg")
+            for id in read.get_neg_help():
+                read.code_error(id, error=error)
             for id in read.get_random_help():
                 read.code_error(id, error=error)
 
@@ -73,14 +76,14 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
             a, b, c, d = read.train(weighting=True, pne=True)
             if enable_est:
                 if stopat * read.est_num <= pos:
-                    no_improvement_count = 6
-                    continue
+                    break
 
             elif pos >= target:
                 break
 
             # QUERY
             if pos < uncertain_limit:
+                print("Doing uncertainity sampling.")
                 # Uncertainity Sampling
                 for id in a:
                     read.code_error(id, error=error)
@@ -90,7 +93,7 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
                     read.code_error(id, error=error)
 
             # target2 = read.estimate_knee()
-            #print("TARGET " + str(read.est_num))
+            print("TARGET " + str(read.est_num))
 
 
     pos, neg, total = read.get_numbers()
@@ -184,11 +187,13 @@ def print_summary(df, dataset_name):
     predicted = checked_data.loc[:, "code"].tolist()
     confusion_mat = confusion_matrix(test, predicted, labels=["no", "yes"])
 
-    print(dataset_name + " | Total: " + str(total) + " | Total Checked: " + str(total_checked) + " | Total Yes Data: "
-          + str(total_yes) + " | Total Yes Checked: " + str(total_yes_checked))
+    print(dataset_name + " | Total: " + str(total) + " | Percent Checked: " + str(round(total_checked/total, 2)) + " | Total Yes Data: "
+          + str(total_yes) + " | Percent Yes Checked: " + str(round(total_yes_checked/total_yes, 2)))
 
-    # logger.info(dataset_name + " | Total: " + str(total) + " | Total Checked: " + str(total_checked) + " | Total Yes Data: "
-    #       + str(total_yes) + " | Total Yes Checked: " + str(total_yes_checked))
+    logger.info("IGNORE " + dataset_name + " | Total: " + str(total) + " | Percent Checked: " + str(
+        round(total_checked / total, 2)) + " | Total Yes Data: "
+          + str(total_yes) + " | Percent Yes Checked: " + str(round(total_yes_checked / total_yes, 2)))
+
 
 def divide_test_to_train(x, y, dataset_name):
     sss = StratifiedShuffleSplit(n_splits=1, test_size=.2,
