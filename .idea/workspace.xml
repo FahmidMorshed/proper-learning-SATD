@@ -2,17 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="74759962-d775-428e-8e72-777f81fb7170" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/bellwether.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/quickmar.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/quickread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/columba-1.4-src.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/columba-1.4-src.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jEdit-4.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jEdit-4.2.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jfreechart-1.0.19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_test/jfreechart-1.0.19.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/old/2_4_fastread_test/log_sum95.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/old/2_4_fastread_test/log_sum95.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/apache-ant-1.7.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/apache-ant-1.7.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/apache-jmeter-2.10.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/apache-jmeter-2.10.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/argouml.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/argouml.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/columba-1.4-src.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/columba-1.4-src.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/emf-2.4.1.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/emf-2.4.1.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/hibernate-distribution-3.3.2.GA.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/hibernate-distribution-3.3.2.GA.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jEdit-4.2.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jEdit-4.2.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jfreechart-1.0.19.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jfreechart-1.0.19.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jruby-1.4.0.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/jruby-1.4.0.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/sql12.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2_5_fastread_95_no_guide/sql12.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/rig.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/rig.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/ensemble.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/ensemble.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/fastread.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/fastread.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/mar.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/mar.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/preprocess/loader.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/preprocess/loader.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/util/log.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/log.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/util/result.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/util/result.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/apache-ant-1.7.0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp/apache-ant-1.7.0.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/apache-jmeter-2.10.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp/apache-jmeter-2.10.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/temp/argouml.csv" beforeDir="false" afterPath="$PROJECT_DIR$/temp/argouml.csv" afterDir="false" />
@@ -35,22 +45,10 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="128">
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
               <folding>
                 <element signature="e#0#49#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/core/rig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
-              <folding>
-                <element signature="e#0#46#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -59,32 +57,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/util/result.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1008">
-              <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#19#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/util/log.py">
-          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="32">
-              <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2272">
-              <caret line="154" selection-start-line="154" selection-end-line="154" />
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
               <folding>
                 <element signature="e#0#19#0" expanded="true" />
               </folding>
@@ -93,10 +67,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/core/rig.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="784">
+              <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/preprocess/loader.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="496">
-              <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="59" />
+            <state relative-caret-position="157">
+              <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
               </folding>
@@ -105,12 +91,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/model/mar.py">
+        <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="199">
-              <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
+            <state relative-caret-position="1280">
+              <caret line="93" selection-start-line="75" selection-end-line="93" />
               <folding>
-                <element signature="e#0#13#0" expanded="true" />
+                <element signature="e#0#19#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,10 +105,58 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
+            <state relative-caret-position="2240">
+              <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="59" />
               <folding>
-                <element signature="e#0#53#0" expanded="true" />
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/mar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="928">
+              <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="82" selection-end-column="22" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/log.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="192">
+              <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#14#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/quickread.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1984">
+              <caret line="140" column="59" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="59" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/model/quickmar.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -157,6 +191,15 @@
       <find>estimate_curve</find>
       <find>sample</find>
       <find>self.clf</find>
+      <find>partial</find>
+      <find>clf</find>
+      <find>decision</find>
+      <find>order</find>
+      <find>pred_pro</find>
+      <find>time</find>
+      <find>code</find>
+      <find>np.whe</find>
+      <find>np.where</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -186,25 +229,29 @@
         <option value="$PROJECT_DIR$/src/optimizer/tuner.py" />
         <option value="$PROJECT_DIR$/src/optimizer/flash.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/fastread.py" />
-        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/mar.py" />
-        <option value="$PROJECT_DIR$/src/preprocess/loader.py" />
         <option value="$PROJECT_DIR$/src/model/proper.py" />
-        <option value="$PROJECT_DIR$/src/model/ensemble.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py" />
+        <option value="$PROJECT_DIR$/src/model/active_retrive.py" />
+        <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/mar.py" />
         <option value="$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py" />
         <option value="$PROJECT_DIR$/src/util/result.py" />
-        <option value="$PROJECT_DIR$/src/util/log.py" />
-        <option value="$PROJECT_DIR$/src/main.py" />
-        <option value="$PROJECT_DIR$/src/model/mar.py" />
+        <option value="$PROJECT_DIR$/src/model/bellwether.py" />
+        <option value="$PROJECT_DIR$/src/model/ensemble.py" />
         <option value="$PROJECT_DIR$/src/model/fastread.py" />
+        <option value="$PROJECT_DIR$/src/model/mar.py" />
+        <option value="$PROJECT_DIR$/src/preprocess/loader.py" />
+        <option value="$PROJECT_DIR$/src/model/quickmar.py" />
+        <option value="$PROJECT_DIR$/src/model/quickread.py" />
+        <option value="$PROJECT_DIR$/src/util/log.py" />
         <option value="$PROJECT_DIR$/src/core/rig.py" />
+        <option value="$PROJECT_DIR$/src/main.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-12" />
-    <option name="width" value="1935" />
-    <option name="height" value="1035" />
+    <option name="width" value="1941" />
+    <option name="height" value="1032" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -213,68 +260,21 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="proper-learning-SATD" type="b2602c69:ProjectViewProjectNode" />
-              <item name="proper-learning-SATD" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../simple_fastread" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LN-test" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\data" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\optimizer" />
       <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\model" />
+      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\optimizer" />
       <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\core" />
       <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\preprocess" />
       <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\src\util" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Fahmid\GitRepo\proper-learning-SATD\data" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -353,10 +353,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
+    <frame x="-8" y="0" width="1294" height="688" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17488076" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.17488076" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -374,6 +374,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17488076" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.31083483" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3179396" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3285968" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5007949" side_tool="true" weight="0.27531084" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -389,34 +408,34 @@
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/src/model/ensemble.py</url>
-          <line>52</line>
-          <option name="timeStamp" value="78" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/model/proper.py</url>
           <line>92</line>
           <option name="timeStamp" value="85" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/src/model/ensemble.py</url>
-          <line>142</line>
+          <line>134</line>
           <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/model/quickmar.py</url>
+          <line>77</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/model/quickread.py</url>
+          <line>299</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/core/rig.py</url>
+          <line>110</line>
+          <option name="timeStamp" value="106" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/results/fea20_eng.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/1_4_19_feaNone_stopEng.log" />
-    <entry file="file://$PROJECT_DIR$/results/fea20_eng_tokenize_random.csv" />
-    <entry file="file://$PROJECT_DIR$/results/fea20_none.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/1_10_19_test2/argouml.log" />
-    <entry file="file://$PROJECT_DIR$/logs/1_10_19_test/argouml.log" />
-    <entry file="file://$PROJECT_DIR$/results/fea20_none_v2.csv" />
-    <entry file="file://$PROJECT_DIR$/logs/1_11_19_ensemble/columba-1.4-src.log" />
-    <entry file="file://$PROJECT_DIR$/logs/1_11_19_ensemble/argouml.log" />
-    <entry file="file://$PROJECT_DIR$/log.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/joblib/parallel.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
@@ -523,7 +542,6 @@
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/ensemble.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/fastread.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/mar.py" />
     <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/pandas/core/generic.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
@@ -565,11 +583,168 @@
       </provider>
     </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/rig.py" />
+    <entry file="file://$PROJECT_DIR$/src/model/active_retrive.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/mar.py" />
     <entry file="file://$USER_HOME$/AppData/Local/Temp/fz3temp-2/log.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/time.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../LN-test/src/runner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="605">
+          <caret line="558" column="18" selection-start-line="558" selection-start-column="11" selection-end-line="558" selection-end-column="18" />
+          <folding>
+            <element signature="e#466#1974#0" />
+            <element signature="e#857#1869#0" />
+            <element signature="e#902#908#0" />
+            <element signature="e#1142#1541#0" />
+            <element signature="e#1179#1309#0" />
+            <element signature="e#1354#1429#0" />
+            <element signature="e#1464#1541#0" />
+            <element signature="e#1568#1869#0" />
+            <element signature="e#1659#1717#0" />
+            <element signature="e#1752#1795#0" />
+            <element signature="e#1874#1889#0" />
+            <element signature="e#2097#3240#0" />
+            <element signature="e#2468#3152#0" />
+            <element signature="e#2513#2519#0" />
+            <element signature="e#2753#2824#0" />
+            <element signature="e#2851#3152#0" />
+            <element signature="e#2942#3000#0" />
+            <element signature="e#3035#3078#0" />
+            <element signature="e#3157#3172#0" />
+            <element signature="e#3362#4549#0" />
+            <element signature="e#3733#4461#0" />
+            <element signature="e#4010#4133#0" />
+            <element signature="e#4160#4461#0" />
+            <element signature="e#4251#4309#0" />
+            <element signature="e#4344#4387#0" />
+            <element signature="e#4466#4481#0" />
+            <element signature="e#4669#5707#0" />
+            <element signature="e#5127#5619#0" />
+            <element signature="e#5376#5469#0" />
+            <element signature="e#5496#5619#0" />
+            <element signature="e#5624#5639#0" />
+            <element signature="e#5845#6484#0" />
+            <element signature="e#6095#6396#0" />
+            <element signature="e#6140#6146#0" />
+            <element signature="e#6401#6416#0" />
+            <element signature="e#6524#6654#0" />
+            <element signature="e#6711#6887#0" />
+            <element signature="e#6948#7101#0" />
+            <element signature="e#7163#7726#0" />
+            <element signature="e#7265#7709#0" />
+            <element signature="e#7456#7508#0" />
+            <element signature="e#7535#7709#0" />
+            <element signature="e#7855#8959#0" />
+            <element signature="e#8112#8942#0" />
+            <element signature="e#8157#8163#0" />
+            <element signature="e#8380#8613#0" />
+            <element signature="e#8417#8501#0" />
+            <element signature="e#8536#8613#0" />
+            <element signature="e#8641#8942#0" />
+            <element signature="e#8732#8790#0" />
+            <element signature="e#8825#8868#0" />
+            <element signature="e#9088#10193#0" />
+            <element signature="e#9345#10176#0" />
+            <element signature="e#9390#9396#0" />
+            <element signature="e#9613#9848#0" />
+            <element signature="e#9650#9736#0" />
+            <element signature="e#9771#9848#0" />
+            <element signature="e#9875#10176#0" />
+            <element signature="e#9966#10024#0" />
+            <element signature="e#10059#10102#0" />
+            <element signature="e#10276#11538#0" />
+            <element signature="e#10545#11521#0" />
+            <element signature="e#10590#10596#0" />
+            <element signature="e#10813#10905#0" />
+            <element signature="e#10936#11169#0" />
+            <element signature="e#10973#11057#0" />
+            <element signature="e#11092#11169#0" />
+            <element signature="e#11196#11497#0" />
+            <element signature="e#11287#11345#0" />
+            <element signature="e#11380#11423#0" />
+            <element signature="e#11573#12287#0" />
+            <element signature="e#11580#11662#0" />
+            <element signature="e#11703#11863#0" />
+            <element signature="e#12289#12307#0" />
+            <element signature="e#12882#13535#0" />
+            <element signature="e#13178#13439#0" />
+            <element signature="e#13355#13439#0" />
+            <element signature="e#13571#14047#0" />
+            <element signature="e#13818#14047#0" />
+            <element signature="e#14104#14423#0" />
+            <element signature="e#17510#17551#0" />
+            <element signature="e#17956#18993#0" />
+            <element signature="e#18040#18524#0" />
+            <element signature="e#18147#18339#0" />
+            <element signature="e#18187#18339#0" />
+            <element signature="e#18366#18524#0" />
+            <element signature="e#18406#18524#0" />
+            <element signature="e#18579#18863#0" />
+            <element signature="e#18648#18863#0" />
+            <element signature="e#19014#19623#0" />
+            <element signature="e#19154#19369#0" />
+            <element signature="e#19448#19623#0" />
+            <element signature="e#19698#20147#0" />
+            <element signature="e#19786#20147#0" />
+            <element signature="e#20220#21137#0" />
+            <element signature="e#20308#20501#0" />
+            <element signature="e#20579#20653#0" />
+            <element signature="e#20694#20854#0" />
+            <element signature="e#21179#24113#0" />
+            <element signature="e#21584#23719#0" />
+            <element signature="e#22144#22145#0" />
+            <element signature="e#23085#23117#0" />
+            <element signature="e#23591#23719#0" />
+            <element signature="e#23774#23983#0" />
+            <element signature="e#24158#24503#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/sklearn/tree/tree.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="719" column="8" selection-start-line="719" selection-start-column="8" selection-end-line="719" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/string.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/bellwether.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="349">
+          <caret line="87" column="15" selection-start-line="87" selection-start-column="15" selection-end-line="87" selection-end-column="15" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/concurrent/futures/_base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="383" selection-start-line="383" selection-end-line="383" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.3/system/python_stubs/-313451744/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="237" column="4" selection-start-line="237" selection-start-column="4" selection-end-line="237" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="128">
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="e#0#49#0" expanded="true" />
           </folding>
@@ -578,70 +753,90 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/util/result.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1008">
-          <caret line="65" column="28" selection-start-line="65" selection-start-column="28" selection-end-line="65" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/util/log.py">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2272">
-          <caret line="154" selection-start-line="154" selection-end-line="154" />
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
           <folding>
             <element signature="e#0#19#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/preprocess/loader.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="496">
-          <caret line="47" column="28" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/mar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="199">
-          <caret line="18" column="83" selection-start-line="18" selection-start-column="83" selection-end-line="18" selection-end-column="83" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="14" column="46" selection-start-line="14" selection-start-column="46" selection-end-line="14" selection-end-column="46" />
-          <folding>
-            <element signature="e#0#53#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/rig.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="64" column="79" selection-start-line="64" selection-start-column="79" selection-end-line="64" selection-end-column="79" />
+        <state relative-caret-position="784">
+          <caret line="67" column="30" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/ensemble.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1280">
+          <caret line="93" selection-start-line="75" selection-end-line="93" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/fastread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2240">
+          <caret line="153" column="4" selection-start-line="153" selection-start-column="4" selection-end-line="153" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/mar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="72" column="4" selection-start-line="72" selection-start-column="4" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/quickread.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1984">
+          <caret line="140" column="59" selection-start-line="140" selection-start-column="56" selection-end-line="140" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/model/quickmar.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/preprocess/loader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="37" column="69" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
           </folding>
         </state>
       </provider>

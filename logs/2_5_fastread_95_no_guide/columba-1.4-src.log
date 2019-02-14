@@ -250,3 +250,39 @@
 2019-02-05 14:16:23,432 - INFO - fastread - 193, 300
 2019-02-05 14:16:23,440 - INFO - fastread - 194, 310
 2019-02-05 14:16:23,442 - INFO - fastread - IGNORE columba-1.4-src | Total: 6468 | Percent Checked: 0.05 | Total Yes Data: 204 | Percent Yes Checked: 0.95
+2019-02-07 12:10:57,684 - INFO - rig - columba-1.4-src
+2019-02-07 12:11:00,810 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-07 12:11:00,810 - INFO - rig - ++++NEW CLF++++ SGD
+2019-02-07 12:11:00,810 - INFO - fastread - Total Yes: 204 | Total No: 6264
+2019-02-07 12:11:00,895 - INFO - fastread - 6, 10
+2019-02-07 12:11:00,895 - INFO - fastread - 13, 20
+2019-02-07 12:11:00,895 - INFO - fastread - 23, 30
+2019-02-07 12:11:00,911 - INFO - fastread - 33, 40
+2019-02-07 12:11:00,911 - INFO - fastread - 43, 50
+2019-02-07 12:11:00,917 - INFO - fastread - 53, 60
+2019-02-07 12:11:00,917 - INFO - fastread - 63, 70
+2019-02-07 12:11:00,917 - INFO - fastread - 73, 80
+2019-02-07 12:11:00,917 - INFO - fastread - 77, 90
+2019-02-07 12:11:00,933 - INFO - fastread - 82, 100
+2019-02-07 12:11:00,933 - INFO - fastread - 91, 110
+2019-02-07 12:11:00,933 - INFO - fastread - 101, 120
+2019-02-07 12:11:00,933 - INFO - fastread - 110, 130
+2019-02-07 12:11:00,933 - INFO - fastread - 118, 140
+2019-02-07 12:11:00,948 - INFO - fastread - 127, 150
+2019-02-07 12:11:00,948 - INFO - fastread - 135, 160
+2019-02-07 12:11:00,948 - INFO - fastread - 143, 170
+2019-02-07 12:11:00,948 - INFO - fastread - 150, 180
+2019-02-07 12:11:00,948 - INFO - fastread - 158, 190
+2019-02-07 12:11:00,948 - INFO - fastread - 165, 200
+2019-02-07 12:11:00,948 - INFO - fastread - 171, 210
+2019-02-07 12:11:00,964 - INFO - fastread - 174, 220
+2019-02-07 12:11:00,964 - INFO - fastread - 180, 230
+2019-02-07 12:11:00,964 - INFO - fastread - 180, 240
+2019-02-07 12:11:00,964 - INFO - fastread - 184, 250
+2019-02-07 12:11:00,964 - INFO - fastread - 188, 260
+2019-02-07 12:11:00,964 - INFO - fastread - 190, 270
+2019-02-07 12:11:00,964 - INFO - fastread - 190, 280
+2019-02-07 12:11:00,980 - INFO - fastread - 193, 290
+2019-02-07 12:11:00,980 - INFO - fastread - 193, 300
+2019-02-07 12:11:00,980 - INFO - fastread - 194, 310
+2019-02-07 12:11:00,980 - INFO - fastread - IGNORE columba-1.4-src | Total: 6468 | Percent Checked: 0.05 | Total Yes Data: 204 | Percent Yes Checked: 0.95

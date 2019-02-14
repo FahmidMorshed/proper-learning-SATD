@@ -1,0 +1,94 @@
+2019-02-07 19:33:32,045 - INFO - rig - jfreechart-1.0.19
+2019-02-07 19:33:41,893 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 19:33:41,894 - INFO - quickread - Total Yes: 209 | Total No: 4199
+2019-02-07 19:33:42,845 - INFO - quickread - 0, 0  475
+2019-02-07 19:33:48,378 - INFO - quickread - 20, 22  475
+2019-02-07 19:33:55,666 - INFO - quickread - 36, 44  159
+2019-02-07 19:34:02,707 - INFO - quickread - 56, 66  203
+2019-02-07 19:34:09,463 - INFO - quickread - 71, 88  137
+2019-02-07 19:34:15,953 - INFO - quickread - 83, 110  121
+2019-02-07 19:34:22,142 - INFO - quickread - 94, 132  135
+2019-02-07 19:34:28,177 - INFO - quickread - 97, 154  166
+2019-02-07 19:34:34,404 - INFO - quickread - 100, 176  147
+2019-02-07 19:34:39,715 - INFO - quickread - 104, 198  138
+2019-02-07 19:34:46,260 - INFO - quickread - 109, 220  142
+2019-02-07 19:34:52,217 - INFO - quickread - 113, 242  151
+2019-02-07 19:34:57,375 - INFO - quickread - 114, 264  152
+2019-02-07 19:35:02,939 - INFO - quickread - 117, 286  143
+2019-02-07 19:35:08,268 - INFO - quickread - 117, 308  145
+2019-02-07 19:35:13,705 - INFO - quickread - 119, 330  136
+2019-02-07 19:35:19,454 - INFO - quickread - 119, 352  137
+2019-02-07 19:35:24,620 - INFO - quickread - 119, 374  133
+2019-02-07 19:35:30,879 - INFO - quickread - 122, 396  130
+2019-02-07 19:35:35,889 - INFO - quickread - 124, 418  134
+2019-02-07 19:35:41,907 - INFO - quickread - 126, 440  137
+2019-02-07 19:35:48,089 - INFO - quickread - 137, 462  139
+2019-02-07 19:35:53,114 - INFO - quickread - 138, 484  160
+2019-02-07 19:35:59,581 - INFO - quickread - 142, 506  153
+2019-02-07 19:36:05,416 - INFO - quickread - 142, 528  156
+2019-02-07 19:36:10,619 - INFO - quickread - 145, 550  152
+2019-02-07 19:36:16,489 - INFO - quickread - 145, 572  154
+2019-02-07 19:36:21,547 - INFO - quickread - 145, 594  152
+2019-02-07 19:36:26,742 - INFO - quickread - 145, 616  150
+2019-02-07 19:36:32,366 - INFO - quickread - 145, 638  149
+2019-02-07 19:36:38,703 - INFO - quickread - 145, 660  147
+2019-02-07 19:37:08,755 - INFO - quickread - 145, 736  146
+2019-02-07 19:37:37,784 - INFO - quickread - 146, 809  145
+2019-02-07 19:37:44,674 - INFO - quickread - 149, 831  147
+2019-02-07 19:37:50,067 - INFO - quickread - 149, 853  151
+2019-02-07 19:37:55,519 - INFO - quickread - 149, 875  150
+2019-02-07 19:38:00,812 - INFO - quickread - 149, 897  149
+2019-02-07 19:38:28,917 - INFO - quickread - 149, 975  149
+2019-02-07 19:38:57,847 - INFO - quickread - 151, 1050  148
+2019-02-07 19:39:25,729 - INFO - quickread - 151, 1125  151
+2019-02-07 19:39:54,858 - INFO - quickread - 151, 1195  151
+2019-02-07 19:40:22,342 - INFO - quickread - 151, 1264  150
+2019-02-07 19:40:22,342 - INFO - quickread - IGNORE jfreechart-1.0.19 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 158
+2019-02-07 19:40:22,389 - INFO - quickread - IGNORE jfreechart-1.0.19 | Total: 4408 | Percent Checked: 0.29 | Total Yes Data: 209 | Percent Yes Checked: 0.72
+2019-02-07 19:40:22,390 - INFO - rig - ++++NEW CLF++++ SGD
+2019-02-07 19:40:22,390 - INFO - quickread - Total Yes: 209 | Total No: 4199
+2019-02-07 19:40:25,161 - INFO - quickread - 20, 22  352
+2019-02-07 19:40:26,162 - INFO - quickread - 38, 44  488
+2019-02-07 19:40:26,877 - INFO - quickread - 54, 66  578
+2019-02-07 19:40:27,714 - INFO - quickread - 70, 88  662
+2019-02-07 19:40:28,668 - INFO - quickread - 82, 110  692
+2019-02-07 19:40:29,432 - INFO - quickread - 88, 132  708
+2019-02-07 19:40:30,104 - INFO - quickread - 97, 154  772
+2019-02-07 19:40:30,665 - INFO - quickread - 102, 176  774
+2019-02-07 19:40:31,266 - INFO - quickread - 105, 198  774
+2019-02-07 19:40:31,934 - INFO - quickread - 107, 220  772
+2019-02-07 19:40:32,523 - INFO - quickread - 112, 242  772
+2019-02-07 19:40:33,238 - INFO - quickread - 114, 264  770
+2019-02-07 19:40:34,248 - INFO - quickread - 116, 286  766
+2019-02-07 19:40:35,028 - INFO - quickread - 123, 308  772
+2019-02-07 19:40:35,690 - INFO - quickread - 126, 330  770
+2019-02-07 19:40:36,289 - INFO - quickread - 128, 352  767
+2019-02-07 19:40:36,923 - INFO - quickread - 130, 374  765
+2019-02-07 19:40:37,753 - INFO - quickread - 130, 396  760
+2019-02-07 19:40:38,370 - INFO - quickread - 131, 418  699
+2019-02-07 19:40:38,888 - INFO - quickread - 132, 440  687
+2019-02-07 19:40:39,296 - INFO - quickread - 132, 462  676
+2019-02-07 19:40:39,682 - INFO - quickread - 132, 484  666
+2019-02-07 19:40:40,153 - INFO - quickread - 132, 506  662
+2019-02-07 19:40:40,575 - INFO - quickread - 132, 528  657
+2019-02-07 19:40:41,077 - INFO - quickread - 132, 550  654
+2019-02-07 19:40:41,577 - INFO - quickread - 133, 572  651
+2019-02-07 19:40:42,243 - INFO - quickread - 133, 594  647
+2019-02-07 19:40:42,664 - INFO - quickread - 143, 616  658
+2019-02-07 19:40:43,159 - INFO - quickread - 143, 638  655
+2019-02-07 19:40:43,750 - INFO - quickread - 143, 660  649
+2019-02-07 19:40:44,383 - INFO - quickread - 144, 682  647
+2019-02-07 19:40:44,870 - INFO - quickread - 144, 704  607
+2019-02-07 19:40:45,328 - INFO - quickread - 144, 726  598
+2019-02-07 19:40:45,815 - INFO - quickread - 144, 748  592
+2019-02-07 19:40:46,370 - INFO - quickread - 144, 770  585
+2019-02-07 19:40:46,848 - INFO - quickread - 144, 792  580
+2019-02-07 19:40:47,420 - INFO - quickread - 144, 814  576
+2019-02-07 19:40:47,974 - INFO - quickread - 144, 836  572
+2019-02-07 19:40:48,469 - INFO - quickread - 144, 858  547
+2019-02-07 19:40:48,921 - INFO - quickread - 144, 880  538
+2019-02-07 19:40:48,922 - INFO - quickread - 144, 880  538
+2019-02-07 19:40:48,922 - INFO - quickread - IGNORE jfreechart-1.0.19 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 538
+2019-02-07 19:40:48,942 - INFO - quickread - IGNORE jfreechart-1.0.19 | Total: 4409 | Percent Checked: 0.2 | Total Yes Data: 209 | Percent Yes Checked: 0.69
+2019-02-07 19:40:48,942 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-07 19:40:48,942 - INFO - quickread - Total Yes: 209 | Total No: 4199

@@ -2,7 +2,7 @@ import logging
 
 import os
 
-LOG_FOLDER = '../logs/2_5_fastread_95_no_guide'
+LOG_FOLDER = '../logs/2_12_test6'
 def setup_custom_logger(name):
     formatter = logging.Formatter(fmt='%(asctime)s - %(levelname)s - %(module)s - %(message)s')
 

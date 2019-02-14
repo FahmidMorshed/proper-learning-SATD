@@ -1,0 +1,39 @@
+2019-02-07 18:36:29,691 - INFO - rig - jEdit-4.2
+2019-02-07 18:36:36,124 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-07 18:36:36,124 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-07 18:36:36,125 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-07 18:44:24,832 - INFO - quickread - 38, 51  609
+2019-02-07 18:44:32,752 - INFO - quickread - 76, 102  880
+2019-02-07 18:44:40,714 - INFO - quickread - 105, 153  977
+2019-02-07 18:44:48,956 - INFO - quickread - 130, 204  1083
+2019-02-07 18:44:56,728 - INFO - quickread - 153, 255  1207
+2019-02-07 18:45:05,154 - INFO - quickread - 171, 306  1219
+2019-02-07 18:45:13,211 - INFO - quickread - 180, 357  1222
+2019-02-07 18:45:20,884 - INFO - quickread - 181, 408  1217
+2019-02-07 18:45:29,037 - INFO - quickread - 181, 459  1212
+2019-02-07 18:45:37,250 - INFO - quickread - 184, 510  1210
+2019-02-07 18:45:45,658 - INFO - quickread - 189, 561  1209
+2019-02-07 18:45:53,644 - INFO - quickread - 191, 612  1205
+2019-02-07 18:46:01,801 - INFO - quickread - 191, 663  1200
+2019-02-07 18:46:10,209 - INFO - quickread - 191, 714  1195
+2019-02-07 18:46:18,271 - INFO - quickread - 191, 765  1189
+2019-02-07 18:46:26,215 - INFO - quickread - 191, 816  1083
+2019-02-07 18:46:34,165 - INFO - quickread - 191, 867  1079
+2019-02-07 18:46:42,115 - INFO - quickread - 192, 918  1075
+2019-02-07 18:46:51,363 - INFO - quickread - 195, 969  1073
+2019-02-07 18:47:01,660 - INFO - quickread - 195, 1020  1068
+2019-02-07 18:47:11,298 - INFO - quickread - 199, 1071  1067
+2019-02-07 18:47:19,538 - INFO - quickread - 205, 1122  1068
+2019-02-07 18:47:28,591 - INFO - quickread - 208, 1173  1065
+2019-02-07 18:47:36,568 - INFO - quickread - 208, 1224  1061
+2019-02-07 18:47:44,391 - INFO - quickread - 208, 1275  978
+2019-02-07 18:47:52,141 - INFO - quickread - 208, 1326  973
+2019-02-07 18:48:00,976 - INFO - quickread - 208, 1377  969
+2019-02-07 18:48:09,804 - INFO - quickread - 208, 1428  965
+2019-02-07 18:48:18,879 - INFO - quickread - 208, 1479  960
+2019-02-07 18:48:26,258 - INFO - quickread - 208, 1530  956
+2019-02-07 18:48:34,942 - INFO - quickread - 208, 1581  890
+2019-02-07 18:48:43,045 - INFO - quickread - 208, 1632  885
+2019-02-07 18:48:43,045 - INFO - quickread - 208, 1632  885
+2019-02-07 18:48:43,045 - INFO - quickread - IGNORE jEdit-4.2 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 885
+2019-02-07 18:48:43,054 - INFO - quickread - IGNORE jEdit-4.2 | Total: 10323 | Percent Checked: 0.16 | Total Yes Data: 256 | Percent Yes Checked: 0.81

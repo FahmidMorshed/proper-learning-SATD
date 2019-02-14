@@ -1,0 +1,69 @@
+2019-02-07 20:10:06,418 - INFO - rig - apache-jmeter-2.10
+2019-02-07 20:16:16,046 - INFO - rig - apache-jmeter-2.10
+2019-02-07 20:19:06,019 - INFO - rig - apache-jmeter-2.10
+2019-02-08 10:28:22,599 - INFO - rig - apache-jmeter-2.10
+2019-02-08 10:28:31,286 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 10:28:31,287 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 10:28:31,287 - INFO - quickread - Total Yes: 374 | Total No: 7683
+2019-02-08 11:20:21,720 - INFO - rig - apache-jmeter-2.10
+2019-02-08 11:20:24,736 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 11:20:24,736 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 11:20:24,736 - INFO - quickread - Total Yes: 374 | Total No: 7683
+2019-02-08 11:24:02,013 - INFO - quickread - 12, 40  283
+2019-02-08 11:24:06,361 - INFO - quickread - 50, 80  630
+2019-02-08 11:24:10,669 - INFO - quickread - 89, 120  837
+2019-02-08 11:24:15,062 - INFO - quickread - 129, 160  1060
+2019-02-08 11:24:19,434 - INFO - quickread - 167, 200  1224
+2019-02-08 11:24:23,796 - INFO - quickread - 203, 240  1253
+2019-02-08 11:24:28,172 - INFO - quickread - 238, 280  1457
+2019-02-08 11:24:32,676 - INFO - quickread - 270, 320  1481
+2019-02-08 11:24:36,961 - INFO - quickread - 280, 360  1483
+2019-02-08 11:24:41,215 - INFO - quickread - 283, 400  1481
+2019-02-08 11:24:45,424 - INFO - quickread - 285, 440  1476
+2019-02-08 11:24:49,613 - INFO - quickread - 288, 480  1472
+2019-02-08 11:24:53,791 - INFO - quickread - 291, 520  1469
+2019-02-08 11:24:57,940 - INFO - quickread - 294, 560  1465
+2019-02-08 11:25:02,139 - INFO - quickread - 299, 600  1463
+2019-02-08 11:25:06,361 - INFO - quickread - 301, 640  1460
+2019-02-08 11:25:10,556 - INFO - quickread - 303, 680  1455
+2019-02-08 11:25:14,745 - INFO - quickread - 305, 720  1450
+2019-02-08 11:25:18,890 - INFO - quickread - 310, 760  1449
+2019-02-08 11:25:22,975 - INFO - quickread - 313, 800  1445
+2019-02-08 11:25:27,057 - INFO - quickread - 314, 840  1440
+2019-02-08 11:25:31,146 - INFO - quickread - 316, 880  1436
+2019-02-08 11:25:35,374 - INFO - quickread - 319, 920  1432
+2019-02-08 11:25:39,614 - INFO - quickread - 319, 960  1268
+2019-02-08 11:25:43,989 - INFO - quickread - 323, 1000  1265
+2019-02-08 11:25:48,325 - INFO - quickread - 326, 1040  1261
+2019-02-08 11:25:52,908 - INFO - quickread - 326, 1080  1255
+2019-02-08 11:25:58,601 - INFO - quickread - 326, 1120  1251
+2019-02-08 11:26:04,647 - INFO - quickread - 328, 1160  1247
+2019-02-08 11:26:10,599 - INFO - quickread - 329, 1200  1242
+2019-02-08 11:26:16,809 - INFO - quickread - 331, 1240  1238
+2019-02-08 11:26:22,281 - INFO - quickread - 331, 1280  1234
+2019-02-08 11:26:27,796 - INFO - quickread - 337, 1320  1234
+2019-02-08 11:26:34,336 - INFO - quickread - 338, 1360  1229
+2019-02-08 11:26:41,337 - INFO - quickread - 338, 1400  1224
+2019-02-08 11:26:48,304 - INFO - quickread - 338, 1440  1218
+2019-02-08 11:26:55,127 - INFO - quickread - 339, 1480  1214
+2019-02-08 11:27:00,363 - INFO - quickread - 339, 1520  1208
+2019-02-08 11:27:05,486 - INFO - quickread - 339, 1560  1203
+2019-02-08 11:27:10,661 - INFO - quickread - 339, 1600  1092
+2019-02-08 11:27:15,737 - INFO - quickread - 340, 1640  1085
+2019-02-08 11:27:20,799 - INFO - quickread - 340, 1680  1080
+2019-02-08 11:27:25,837 - INFO - quickread - 341, 1720  1076
+2019-02-08 11:27:30,839 - INFO - quickread - 341, 1760  1071
+2019-02-08 11:27:35,674 - INFO - quickread - 341, 1800  1066
+2019-02-08 11:27:40,645 - INFO - quickread - 342, 1840  1063
+2019-02-08 11:27:45,304 - INFO - quickread - 342, 1880  1058
+2019-02-08 11:27:49,881 - INFO - quickread - 342, 1920  1053
+2019-02-08 11:27:54,459 - INFO - quickread - 342, 1960  1048
+2019-02-08 11:27:59,094 - INFO - quickread - 342, 2000  1044
+2019-02-08 11:28:03,654 - INFO - quickread - 342, 2040  1039
+2019-02-08 11:28:08,139 - INFO - quickread - 342, 2080  1034
+2019-02-08 11:28:12,541 - INFO - quickread - 342, 2120  953
+2019-02-08 11:28:16,870 - INFO - quickread - 342, 2160  948
+2019-02-08 11:28:21,194 - INFO - quickread - 342, 2200  942
+2019-02-08 11:28:21,194 - INFO - quickread - 342, 2200  942
+2019-02-08 11:28:21,194 - INFO - quickread - IGNORE apache-jmeter-2.10 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 942
+2019-02-08 11:28:21,202 - INFO - quickread - IGNORE apache-jmeter-2.10 | Total: 8058 | Percent Checked: 0.27 | Total Yes Data: 374 | Percent Yes Checked: 0.91

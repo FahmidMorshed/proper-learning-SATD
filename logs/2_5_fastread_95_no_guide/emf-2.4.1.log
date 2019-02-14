@@ -41,3 +41,96 @@
 2019-02-05 13:21:48,915 - INFO - fastread - 72, 859  122
 2019-02-05 13:21:48,915 - INFO - fastread - IGNORE emf-2.4.1 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 129
 2019-02-05 13:21:48,935 - INFO - fastread - IGNORE emf-2.4.1 | Total: 4389 | Percent Checked: 0.2 | Total Yes Data: 104 | Percent Yes Checked: 0.69
+2019-02-07 12:11:32,354 - INFO - rig - emf-2.4.1
+2019-02-07 12:11:37,642 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-07 12:11:37,642 - INFO - rig - ++++NEW CLF++++ SGD
+2019-02-07 12:11:37,642 - INFO - fastread - Total Yes: 104 | Total No: 4285
+2019-02-07 12:11:37,780 - INFO - fastread - 3, 10
+2019-02-07 12:11:37,782 - INFO - fastread - 10, 20
+2019-02-07 12:11:37,785 - INFO - fastread - 14, 30
+2019-02-07 12:11:37,787 - INFO - fastread - 20, 40
+2019-02-07 12:11:37,789 - INFO - fastread - 25, 50
+2019-02-07 12:11:37,792 - INFO - fastread - 29, 60
+2019-02-07 12:11:37,796 - INFO - fastread - 38, 70
+2019-02-07 12:11:37,800 - INFO - fastread - 42, 80
+2019-02-07 12:11:37,804 - INFO - fastread - 47, 90
+2019-02-07 12:11:37,809 - INFO - fastread - 50, 100
+2019-02-07 12:11:37,813 - INFO - fastread - 52, 110
+2019-02-07 12:11:37,815 - INFO - fastread - 52, 120
+2019-02-07 12:11:37,817 - INFO - fastread - 54, 130
+2019-02-07 12:11:37,819 - INFO - fastread - 57, 140
+2019-02-07 12:11:37,821 - INFO - fastread - 57, 150
+2019-02-07 12:11:37,824 - INFO - fastread - 58, 160
+2019-02-07 12:11:37,826 - INFO - fastread - 58, 170
+2019-02-07 12:11:37,829 - INFO - fastread - 58, 180
+2019-02-07 12:11:37,833 - INFO - fastread - 59, 190
+2019-02-07 12:11:37,837 - INFO - fastread - 60, 200
+2019-02-07 12:11:37,842 - INFO - fastread - 60, 210
+2019-02-07 12:11:37,846 - INFO - fastread - 62, 220
+2019-02-07 12:11:37,851 - INFO - fastread - 63, 230
+2019-02-07 12:11:37,855 - INFO - fastread - 63, 240
+2019-02-07 12:11:37,859 - INFO - fastread - 64, 250
+2019-02-07 12:11:37,863 - INFO - fastread - 64, 260
+2019-02-07 12:11:37,867 - INFO - fastread - 67, 270
+2019-02-07 12:11:37,872 - INFO - fastread - 67, 280
+2019-02-07 12:11:37,876 - INFO - fastread - 67, 290
+2019-02-07 12:11:37,879 - INFO - fastread - 67, 300
+2019-02-07 12:11:37,883 - INFO - fastread - 70, 310
+2019-02-07 12:11:37,888 - INFO - fastread - 70, 320
+2019-02-07 12:11:37,891 - INFO - fastread - 70, 330
+2019-02-07 12:11:37,892 - INFO - fastread - 71, 340
+2019-02-07 12:11:37,896 - INFO - fastread - 72, 350
+2019-02-07 12:11:37,901 - INFO - fastread - 73, 360
+2019-02-07 12:11:37,904 - INFO - fastread - 73, 370
+2019-02-07 12:11:37,906 - INFO - fastread - 74, 380
+2019-02-07 12:11:37,910 - INFO - fastread - 77, 390
+2019-02-07 12:11:37,915 - INFO - fastread - 78, 400
+2019-02-07 12:11:37,920 - INFO - fastread - 78, 410
+2019-02-07 12:11:37,925 - INFO - fastread - 78, 420
+2019-02-07 12:11:37,932 - INFO - fastread - 79, 430
+2019-02-07 12:11:37,949 - INFO - fastread - 79, 440
+2019-02-07 12:11:37,953 - INFO - fastread - 79, 450
+2019-02-07 12:11:37,959 - INFO - fastread - 79, 460
+2019-02-07 12:11:37,970 - INFO - fastread - 80, 470
+2019-02-07 12:11:37,974 - INFO - fastread - 80, 480
+2019-02-07 12:11:37,976 - INFO - fastread - 83, 490
+2019-02-07 12:11:37,979 - INFO - fastread - 84, 500
+2019-02-07 12:11:37,983 - INFO - fastread - 84, 510
+2019-02-07 12:11:37,986 - INFO - fastread - 84, 520
+2019-02-07 12:11:37,989 - INFO - fastread - 84, 530
+2019-02-07 12:11:37,992 - INFO - fastread - 85, 540
+2019-02-07 12:11:37,995 - INFO - fastread - 85, 550
+2019-02-07 12:11:37,999 - INFO - fastread - 87, 560
+2019-02-07 12:11:38,001 - INFO - fastread - 87, 570
+2019-02-07 12:11:38,003 - INFO - fastread - 87, 580
+2019-02-07 12:11:38,006 - INFO - fastread - 87, 590
+2019-02-07 12:11:38,008 - INFO - fastread - 87, 600
+2019-02-07 12:11:38,011 - INFO - fastread - 87, 610
+2019-02-07 12:11:38,014 - INFO - fastread - 88, 620
+2019-02-07 12:11:38,016 - INFO - fastread - 89, 630
+2019-02-07 12:11:38,020 - INFO - fastread - 89, 640
+2019-02-07 12:11:38,022 - INFO - fastread - 89, 650
+2019-02-07 12:11:38,027 - INFO - fastread - 90, 660
+2019-02-07 12:11:38,031 - INFO - fastread - 91, 670
+2019-02-07 12:11:38,036 - INFO - fastread - 91, 680
+2019-02-07 12:11:38,041 - INFO - fastread - 93, 690
+2019-02-07 12:11:38,043 - INFO - fastread - 93, 700
+2019-02-07 12:11:38,046 - INFO - fastread - 93, 710
+2019-02-07 12:11:38,050 - INFO - fastread - 93, 720
+2019-02-07 12:11:38,055 - INFO - fastread - 93, 730
+2019-02-07 12:11:38,058 - INFO - fastread - 93, 740
+2019-02-07 12:11:38,061 - INFO - fastread - 93, 750
+2019-02-07 12:11:38,063 - INFO - fastread - 93, 760
+2019-02-07 12:11:38,065 - INFO - fastread - 93, 770
+2019-02-07 12:11:38,067 - INFO - fastread - 93, 780
+2019-02-07 12:11:38,069 - INFO - fastread - 93, 790
+2019-02-07 12:11:38,072 - INFO - fastread - 96, 800
+2019-02-07 12:11:38,074 - INFO - fastread - 96, 810
+2019-02-07 12:11:38,078 - INFO - fastread - 96, 820
+2019-02-07 12:11:38,081 - INFO - fastread - 96, 830
+2019-02-07 12:11:38,084 - INFO - fastread - 96, 840
+2019-02-07 12:11:38,088 - INFO - fastread - 96, 850
+2019-02-07 12:11:38,092 - INFO - fastread - 98, 860
+2019-02-07 12:11:38,095 - INFO - fastread - 98, 870
+2019-02-07 12:11:38,097 - INFO - fastread - 99, 880
+2019-02-07 12:11:38,101 - INFO - fastread - IGNORE emf-2.4.1 | Total: 4389 | Percent Checked: 0.2 | Total Yes Data: 104 | Percent Yes Checked: 0.95

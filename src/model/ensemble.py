@@ -8,15 +8,15 @@ from sklearn.svm import SVC
 from sklearn.tree import DecisionTreeClassifier
 import numpy as np
 import scipy.sparse as sp
+from sklearn.utils import resample
 
 from model.fastread import read, print_summary
 from optimizer.flash import tune_dt
 
 
-def dt_ensemble(satdd, dataset_name, ignore_dataset='', clf_name="DT"):
+def dt_ensemble(satdd, dataset_name, ignore_dataset='', clf_name="DT", bellwether_weights=None):
     import warnings
     warnings.filterwarnings("ignore", category=SettingWithCopyWarning)
-
     test_data = satdd.create_and_process_dataset([dataset_name], doInclude=True)
     print(str(test_data.true_count) + " | " + str(test_data.false_count))
     all_dataset_names = satdd.all_dataset_pd.projectname.unique()
@@ -30,38 +30,28 @@ def dt_ensemble(satdd, dataset_name, ignore_dataset='', clf_name="DT"):
         test_data.set_csr_mat(train_data.tfer)
 
         if clf_name in "DT":
-            clf = DecisionTreeClassifier()
+            clf = DecisionTreeClassifier(random_state=0)
         elif clf_name in "NBM":
             clf = MultinomialNB(alpha=1.0)
+        elif clf_name in "SVM":
+            clf = SVC(random_state=0)
 
         x_train = train_data.csr_mat
         y_train = train_data.data_pd['label'].tolist()
         x_test = test_data.csr_mat
         y_test = test_data.data_pd['label'].tolist()
 
-        predict(clf, x_test, y_test, x_train, y_train, result_pd, train_dataset_name + '_dt')
+        predict(clf, x_test, y_test, x_train, y_train, result_pd, train_dataset_name, bellwether_weights)
 
-        # clf = RandomForestClassifier(n_estimators=1000)
-        # predict(clf, x_test, y_test, x_train, y_train, result_pd, train_dataset_name + '_rf')
-
-
-
-        # # SVM Pred using word2vec
-        # test_data.data_pd = test_data.make_word2vec(train_dataset_name)
-        # train_data.data_pd = train_data.make_word2vec(train_dataset_name)
-        # x_train = train_data.data_pd.loc[:,'features'].tolist()
-        # x_test = test_data.data_pd.loc[:,'features'].tolist()
-        # clf = SVC(kernel='linear', random_state=0)
-        # predict(clf, x_test, y_test, x_train, y_train, result_pd2, train_dataset_name)
 
     result_pd['code_ensemble'] = np.where(result_pd['yes_vote'] > result_pd['no_vote'], 'yes', 'no')
 
     #result_pd2['code_ensemble'] = np.where(result_pd2['yes_vote'] > result_pd2['no_vote'], 'yes', 'no')
 
-    # y_test = result_pd['label'].tolist()
-    # y_pred = result_pd['code_ensemble'].tolist()
-    # print(dataset_name)
-    # print(classification_report(y_test, y_pred))
+    y_test = result_pd['label'].tolist()
+    y_pred = result_pd['code_ensemble'].tolist()
+    print(dataset_name)
+    print(classification_report(y_test, y_pred))
 
 
     test_data.data_pd['yes_vote'] = result_pd['yes_vote']
@@ -81,7 +71,7 @@ def dt_ensemble(satdd, dataset_name, ignore_dataset='', clf_name="DT"):
     return test_data
 
 
-def predict(clf, x_test, y_test, x_train, y_train, result_pd, col_name):
+def predict(clf, x_test, y_test, x_train, y_train, result_pd, col_name, bellwether_weights):
 
     if 'label' not in result_pd.columns:
         result_pd['label'] = y_test
@@ -90,15 +80,17 @@ def predict(clf, x_test, y_test, x_train, y_train, result_pd, col_name):
 
     clf.fit(x_train, y_train)
     y_pred = clf.predict(x_test)
-    # y_pred_proba = clf.predict_proba(x_test)[:, 1]
     result_pd[col_name] = y_pred.tolist()
-    # result_pd[col_name + '_proba'] = y_pred_proba.tolist()
+
+    weight = 1
+    if bellwether_weights:
+        weight = bellwether_weights.get(col_name)
 
     yes_ids = result_pd[result_pd.loc[:, col_name] == 'yes'].index
-    result_pd.loc[yes_ids, 'yes_vote'] += 1
+    result_pd.loc[yes_ids, 'yes_vote'] += (1 * weight * weight)
 
     no_ids = result_pd[result_pd.loc[:, col_name] == 'no'].index
-    result_pd.loc[no_ids, 'no_vote'] += 1
+    result_pd.loc[no_ids, 'no_vote'] += (1 * weight * weight)
 
 
 # FINAL VOTING ON ACTIVE LEARNING

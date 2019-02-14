@@ -1,0 +1,52 @@
+2019-02-07 18:48:43,071 - INFO - rig - apache-ant-1.7.0
+2019-02-07 18:48:49,557 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-07 18:48:49,557 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-07 18:48:49,557 - INFO - quickread - Total Yes: 131 | Total No: 3967
+2019-02-07 18:56:43,746 - INFO - quickread - 15, 20  241
+2019-02-07 18:56:49,501 - INFO - quickread - 26, 40  300
+2019-02-07 18:56:55,255 - INFO - quickread - 39, 60  385
+2019-02-07 18:57:00,978 - INFO - quickread - 47, 80  425
+2019-02-07 18:57:06,167 - INFO - quickread - 57, 100  475
+2019-02-07 18:57:11,842 - INFO - quickread - 61, 120  477
+2019-02-07 18:57:17,577 - INFO - quickread - 66, 140  479
+2019-02-07 18:57:23,865 - INFO - quickread - 68, 160  479
+2019-02-07 18:57:29,711 - INFO - quickread - 72, 180  481
+2019-02-07 18:57:35,641 - INFO - quickread - 72, 200  479
+2019-02-07 18:57:41,273 - INFO - quickread - 78, 220  482
+2019-02-07 18:57:46,858 - INFO - quickread - 84, 240  537
+2019-02-07 18:57:52,216 - INFO - quickread - 86, 260  536
+2019-02-07 18:57:57,532 - INFO - quickread - 86, 280  484
+2019-02-07 18:58:03,214 - INFO - quickread - 87, 300  483
+2019-02-07 18:58:08,753 - INFO - quickread - 87, 320  480
+2019-02-07 18:58:14,279 - INFO - quickread - 90, 340  481
+2019-02-07 18:58:20,100 - INFO - quickread - 91, 360  480
+2019-02-07 18:58:25,222 - INFO - quickread - 91, 380  478
+2019-02-07 18:58:29,949 - INFO - quickread - 93, 400  477
+2019-02-07 18:58:35,867 - INFO - quickread - 95, 420  477
+2019-02-07 18:58:41,054 - INFO - quickread - 95, 440  475
+2019-02-07 18:58:46,493 - INFO - quickread - 97, 460  475
+2019-02-07 18:58:51,395 - INFO - quickread - 98, 480  475
+2019-02-07 18:58:56,970 - INFO - quickread - 99, 500  473
+2019-02-07 18:59:02,128 - INFO - quickread - 99, 520  471
+2019-02-07 18:59:07,831 - INFO - quickread - 99, 540  432
+2019-02-07 18:59:13,379 - INFO - quickread - 100, 560  431
+2019-02-07 18:59:18,988 - INFO - quickread - 100, 580  428
+2019-02-07 18:59:25,011 - INFO - quickread - 101, 600  427
+2019-02-07 18:59:30,202 - INFO - quickread - 102, 620  426
+2019-02-07 18:59:35,865 - INFO - quickread - 102, 640  424
+2019-02-07 18:59:41,455 - INFO - quickread - 103, 660  423
+2019-02-07 18:59:47,155 - INFO - quickread - 104, 680  422
+2019-02-07 18:59:52,960 - INFO - quickread - 104, 700  420
+2019-02-07 18:59:58,574 - INFO - quickread - 106, 720  420
+2019-02-07 19:00:04,488 - INFO - quickread - 106, 740  418
+2019-02-07 19:00:09,852 - INFO - quickread - 106, 760  417
+2019-02-07 19:00:15,357 - INFO - quickread - 106, 780  386
+2019-02-07 19:00:20,687 - INFO - quickread - 106, 800  384
+2019-02-07 19:00:25,845 - INFO - quickread - 106, 820  383
+2019-02-07 19:00:31,388 - INFO - quickread - 106, 840  381
+2019-02-07 19:00:36,490 - INFO - quickread - 106, 860  380
+2019-02-07 19:00:41,669 - INFO - quickread - 106, 880  378
+2019-02-07 19:00:46,687 - INFO - quickread - 106, 900  376
+2019-02-07 19:00:46,687 - INFO - quickread - 106, 900  376
+2019-02-07 19:00:46,687 - INFO - quickread - IGNORE apache-ant-1.7.0 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 376
+2019-02-07 19:00:46,689 - INFO - quickread - IGNORE apache-ant-1.7.0 | Total: 4099 | Percent Checked: 0.22 | Total Yes Data: 131 | Percent Yes Checked: 0.81

@@ -87,9 +87,29 @@ class DATASET:
             self.tfer = tfer
             self.csr_mat = tfer.transform(self.data_pd['commenttext'])
         else:
-            self.tfer = TfidfVectorizer(lowercase=True, stop_words=None, use_idf=True, smooth_idf=False,
-                                   sublinear_tf=False, max_features=MAX_FEATURE)#CountVectorizer(tokenizer=tokenize)#
+            #self.tfer = CountVectorizer()
+            self.tfer = TfidfVectorizer(lowercase=False, stop_words=None, use_idf=True, smooth_idf=False,
+                                   sublinear_tf=False, max_features=None, token_pattern=r"(?u)\b\w\w+\b|!|\?|\"|\'")#CountVectorizer(tokenizer=tokenize)#
+
+
             self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
+
+            # if MAX_FEATURE != 1 or MAX_FEATURE != None:
+            #     print("Feature Selection using IG")
+            #     y_train = self.data_pd.loc[:, 'label']
+            #     temp = dict(zip(self.tfer.get_feature_names(),
+            #                     mutual_info_classif(self.csr_mat, y_train, discrete_features=True,
+            #                                         random_state=0)))
+            #     temp = sorted(temp, key=temp.get, reverse=True)
+            #     max_fea = int(MAX_FEATURE * len(temp))
+            #
+            #     self.tfer = CountVectorizer(vocabulary=temp[:max_fea])
+            #     # TfidfVectorizer(lowercase=True, stop_words=None, use_idf=True, smooth_idf=False,
+            #     #                    sublinear_tf=False, max_features=None,
+            #     #                             vocabulary=temp[:max_fea])
+            #
+            #     self.csr_mat = self.tfer.fit_transform(self.data_pd['commenttext'])
+            #     print("Feature Selection using IG DONE")
 
 
 
@@ -178,8 +198,8 @@ def tokenize(document):
 
 
             "If punctuation, ignore."
-            if all(char in string.punctuation for char in token):
-                continue
+            # if all(char in string.punctuation for char in token):
+            #     continue
 
             "If number, ignore."
             if token.isdigit():
@@ -192,7 +212,7 @@ def tokenize(document):
             lemma = lemmatizer.lemmatize(token)
 
             # No longer using lemma, using Porter Stemmer as Huang did
-            stemmed = stemmer.stem(token)
-            yield stemmed
+            #stemmed = stemmer.stem(token)
+            yield lemma
 
 

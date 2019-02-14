@@ -1,0 +1,66 @@
+2019-02-07 20:10:05,752 - INFO - rig - apache-ant-1.7.0
+2019-02-07 20:10:16,244 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 20:10:16,244 - INFO - quickread - Total Yes: 131 | Total No: 3967
+2019-02-07 20:10:16,813 - INFO - quickread - 0, 0  475
+2019-02-07 20:16:15,135 - INFO - rig - apache-ant-1.7.0
+2019-02-07 20:16:49,871 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 20:16:49,871 - INFO - quickread - Total Yes: 131 | Total No: 3967
+2019-02-07 20:16:50,408 - INFO - quickread - 0, 0  475
+2019-02-07 20:19:05,734 - INFO - rig - apache-ant-1.7.0
+2019-02-08 10:26:55,217 - INFO - rig - apache-ant-1.7.0
+2019-02-08 10:28:21,733 - INFO - rig - apache-ant-1.7.0
+2019-02-08 10:28:30,368 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 10:28:30,368 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 10:28:30,368 - INFO - quickread - Total Yes: 131 | Total No: 3967
+2019-02-08 10:52:40,303 - INFO - rig - apache-ant-1.7.0
+2019-02-08 10:52:43,370 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 10:52:43,370 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 10:52:43,370 - INFO - quickread - Total Yes: 131 | Total No: 3967
+2019-02-08 10:56:42,859 - INFO - quickread - 15, 20  241
+2019-02-08 10:56:45,837 - INFO - quickread - 26, 40  300
+2019-02-08 10:56:48,579 - INFO - quickread - 39, 60  385
+2019-02-08 10:56:51,306 - INFO - quickread - 47, 80  425
+2019-02-08 10:56:54,044 - INFO - quickread - 57, 100  475
+2019-02-08 10:56:56,851 - INFO - quickread - 61, 120  477
+2019-02-08 10:56:59,618 - INFO - quickread - 66, 140  479
+2019-02-08 10:57:02,427 - INFO - quickread - 68, 160  479
+2019-02-08 10:57:05,232 - INFO - quickread - 72, 180  481
+2019-02-08 10:57:08,299 - INFO - quickread - 72, 200  479
+2019-02-08 10:57:11,254 - INFO - quickread - 78, 220  482
+2019-02-08 10:57:14,247 - INFO - quickread - 84, 240  537
+2019-02-08 10:57:17,247 - INFO - quickread - 86, 260  536
+2019-02-08 10:57:20,163 - INFO - quickread - 86, 280  484
+2019-02-08 10:57:23,126 - INFO - quickread - 87, 300  483
+2019-02-08 10:57:26,111 - INFO - quickread - 87, 320  480
+2019-02-08 10:57:29,111 - INFO - quickread - 90, 340  481
+2019-02-08 10:57:32,664 - INFO - quickread - 91, 360  480
+2019-02-08 10:57:35,802 - INFO - quickread - 91, 380  478
+2019-02-08 10:57:39,107 - INFO - quickread - 93, 400  477
+2019-02-08 10:57:42,544 - INFO - quickread - 95, 420  477
+2019-02-08 10:57:46,971 - INFO - quickread - 95, 440  475
+2019-02-08 10:57:50,648 - INFO - quickread - 97, 460  475
+2019-02-08 10:57:54,078 - INFO - quickread - 98, 480  475
+2019-02-08 10:57:57,469 - INFO - quickread - 99, 500  473
+2019-02-08 10:58:00,888 - INFO - quickread - 99, 520  471
+2019-02-08 10:58:04,307 - INFO - quickread - 99, 540  432
+2019-02-08 10:58:07,588 - INFO - quickread - 100, 560  431
+2019-02-08 10:58:10,937 - INFO - quickread - 100, 580  428
+2019-02-08 10:58:14,195 - INFO - quickread - 101, 600  427
+2019-02-08 10:58:17,545 - INFO - quickread - 102, 620  426
+2019-02-08 10:58:20,716 - INFO - quickread - 102, 640  424
+2019-02-08 10:58:23,860 - INFO - quickread - 103, 660  423
+2019-02-08 10:58:26,946 - INFO - quickread - 104, 680  422
+2019-02-08 10:58:30,060 - INFO - quickread - 104, 700  420
+2019-02-08 10:58:33,222 - INFO - quickread - 106, 720  420
+2019-02-08 10:58:36,248 - INFO - quickread - 106, 740  418
+2019-02-08 10:58:39,231 - INFO - quickread - 106, 760  417
+2019-02-08 10:58:42,157 - INFO - quickread - 106, 780  386
+2019-02-08 10:58:45,059 - INFO - quickread - 106, 800  384
+2019-02-08 10:58:47,959 - INFO - quickread - 106, 820  383
+2019-02-08 10:58:50,888 - INFO - quickread - 106, 840  381
+2019-02-08 10:58:53,810 - INFO - quickread - 106, 860  380
+2019-02-08 10:58:56,668 - INFO - quickread - 106, 880  378
+2019-02-08 10:58:59,516 - INFO - quickread - 106, 900  376
+2019-02-08 10:58:59,516 - INFO - quickread - 106, 900  376
+2019-02-08 10:58:59,516 - INFO - quickread - IGNORE apache-ant-1.7.0 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 376
+2019-02-08 10:58:59,520 - INFO - quickread - IGNORE apache-ant-1.7.0 | Total: 4099 | Percent Checked: 0.22 | Total Yes Data: 131 | Percent Yes Checked: 0.81

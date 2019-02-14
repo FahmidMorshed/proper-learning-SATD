@@ -1,3 +1,5 @@
+from collections import Counter
+
 from pandas.core.common import SettingWithCopyWarning
 from sklearn.metrics import confusion_matrix, classification_report
 from sklearn.model_selection import StratifiedShuffleSplit
@@ -37,7 +39,7 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
     while True:
         pos, neg, total = read.get_numbers()
 
-        if no_improvement_count >= 6:
+        if no_improvement_count >= 7:
             logger.info("%d, %d  %d" % (pos, pos + neg, int(read.est_num * stopat)))
             print(dataset_name + " NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: " + str(read.est_num))
             logger.info("IGNORE " + dataset_name + " NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: " + str(read.est_num))
@@ -48,7 +50,7 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
             no_improvement_count = 0
         else:
             no_improvement_count += 1
-        if no_improvement_count >= 4:
+        if no_improvement_count >= 5:
             print(dataset_name + " Forcing Random and Neg")
             for id in read.get_neg_help():
                 read.code_error(id, error=error)
@@ -70,7 +72,9 @@ def active_learning(dataset, dataset_name, stopat=.95, error=None, uncertain_lim
             break
 
         if pos < starting:
-            for id in read.get_ensemble_ids():
+            for id in read.get_random_pos():
+                read.code_error(id, error=error)
+            for id in read.get_random_negs():
                 read.code_error(id, error=error)
         else:
             a, b, c, d = read.train(weighting=True, pne=True)
@@ -237,4 +241,8 @@ def random_read(test_data, dataset_name, stopat=1, step=10):
         unlabeled_ids = data_pd.loc[data_pd['code'] == 'undetermined'].index
 
     print_summary(data_pd, dataset_name)
+
+
+
+
 

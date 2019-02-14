@@ -1,0 +1,49 @@
+2019-02-07 20:10:05,529 - INFO - rig - jEdit-4.2
+2019-02-07 20:10:17,204 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 20:10:17,205 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-07 20:16:14,993 - INFO - rig - jEdit-4.2
+2019-02-07 20:19:05,217 - INFO - rig - jEdit-4.2
+2019-02-08 10:26:55,286 - INFO - rig - jEdit-4.2
+2019-02-08 10:28:21,654 - INFO - rig - jEdit-4.2
+2019-02-08 10:28:30,686 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 10:28:30,686 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 10:28:30,686 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-08 10:46:40,225 - INFO - rig - jEdit-4.2
+2019-02-08 10:46:43,508 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 10:46:43,508 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 10:46:43,509 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-08 10:50:35,362 - INFO - quickread - 38, 51  609
+2019-02-08 10:50:40,412 - INFO - quickread - 76, 102  880
+2019-02-08 10:50:44,619 - INFO - quickread - 105, 153  977
+2019-02-08 10:50:48,617 - INFO - quickread - 130, 204  1083
+2019-02-08 10:50:52,590 - INFO - quickread - 153, 255  1207
+2019-02-08 10:50:56,578 - INFO - quickread - 171, 306  1219
+2019-02-08 10:51:00,567 - INFO - quickread - 180, 357  1222
+2019-02-08 10:51:04,484 - INFO - quickread - 181, 408  1217
+2019-02-08 10:51:08,368 - INFO - quickread - 181, 459  1212
+2019-02-08 10:51:12,290 - INFO - quickread - 184, 510  1210
+2019-02-08 10:51:16,215 - INFO - quickread - 189, 561  1209
+2019-02-08 10:51:20,165 - INFO - quickread - 191, 612  1205
+2019-02-08 10:51:24,208 - INFO - quickread - 191, 663  1200
+2019-02-08 10:51:28,232 - INFO - quickread - 191, 714  1195
+2019-02-08 10:51:32,197 - INFO - quickread - 191, 765  1189
+2019-02-08 10:51:36,178 - INFO - quickread - 191, 816  1083
+2019-02-08 10:51:40,110 - INFO - quickread - 191, 867  1079
+2019-02-08 10:51:44,023 - INFO - quickread - 192, 918  1075
+2019-02-08 10:51:48,011 - INFO - quickread - 195, 969  1073
+2019-02-08 10:51:51,954 - INFO - quickread - 195, 1020  1068
+2019-02-08 10:51:55,898 - INFO - quickread - 199, 1071  1067
+2019-02-08 10:51:59,851 - INFO - quickread - 205, 1122  1068
+2019-02-08 10:52:03,792 - INFO - quickread - 208, 1173  1065
+2019-02-08 10:52:07,790 - INFO - quickread - 208, 1224  1061
+2019-02-08 10:52:11,987 - INFO - quickread - 208, 1275  978
+2019-02-08 10:52:15,909 - INFO - quickread - 208, 1326  973
+2019-02-08 10:52:19,790 - INFO - quickread - 208, 1377  969
+2019-02-08 10:52:23,792 - INFO - quickread - 208, 1428  965
+2019-02-08 10:52:27,772 - INFO - quickread - 208, 1479  960
+2019-02-08 10:52:31,958 - INFO - quickread - 208, 1530  956
+2019-02-08 10:52:36,153 - INFO - quickread - 208, 1581  890
+2019-02-08 10:52:40,284 - INFO - quickread - 208, 1632  885
+2019-02-08 10:52:40,285 - INFO - quickread - 208, 1632  885
+2019-02-08 10:52:40,285 - INFO - quickread - IGNORE jEdit-4.2 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 885
+2019-02-08 10:52:40,292 - INFO - quickread - IGNORE jEdit-4.2 | Total: 10323 | Percent Checked: 0.16 | Total Yes Data: 256 | Percent Yes Checked: 0.81

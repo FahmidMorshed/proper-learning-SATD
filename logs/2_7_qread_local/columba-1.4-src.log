@@ -1,0 +1,110 @@
+2019-02-07 13:10:53,965 - INFO - rig - columba-1.4-src
+2019-02-07 13:11:01,280 - INFO - rig - ++++NEW CLF++++ FASTREAD
+2019-02-07 13:11:01,280 - INFO - fastread - Total Yes: 204 | Total No: 6264
+2019-02-07 13:11:01,664 - INFO - fastread - 0, 0  475
+2019-02-07 13:11:28,529 - INFO - fastread - 126, 137  475
+2019-02-07 13:11:35,512 - INFO - fastread - 144, 169  215
+2019-02-07 13:11:42,542 - INFO - fastread - 149, 201  242
+2019-02-07 13:11:49,494 - INFO - fastread - 155, 233  233
+2019-02-07 13:11:56,077 - INFO - fastread - 158, 265  232
+2019-02-07 13:12:02,481 - INFO - fastread - 161, 297  223
+2019-02-07 13:12:09,510 - INFO - fastread - 169, 329  231
+2019-02-07 13:12:16,308 - INFO - fastread - 172, 361  230
+2019-02-07 13:12:22,643 - INFO - fastread - 187, 393  244
+2019-02-07 13:12:29,380 - INFO - fastread - 190, 425  248
+2019-02-07 13:12:36,458 - INFO - fastread - 191, 457  243
+2019-02-07 13:12:42,975 - INFO - fastread - 191, 489  239
+2019-02-07 13:12:49,790 - INFO - fastread - 191, 521  236
+2019-02-07 13:12:56,379 - INFO - fastread - 192, 553  228
+2019-02-07 13:13:02,625 - INFO - fastread - 192, 585  229
+2019-02-07 13:13:09,218 - INFO - fastread - 192, 617  228
+2019-02-07 13:13:15,896 - INFO - fastread - 192, 649  228
+2019-02-07 13:13:22,423 - INFO - fastread - 194, 681  228
+2019-02-07 13:13:28,988 - INFO - fastread - 196, 713  229
+2019-02-07 13:13:35,058 - INFO - fastread - 196, 745  227
+2019-02-07 13:13:41,248 - INFO - fastread - 196, 777  223
+2019-02-07 13:13:48,113 - INFO - fastread - 197, 809  224
+2019-02-07 13:13:54,565 - INFO - fastread - 199, 841  222
+2019-02-07 13:14:01,027 - INFO - fastread - 200, 873  226
+2019-02-07 13:14:07,896 - INFO - fastread - 202, 905  223
+2019-02-07 13:14:14,619 - INFO - fastread - 203, 937  225
+2019-02-07 13:14:21,100 - INFO - fastread - 203, 969  228
+2019-02-07 13:14:28,519 - INFO - fastread - 203, 1001  225
+2019-02-07 13:14:34,662 - INFO - fastread - 203, 1033  222
+2019-02-07 13:14:42,052 - INFO - fastread - 203, 1065  224
+2019-02-07 13:15:00,995 - INFO - fastread - 203, 1160  223
+2019-02-07 13:15:19,828 - INFO - fastread - 203, 1248  227
+2019-02-07 13:15:38,518 - INFO - fastread - 203, 1337  226
+2019-02-07 13:15:45,901 - INFO - fastread - 203, 1369  225
+2019-02-07 13:15:45,901 - INFO - fastread - IGNORE columba-1.4-src NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 237
+2019-02-07 13:15:45,942 - INFO - fastread - IGNORE columba-1.4-src | Total: 6468 | Percent Checked: 0.21 | Total Yes Data: 204 | Percent Yes Checked: 1.0
+2019-02-07 13:15:45,942 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 13:15:45,942 - INFO - quickread - Total Yes: 204 | Total No: 6264
+2019-02-07 13:15:46,570 - INFO - quickread - 0, 0  475
+2019-02-07 13:16:09,919 - INFO - quickread - 126, 137  475
+2019-02-07 13:16:17,509 - INFO - quickread - 140, 169  293
+2019-02-07 13:16:23,709 - INFO - quickread - 167, 201  307
+2019-02-07 13:16:30,641 - INFO - quickread - 181, 233  330
+2019-02-07 13:16:37,196 - INFO - quickread - 187, 265  333
+2019-02-07 13:16:42,710 - INFO - quickread - 192, 297  319
+2019-02-07 13:16:49,643 - INFO - quickread - 194, 329  309
+2019-02-07 13:16:55,127 - INFO - quickread - 197, 361  293
+2019-02-07 13:17:01,402 - INFO - quickread - 199, 393  287
+2019-02-07 13:17:07,508 - INFO - quickread - 200, 425  280
+2019-02-07 13:17:13,029 - INFO - quickread - 200, 457  270
+2019-02-07 13:17:18,946 - INFO - quickread - 200, 489  260
+2019-02-07 13:17:25,143 - INFO - quickread - 200, 521  252
+2019-02-07 13:17:31,288 - INFO - quickread - 201, 553  246
+2019-02-07 13:17:37,036 - INFO - quickread - 201, 585  244
+2019-02-07 13:17:42,828 - INFO - quickread - 201, 617  239
+2019-02-07 13:17:48,302 - INFO - quickread - 202, 649  235
+2019-02-07 13:17:54,265 - INFO - quickread - 202, 681  235
+2019-02-07 13:18:00,151 - INFO - quickread - 202, 713  232
+2019-02-07 13:18:06,236 - INFO - quickread - 202, 745  229
+2019-02-07 13:18:12,017 - INFO - quickread - 202, 777  228
+2019-02-07 13:18:28,684 - INFO - quickread - 202, 870  226
+2019-02-07 13:18:33,555 - INFO - quickread - 203, 902  223
+2019-02-07 13:18:39,632 - INFO - quickread - 203, 934  224
+2019-02-07 13:18:44,621 - INFO - quickread - 203, 966  223
+2019-02-07 13:18:50,291 - INFO - quickread - 203, 998  221
+2019-02-07 13:18:55,637 - INFO - quickread - 203, 1030  220
+2019-02-07 13:19:12,085 - INFO - quickread - 203, 1123  218
+2019-02-07 13:19:29,305 - INFO - quickread - 203, 1217  216
+2019-02-07 13:19:47,169 - INFO - quickread - 203, 1309  215
+2019-02-07 13:19:52,774 - INFO - quickread - 203, 1341  213
+2019-02-07 13:19:52,774 - INFO - quickread - IGNORE columba-1.4-src NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 225
+2019-02-07 13:19:52,812 - INFO - quickread - IGNORE columba-1.4-src | Total: 6468 | Percent Checked: 0.21 | Total Yes Data: 204 | Percent Yes Checked: 1.0
+2019-02-07 13:19:52,812 - INFO - rig - ++++NEW CLF++++ SGD
+2019-02-07 13:19:52,812 - INFO - fastread - Total Yes: 204 | Total No: 6264
+2019-02-07 13:19:53,138 - INFO - fastread - 6, 10
+2019-02-07 13:19:53,149 - INFO - fastread - 13, 20
+2019-02-07 13:19:53,157 - INFO - fastread - 23, 30
+2019-02-07 13:19:53,159 - INFO - fastread - 33, 40
+2019-02-07 13:19:53,190 - INFO - fastread - 43, 50
+2019-02-07 13:19:53,201 - INFO - fastread - 53, 60
+2019-02-07 13:19:53,201 - INFO - fastread - 63, 70
+2019-02-07 13:19:53,211 - INFO - fastread - 73, 80
+2019-02-07 13:19:53,221 - INFO - fastread - 77, 90
+2019-02-07 13:19:53,231 - INFO - fastread - 82, 100
+2019-02-07 13:19:53,241 - INFO - fastread - 91, 110
+2019-02-07 13:19:53,250 - INFO - fastread - 101, 120
+2019-02-07 13:19:53,262 - INFO - fastread - 110, 130
+2019-02-07 13:19:53,272 - INFO - fastread - 118, 140
+2019-02-07 13:19:53,280 - INFO - fastread - 127, 150
+2019-02-07 13:19:53,282 - INFO - fastread - 135, 160
+2019-02-07 13:19:53,292 - INFO - fastread - 143, 170
+2019-02-07 13:19:53,320 - INFO - fastread - 150, 180
+2019-02-07 13:19:53,322 - INFO - fastread - 158, 190
+2019-02-07 13:19:53,332 - INFO - fastread - 165, 200
+2019-02-07 13:19:53,353 - INFO - fastread - 171, 210
+2019-02-07 13:19:53,363 - INFO - fastread - 174, 220
+2019-02-07 13:19:53,373 - INFO - fastread - 180, 230
+2019-02-07 13:19:53,392 - INFO - fastread - 180, 240
+2019-02-07 13:19:53,394 - INFO - fastread - 184, 250
+2019-02-07 13:19:53,404 - INFO - fastread - 188, 260
+2019-02-07 13:19:53,414 - INFO - fastread - 190, 270
+2019-02-07 13:19:53,424 - INFO - fastread - 190, 280
+2019-02-07 13:19:53,434 - INFO - fastread - 193, 290
+2019-02-07 13:19:53,442 - INFO - fastread - 193, 300
+2019-02-07 13:19:53,444 - INFO - fastread - 194, 310
+2019-02-07 13:19:53,462 - INFO - fastread - IGNORE columba-1.4-src | Total: 6468 | Percent Checked: 0.05 | Total Yes Data: 204 | Percent Yes Checked: 0.95

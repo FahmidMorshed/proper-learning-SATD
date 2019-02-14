@@ -1,0 +1,82 @@
+2019-02-07 19:33:32,337 - INFO - rig - jEdit-4.2
+2019-02-07 19:33:43,360 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-07 19:33:43,367 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-07 19:33:44,613 - INFO - quickread - 0, 0  475
+2019-02-07 19:33:56,552 - INFO - quickread - 2, 51  475
+2019-02-07 19:34:07,603 - INFO - quickread - 4, 101  475
+2019-02-07 19:34:19,274 - INFO - quickread - 5, 151  475
+2019-02-07 19:34:34,364 - INFO - quickread - 44, 202  122
+2019-02-07 19:34:50,506 - INFO - quickread - 73, 253  148
+2019-02-07 19:35:04,723 - INFO - quickread - 99, 304  183
+2019-02-07 19:35:19,526 - INFO - quickread - 121, 355  197
+2019-02-07 19:35:34,216 - INFO - quickread - 142, 406  215
+2019-02-07 19:35:50,164 - INFO - quickread - 150, 457  250
+2019-02-07 19:36:05,732 - INFO - quickread - 162, 508  231
+2019-02-07 19:36:20,101 - INFO - quickread - 168, 559  240
+2019-02-07 19:36:34,427 - INFO - quickread - 180, 610  227
+2019-02-07 19:36:48,702 - INFO - quickread - 184, 661  241
+2019-02-07 19:37:03,721 - INFO - quickread - 196, 712  225
+2019-02-07 19:37:17,282 - INFO - quickread - 200, 763  244
+2019-02-07 19:37:31,315 - INFO - quickread - 206, 814  233
+2019-02-07 19:37:46,280 - INFO - quickread - 213, 865  235
+2019-02-07 19:37:59,461 - INFO - quickread - 215, 916  241
+2019-02-07 19:38:10,858 - INFO - quickread - 219, 967  234
+2019-02-07 19:38:23,913 - INFO - quickread - 223, 1018  236
+2019-02-07 19:38:37,962 - INFO - quickread - 227, 1069  238
+2019-02-07 19:38:50,555 - INFO - quickread - 227, 1120  241
+2019-02-07 19:39:04,324 - INFO - quickread - 228, 1171  235
+2019-02-07 19:39:16,629 - INFO - quickread - 231, 1222  233
+2019-02-07 19:39:28,394 - INFO - quickread - 234, 1273  236
+2019-02-07 19:39:42,454 - INFO - quickread - 234, 1324  240
+2019-02-07 19:39:55,176 - INFO - quickread - 237, 1375  237
+2019-02-07 19:40:06,997 - INFO - quickread - 240, 1426  240
+2019-02-07 19:40:20,404 - INFO - quickread - 242, 1477  244
+2019-02-07 19:40:31,997 - INFO - quickread - 243, 1528  246
+2019-02-07 19:40:43,293 - INFO - quickread - 243, 1579  246
+2019-02-07 19:40:55,362 - INFO - quickread - 244, 1630  244
+2019-02-07 19:41:06,597 - INFO - quickread - 249, 1681  244
+2019-02-07 19:41:19,030 - INFO - quickread - 249, 1732  251
+2019-02-07 19:41:28,619 - INFO - quickread - 249, 1783  249
+2019-02-07 19:41:38,095 - INFO - quickread - 249, 1834  247
+2019-02-07 19:42:31,203 - INFO - quickread - 250, 2014  247
+2019-02-07 19:43:18,626 - INFO - quickread - 250, 2183  247
+2019-02-07 19:44:05,957 - INFO - quickread - 250, 2358  246
+2019-02-07 19:44:05,957 - INFO - quickread - IGNORE jEdit-4.2 NO IMPROVEMENT after 3 random loops. EXITING. Current estimate: 259
+2019-02-07 19:44:06,073 - INFO - quickread - IGNORE jEdit-4.2 | Total: 10322 | Percent Checked: 0.23 | Total Yes Data: 256 | Percent Yes Checked: 0.98
+2019-02-07 19:44:06,074 - INFO - rig - ++++NEW CLF++++ SGD
+2019-02-07 19:44:06,074 - INFO - quickread - Total Yes: 256 | Total No: 10066
+2019-02-07 19:44:09,027 - INFO - quickread - 39, 51  683
+2019-02-07 19:44:10,561 - INFO - quickread - 68, 102  919
+2019-02-07 19:44:11,980 - INFO - quickread - 96, 153  1089
+2019-02-07 19:44:13,138 - INFO - quickread - 121, 204  1181
+2019-02-07 19:44:14,259 - INFO - quickread - 140, 255  1338
+2019-02-07 19:44:15,294 - INFO - quickread - 151, 306  1344
+2019-02-07 19:44:16,243 - INFO - quickread - 165, 357  1350
+2019-02-07 19:44:17,091 - INFO - quickread - 177, 408  1358
+2019-02-07 19:44:18,007 - INFO - quickread - 182, 459  1358
+2019-02-07 19:44:18,922 - INFO - quickread - 189, 510  1360
+2019-02-07 19:44:19,715 - INFO - quickread - 198, 561  1360
+2019-02-07 19:44:20,579 - INFO - quickread - 203, 612  1357
+2019-02-07 19:44:21,303 - INFO - quickread - 210, 663  1359
+2019-02-07 19:44:22,074 - INFO - quickread - 213, 714  1357
+2019-02-07 19:44:22,880 - INFO - quickread - 216, 765  1352
+2019-02-07 19:44:23,688 - INFO - quickread - 219, 816  1349
+2019-02-07 19:44:24,522 - INFO - quickread - 220, 867  1343
+2019-02-07 19:44:25,435 - INFO - quickread - 222, 918  1338
+2019-02-07 19:44:26,442 - INFO - quickread - 223, 969  1275
+2019-02-07 19:44:27,233 - INFO - quickread - 224, 1020  1265
+2019-02-07 19:44:28,169 - INFO - quickread - 227, 1071  1261
+2019-02-07 19:44:29,113 - INFO - quickread - 227, 1122  1254
+2019-02-07 19:44:30,084 - INFO - quickread - 227, 1173  1245
+2019-02-07 19:44:31,202 - INFO - quickread - 227, 1224  1228
+2019-02-07 19:44:31,940 - INFO - quickread - 227, 1275  1138
+2019-02-07 19:44:32,704 - INFO - quickread - 227, 1326  1129
+2019-02-07 19:44:33,463 - INFO - quickread - 227, 1377  1122
+2019-02-07 19:44:34,374 - INFO - quickread - 227, 1428  1116
+2019-02-07 19:44:35,453 - INFO - quickread - 227, 1479  1109
+2019-02-07 19:44:36,206 - INFO - quickread - 227, 1530  1029
+2019-02-07 19:44:36,206 - INFO - quickread - 227, 1530  1029
+2019-02-07 19:44:36,207 - INFO - quickread - IGNORE jEdit-4.2 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 1029
+2019-02-07 19:44:36,236 - INFO - quickread - IGNORE jEdit-4.2 | Total: 10323 | Percent Checked: 0.15 | Total Yes Data: 256 | Percent Yes Checked: 0.89
+2019-02-07 19:44:36,245 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-07 19:44:36,245 - INFO - quickread - Total Yes: 256 | Total No: 10066

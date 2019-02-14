@@ -1,0 +1,56 @@
+2019-02-07 20:16:50,571 - INFO - rig - emf-2.4.1
+2019-02-07 20:19:39,102 - INFO - rig - emf-2.4.1
+2019-02-08 10:26:55,442 - INFO - rig - emf-2.4.1
+2019-02-08 11:42:18,810 - INFO - rig - emf-2.4.1
+2019-02-08 11:42:22,590 - INFO - rig - ++++NEW CLF++++ QUICKREAD
+2019-02-08 11:42:22,590 - INFO - rig - ++++NEW CLF++++ SVM
+2019-02-08 11:42:22,590 - INFO - quickread - Total Yes: 104 | Total No: 4285
+2019-02-08 11:46:41,155 - INFO - quickread - 6, 21  139
+2019-02-08 11:46:44,647 - INFO - quickread - 27, 42  320
+2019-02-08 11:46:49,201 - INFO - quickread - 39, 63  410
+2019-02-08 11:46:53,034 - INFO - quickread - 42, 84  411
+2019-02-08 11:46:56,574 - INFO - quickread - 47, 105  414
+2019-02-08 11:47:00,020 - INFO - quickread - 58, 126  459
+2019-02-08 11:47:03,529 - INFO - quickread - 61, 147  460
+2019-02-08 11:47:06,997 - INFO - quickread - 63, 168  460
+2019-02-08 11:47:11,282 - INFO - quickread - 67, 189  462
+2019-02-08 11:47:14,869 - INFO - quickread - 70, 210  463
+2019-02-08 11:47:18,376 - INFO - quickread - 71, 231  462
+2019-02-08 11:47:21,800 - INFO - quickread - 76, 252  508
+2019-02-08 11:47:25,209 - INFO - quickread - 76, 273  463
+2019-02-08 11:47:28,618 - INFO - quickread - 77, 294  461
+2019-02-08 11:47:31,979 - INFO - quickread - 78, 315  460
+2019-02-08 11:47:35,431 - INFO - quickread - 78, 336  458
+2019-02-08 11:47:38,734 - INFO - quickread - 79, 357  457
+2019-02-08 11:47:41,995 - INFO - quickread - 79, 378  456
+2019-02-08 11:47:45,916 - INFO - quickread - 82, 399  456
+2019-02-08 11:47:49,366 - INFO - quickread - 85, 420  457
+2019-02-08 11:47:52,984 - INFO - quickread - 86, 441  456
+2019-02-08 11:47:56,124 - INFO - quickread - 86, 462  454
+2019-02-08 11:47:59,798 - INFO - quickread - 86, 483  452
+2019-02-08 11:48:03,022 - INFO - quickread - 86, 504  450
+2019-02-08 11:48:06,079 - INFO - quickread - 86, 525  415
+2019-02-08 11:48:09,138 - INFO - quickread - 89, 546  449
+2019-02-08 11:48:12,254 - INFO - quickread - 89, 567  414
+2019-02-08 11:48:15,369 - INFO - quickread - 89, 588  412
+2019-02-08 11:48:18,275 - INFO - quickread - 89, 609  410
+2019-02-08 11:48:21,171 - INFO - quickread - 89, 630  408
+2019-02-08 11:48:24,068 - INFO - quickread - 89, 651  406
+2019-02-08 11:48:26,937 - INFO - quickread - 89, 672  404
+2019-02-08 11:48:29,758 - INFO - quickread - 90, 693  404
+2019-02-08 11:48:32,519 - INFO - quickread - 90, 714  376
+2019-02-08 11:48:35,351 - INFO - quickread - 90, 735  374
+2019-02-08 11:48:38,269 - INFO - quickread - 92, 756  374
+2019-02-08 11:48:41,498 - INFO - quickread - 93, 777  374
+2019-02-08 11:48:44,577 - INFO - quickread - 93, 798  372
+2019-02-08 11:48:47,406 - INFO - quickread - 93, 819  370
+2019-02-08 11:48:50,263 - INFO - quickread - 93, 840  368
+2019-02-08 11:48:53,146 - INFO - quickread - 93, 861  367
+2019-02-08 11:48:55,976 - INFO - quickread - 93, 882  343
+2019-02-08 11:48:58,764 - INFO - quickread - 93, 903  342
+2019-02-08 11:49:01,650 - INFO - quickread - 93, 924  341
+2019-02-08 11:49:04,667 - INFO - quickread - 93, 945  340
+2019-02-08 11:49:07,815 - INFO - quickread - 93, 966  338
+2019-02-08 11:49:07,815 - INFO - quickread - 93, 966  338
+2019-02-08 11:49:07,815 - INFO - quickread - IGNORE emf-2.4.1 NO IMPROVEMENT after 9 loops. EXITING. Current estimate: 338
+2019-02-08 11:49:07,820 - INFO - quickread - IGNORE emf-2.4.1 | Total: 4390 | Percent Checked: 0.22 | Total Yes Data: 104 | Percent Yes Checked: 0.89
